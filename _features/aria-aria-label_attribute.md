@@ -98,6 +98,7 @@
     }
   },
   "links": {
+    "NVDA: button name change not conveyed": "https://github.com/nvaccess/nvda/issues/11224",
     "ARIA spec for aria-label": "https://www.w3.org/TR/wai-aria-1.1/#aria-label"
   }
 }

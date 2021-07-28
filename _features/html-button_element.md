@@ -119,6 +119,8 @@
     }
   },
   "links": {
+    "HTML AAM: button name change not conveyed": "https://github.com/w3c/html-aam/issues/291",
+    "JAWS: button name change not conveyed": "https://github.com/FreedomScientific/VFO-standards-support/issues/392",
     "WHATWG HTML spec for the button element": "https://html.spec.whatwg.org/multipage/form-elements.html#the-button-element",
     "HTML AAM for the button element": "https://w3c.github.io/html-aam/#el-button"
   }

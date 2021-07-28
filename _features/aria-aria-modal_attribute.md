@@ -80,6 +80,7 @@
     }
   },
   "links": {
+    "JAWS issue": "https://github.com/FreedomScientific/VFO-standards-support/issues/179",
     "ARIA spec for aria-modal": "https://www.w3.org/TR/wai-aria-1.1/#aria-modal"
   }
 }

@@ -83,6 +83,9 @@
     }
   },
   "links": {
+    "NVDA issue for change of state": "https://github.com/nvaccess/nvda/issues/8631",
+    "NVDA issue for change of state (when a heading is used) ": "https://github.com/nvaccess/nvda/issues/8706",
+    "JAWS issue for missing heading semantics": "https://github.com/FreedomScientific/VFO-standards-support/issues/105",
     "WHATWG HTML spec for the summary element": "https://html.spec.whatwg.org/multipage/interactive-elements.html#the-summary-element",
     "HTML AAM for the summary element": "https://w3c.github.io/html-aam/#el-summary"
   }

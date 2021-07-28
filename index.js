@@ -45,7 +45,7 @@ function converFeature(feature) {
 		test_results_url: `https://a11ysupport.io/tech/${feature.id}`,
 		notes: feature.recommendation,
 		stats,
-		links: [...(feature.references || []), ...(feature.related_issues, [])].reduce(
+		links: [].concat(feature.related_issues, feature.references).filter(Boolean).reduce(
 			(acc, curr) => {
 				acc[curr.title] = curr.url;
 				return acc;

@@ -108,6 +108,7 @@
     }
   },
   "links": {
+    "Chrome bug for incorrect button name mapping": "https://bugs.chromium.org/p/chromium/issues/detail?id=1071827",
     "CSS Generated Content Module Level 3": "https://www.w3.org/TR/2016/WD-css-content-3-20160602/",
     "Accessible Name and Description Computation: Step 2F": "https://www.w3.org/TR/accname-1.1/https://www.w3.org/TR/accname-1.1/#step2F.ii"
   }

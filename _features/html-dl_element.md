@@ -81,6 +81,8 @@
     }
   },
   "links": {
+    "NVDA issue": "https://github.com/nvaccess/nvda/issues/3858",
+    "JAWS issue": "https://github.com/FreedomScientific/VFO-standards-support/issues/157",
     "WHATWG HTML spec for description lists": "https://html.spec.whatwg.org/#the-dl-element",
     "HTML AAM for the dl element": "https://w3c.github.io/html-aam/#el-dl"
   }

@@ -110,6 +110,7 @@
     }
   },
   "links": {
+    "ARIA: What to do about aria-controls": "https://github.com/w3c/aria/issues/995",
     "ARIA spec for aria-controls": "https://www.w3.org/TR/wai-aria-1.1/#aria-controls"
   }
 }

@@ -112,6 +112,8 @@
     }
   },
   "links": {
+    "NVDA issue for ARIA 1.1 values": "https://github.com/nvaccess/nvda/issues/8235",
+    "JAWS issue for ARIA 1.1 values": "https://github.com/FreedomScientific/VFO-standards-support/issues/33",
     "ARIA spec for aria-haspopup": "https://www.w3.org/TR/wai-aria-1.1/#aria-haspopup"
   }
 }

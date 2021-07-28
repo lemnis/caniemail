@@ -81,6 +81,8 @@
     }
   },
   "links": {
+    "Firefox issue": "https://bugzilla.mozilla.org/show_bug.cgi?id=1281158",
+    "Safari issue": "https://bugs.webkit.org/show_bug.cgi?id=159022",
     "CSS Generated Content Module Level 3": "https://www.w3.org/TR/css-content-3/#alt"
   }
 }

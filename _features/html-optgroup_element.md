@@ -83,6 +83,9 @@
     }
   },
   "links": {
+    "JAWS bug": "https://github.com/FreedomScientific/VFO-standards-support/issues/46",
+    "Chrome bug": "https://bugs.chromium.org/p/chromium/issues/detail?id=817579",
+    "NVDA bug": "https://github.com/nvaccess/nvda/issues/10034",
     "WHATWG HTML spec for the optgroup element": "https://html.spec.whatwg.org/multipage/form-elements.html#the-optgroup-element",
     "HTML AAM for the optgroup element": "https://w3c.github.io/html-aam/#el-optgroup"
   }

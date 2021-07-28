@@ -80,6 +80,7 @@
     }
   },
   "links": {
+    "Chromium issue for aria-atomic=false not respected when new nodes are spans": "https://bugs.chromium.org/p/chromium/issues/detail?id=1148404",
     "ARIA spec for aria-atomic": "https://www.w3.org/TR/wai-aria-1.1/#aria-atomic"
   }
 }

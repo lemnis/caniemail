@@ -80,6 +80,7 @@
     }
   },
   "links": {
+    "Chrome bug for headers attribute": "https://bugs.chromium.org/p/chromium/issues/detail?id=1081201",
     "WHATWG HTML spec 4.9.12.2 Forming relationships between data cells and header cells": "https://html.spec.whatwg.org/multipage/tables.html#header-and-data-cell-semantics:attr-tdth-headers",
     "HTML AAM for the headers attribute": "https://w3c.github.io/html-aam/#att-headers"
   }

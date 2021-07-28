@@ -83,6 +83,7 @@
     }
   },
   "links": {
+    "input not labeled in Firefox": "https://bugzilla.mozilla.org/show_bug.cgi?id=1316965",
     "WHATWG HTML spec for input[type=\"file\"]": "https://html.spec.whatwg.org/multipage/input.html#file-upload-state-(type=file)",
     "HTML AAM for the input[type=\"file\"]": "https://w3c.github.io/html-aam/#el-input-file"
   }
