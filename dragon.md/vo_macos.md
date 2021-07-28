@@ -1,4 +1,4 @@
 ---
-platforms: [macos, ios]
+platforms: [safari]
 display_order: 1
 ---

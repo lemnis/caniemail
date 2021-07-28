@@ -144,6 +144,6 @@ notes_by_num: {
 }
 links: {
     "MDN: Grouping selectors":"https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors#Grouping",
-    "Email Bugs: Outlook.com only prefixes first selector in a chain of selectors":"https://github.com/hteumeuleu/email-bugs/issues/61"
+    "Email Bugs: Outlook.com only prefixes first selector in a chain of selectors":"https://github.com/lemnis/email-bugs/issues/61"
 }
 ---
