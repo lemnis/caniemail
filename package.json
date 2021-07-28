@@ -1,7 +1,7 @@
 {
   "name": "cania11y",
   "version": "1.0.0",
-  "description": "[cania11y.com](https://www.cania11y.com) provides email clients support tables for HTML and CSS features.",
+  "description": "[cania11y.com](https://www.cania11y.com) provides Software Combinations support tables for HTML and CSS features.",
   "main": "index.js",
   "directories": {
     "test": "tests"

@@ -28,7 +28,7 @@ A test should be easy to read. Use `red` and `green` background colors to easily
 
 3. **Test**. Please consider the two followings methods of testing:
 
-* Use actual email clients and devices. This is the best way to test, especially for webmails where it's easy to inspect the code and see what's going on.
+* Use actual Software Combinations and devices. This is the best way to test, especially for webmails where it's easy to inspect the code and see what's going on.
 * Use an online screenshots service (like [Litmus](https://www.litmus.com), [Email on Acid](https://www.emailonacid.com) or [Testi.at](https://www.testi.at)).
 
 4. **Fill in the results** inside the Markdown file created at step 1. Here's an overview of the different fields inside that file:
@@ -75,8 +75,8 @@ HTML background
 
     Versions will be displayed by the order they're in. Make sure to go from the oldest version to the most recent version. 
 
-* `notes`: Global note regarding all email clients for this feature.
-* `notes_by_num`: Specific notes for individual email clients. Each note consists of a key string and a value string. Multiple notes can be added by using a comma separator after each value. The key should match the notes added in the `stats` values. It's prefered to add numbers for the keys.
+* `notes`: Global note regarding all Software Combinations for this feature.
+* `notes_by_num`: Specific notes for individual Software Combinations. Each note consists of a key string and a value string. Multiple notes can be added by using a comma separator after each value. The key should match the notes added in the `stats` values. It's prefered to add numbers for the keys.
 
 ```
 // Example

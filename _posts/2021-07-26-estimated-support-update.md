@@ -7,10 +7,10 @@ In february 2020, we introduced [Estimated Support](/news/2020-02-13-estimated-s
 
 Instead of relying on Litmus’ [EmailClientMarketShare.com](https://www.emailclientmarketshare.com)’s data, we’re now showing a share of all the clients tested.
 
-If a feature is tested across 10 email clients, and that this feature is supported in six clients, partially supported in three clients and not supported in one client, its estimated support will be: 60% supported, 30% partially supported and 10% not supported.
+If a feature is tested across 10 Software Combinations, and that this feature is supported in six clients, partially supported in three clients and not supported in one client, its estimated support will be: 60% supported, 30% partially supported and 10% not supported.
 
-We believe this change will help us answer the question “_Does this work in a lot of email clients?_” even more easily.
+We believe this change will help us answer the question “_Does this work in a lot of Software Combinations?_” even more easily.
 
-As a bonus, we can now show an estimated support [based on the settings](/news/2020-04-07-settings/) and the email clients that _you_ selected.
+As a bonus, we can now show an estimated support [based on the settings](/news/2020-04-07-settings/) and the Software Combinations that _you_ selected.
 
 Let us know what you think about this [on Twitter](https://twitter.com/cania11y/)! And if you see something wrong or have any questions, you can [report an issue on GitHub](https://github.com/lemnis/cania11y/issues).

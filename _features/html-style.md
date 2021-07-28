@@ -145,6 +145,6 @@ notes_by_num: {
     "2": "Partial. Not supported with Non Gmail Accounts.",
     "3": "Buggy. The first `<head>` in the HTML is removed, so `<style>` elements need to be in a second `<head>` element.",
     "4": "Buggy. `<style>` elements need to be declared before their rules are used.",
-    "5": "A CSS rule following a CSS comment is ignored. (See [email-bugs#25](https://github.com/hteumeuleu/email-bugs/issues/25).)"
+    "5": "A CSS rule following a CSS comment is ignored. (See [email-bugs#25](https://github.com/lemnis/email-bugs/issues/25).)"
 }
 ---

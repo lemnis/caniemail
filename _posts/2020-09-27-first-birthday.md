@@ -11,9 +11,9 @@ In its first month, the site received a tremendous support of coverage from vari
 
 Because of this extraordinary coverage, one of the weirdest feedback I got early on was that people were very confused about the purpose of the site ([example](https://lobste.rs/s/y2qmav/can_i_email#c_5kpq1c)). For its first week, about a third of searches were for celebrities names like "Barack Obama" or "The Pope", or people’s own email addresses. Turns out for people unfamiliar with [Can I use](https://www.caniuse.com), the name of the site was pretty confusing. The fix was rather simple: I added "HTML, CSS, …" as a placeholder in the search field. And in the following days, these kind of searches went from one third to one out of fifty.
 
-I was able to provide a few more features along the year, including: making all data available as JSON for external use, [settings](/news/2020-04-07-settings/), [estimated support](/news/2020-02-13-estimated-support/), [email clients pages](/news/2020-03-29-clients-pages/), as well as a lot more data overall.
+I was able to provide a few more features along the year, including: making all data available as JSON for external use, [settings](/news/2020-04-07-settings/), [estimated support](/news/2020-02-13-estimated-support/), [Software Combinations pages](/news/2020-03-29-clients-pages/), as well as a lot more data overall.
 
-We now have 165 features tested across 30 email clients (up from 50 features across 25 email clients a year ago).
+We now have 165 features tested across 30 Software Combinations (up from 50 features across 25 Software Combinations a year ago).
 
 I’m aware there is still a long way to go to provide a more complete set of features. And this is why I’ve updated [my roadmap](https://github.com/lemnis/cania11y/wiki/Roadmap) to build better documentation over the upcoming year.
 

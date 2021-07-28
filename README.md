@@ -1,6 +1,6 @@
 # Can I A11y…
 
-[cania11y.com](https://www.cania11y.com) provides email clients support tables for HTML and CSS features.
+[cania11y.com](https://www.cania11y.com) provides Software Combinations support tables for HTML and CSS features.
 
 _Can I A11y_ runs on [Jekyll](https://jekyllrb.com/docs/) as [GitHub Pages](https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages) site with a home made theme. The site uses [Sass](https://sass-lang.com/) for CSS compilation.
 

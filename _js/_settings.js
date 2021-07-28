@@ -286,15 +286,15 @@ class Settings {
 		this.emptyMessages = [
 			{
 				"emoji": "&#128123;",
-				"text": "Boo! You woke up the <b>Email Ghost</b>!<br>Check some email clients again or it might haunt you forever!"
+				"text": "Boo! You woke up the <b>Email Ghost</b>!<br>Check some Software Combinations again or it might haunt you forever!"
 			},
 			{
 				"emoji": "&#x1F996;",
-				"text": "Rawr! You brought back the <b>Emailosaurus Rex</b>!<br>Check some email clients again or it might run after you!"
+				"text": "Rawr! You brought back the <b>Emailosaurus Rex</b>!<br>Check some Software Combinations again or it might run after you!"
 			},
 			{
 				"emoji": "&#x1F41D;",
-				"text": "Bzzz! You attracted the <b>Email Bee</b>!<br>Check some email clients again or it might sting you!"
+				"text": "Bzzz! You attracted the <b>Email Bee</b>!<br>Check some Software Combinations again or it might sting you!"
 			},
 		];
 	}
