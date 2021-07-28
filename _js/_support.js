@@ -76,6 +76,10 @@ class Support {
 			const valueInPercent = this.convertToPercent(this.currentValues['u'], this.currentTotal);
 			scoreHTML += `<div tabindex="0" role="group" title="${valueInPercent}% support unknown" style="width:${valueInPercent}%;" class="unknown"></div>`;
 		}
+		if(this.currentValues['na'] > 0) {
+			const valueInPercent = this.convertToPercent(this.currentValues['na'], this.currentTotal);
+			scoreHTML += `<div tabindex="0" role="group" title="${valueInPercent}% not applicable" style="width:${valueInPercent}%;" class="inapplicable"></div>`;
+		}
 		this.currentFeature.querySelector('.score').innerHTML = scoreHTML;
 	}
 

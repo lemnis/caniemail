@@ -193,6 +193,11 @@
 	background-color: #eda745 !important;
 }
 
+.na,
+.inapplicable {
+	background-color: #535353 !important;
+}
+
 .score .mitigated {
 	background-image: repeating-linear-gradient(
 		-45deg,
@@ -506,7 +511,8 @@
 		content: '~';
 	}
 
-	&.unknown {
+	&.unknown,
+	&.inapplicable {
 		opacity: 0;
 	}
 }

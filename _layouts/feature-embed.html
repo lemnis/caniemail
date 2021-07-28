@@ -79,6 +79,8 @@ layout: embed
 												{% assign stat-class-name = 'mitigated' %}
 											{% when 'u' %}
 												{% assign stat-class-name = 'unknown' %}
+											{% when 'na' %}
+												{% assign stat-class-name = 'inapplicable' %}
 											{% else %}
 												{% assign stat-class-name = '' %}
 										{% endcase %}

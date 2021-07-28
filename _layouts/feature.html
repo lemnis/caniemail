@@ -94,11 +94,13 @@ layout: default
 										{% assign stat-class-name = 'mitigated' %}
 									{% when 'u' %}
 										{% assign stat-class-name = 'unknown' %}
+									{% when 'na' %}
+										{% assign stat-class-name = 'inapplicable' %}
 									{% else %}
 										{% assign stat-class-name = '' %}
 								{% endcase %}
 								<div class="data-version {{ stat-class-name }}">
-									<span class="data-version-number">{{ version-key }}</span>
+									<span class="data-version-number">{% if version-values == 'na'  %}Inapplicable{% else %}{{ version-key }}{% endif %}</span>
 									<span class="data-version-badge {{ stat-class-name }}" aria-label="{{ site.data.nicenames.support[stat-class-name] }}"></span>
 									{% if version-notes.size > 0  %}
 										<div class="data-version-notes">

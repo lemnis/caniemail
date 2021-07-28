@@ -22,8 +22,10 @@ function converFeature(feature) {
 				result = "y";
 			} else if (browser.values.some((v) => v === "y")) {
 				result = "a";
-			} else if (browser.values.every((v) => v === "na" || v === "n")) {
+			} else if (browser.values.every((v) => v === "n")) {
 				result = "n";
+			} else if (browser.values.every((v) => v === "na")) {
+				result = "na";
 			}
 			const keys = Object.keys(stats[at][browserName]);
 			if (keys.length > 0) {

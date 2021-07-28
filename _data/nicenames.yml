@@ -25,7 +25,9 @@ support:
   unsupported: "Not supported"
   unknown: "Support unknown"
   mixed: "Mixed support"
+  inapplicable: "Not Applicablet"
 category:
   html: "HTML"
   css: "CSS"
-  image: "Image formats"
+  aria: "ARIA"
+  svg: "SVG"
