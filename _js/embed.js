@@ -5,7 +5,7 @@ permalink: "/assets/js/embed.js"
 {% include_relative _options.js %}
 {% include_relative _parameter.js %}
 
-class Caniemail {
+class Cania11y {
 
 	constructor() {
 		this.accessibleColors = new Options('.a11y-colors-button', 'accessible-colors-enabled');
@@ -15,5 +15,5 @@ class Caniemail {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-	window.caniemail = new Caniemail();
+	window.cania11y = new Cania11y();
 });

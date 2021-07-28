@@ -222,13 +222,13 @@ class Settings {
 		this.setUncheckedVariable();
 		this.toggleEmptyMessage();
 
-		if(window.caniemail && window.caniemail.filters) {
-			window.caniemail.filters.setCurrentValue('apply');
-			window.caniemail.filters.showOrHide();
+		if(window.cania11y && window.cania11y.filters) {
+			window.cania11y.filters.setCurrentValue('apply');
+			window.cania11y.filters.showOrHide();
 		}
 
-		if(window.caniemail && window.caniemail.support) {
-			window.caniemail.support.update();
+		if(window.cania11y && window.cania11y.support) {
+			window.cania11y.support.update();
 		}
 	}
 

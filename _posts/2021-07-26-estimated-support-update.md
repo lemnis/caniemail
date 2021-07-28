@@ -13,4 +13,4 @@ We believe this change will help us answer the question “_Does this work in a 
 
 As a bonus, we can now show an estimated support [based on the settings](/news/2020-04-07-settings/) and the email clients that _you_ selected.
 
-Let us know what you think about this [on Twitter](https://twitter.com/caniemail/)! And if you see something wrong or have any questions, you can [report an issue on GitHub](https://github.com/hteumeuleu/caniemail/issues).
+Let us know what you think about this [on Twitter](https://twitter.com/cania11y/)! And if you see something wrong or have any questions, you can [report an issue on GitHub](https://github.com/lemnis/cania11y/issues).

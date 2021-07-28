@@ -4,7 +4,7 @@ layout: embed
 <main class="main">
 	<div class="feature-header">
 		<div class="feature-header-column">
-			<h1 class="feature-title"><a href="https://www.caniemail.com/features/{{ page.slug | escape_once }}" target="_blank" rel="noopener">{{ page.title | escape_once }}</a></h1>
+			<h1 class="feature-title"><a href="https://www.cania11y.com/features/{{ page.slug | escape_once }}" target="_blank" rel="noopener">{{ page.title | escape_once }}</a></h1>
 			<span class="feature-category">{{ page.category | escape_once }}</span>
 		</div>
 		<div class="feature-header-column">
@@ -48,7 +48,7 @@ layout: embed
 					<span>
 						{% assign family-page = site.clients | where:"slug", client-family | first %}
 						{% if family-page != nil and family-page != "" %}
-						<a href="https://www.caniemail.com/clients/{{family-key}}/" target="_blank" rel="noopener">
+						<a href="https://www.cania11y.com/clients/{{family-key}}/" target="_blank" rel="noopener">
 						{% endif %}
 						{{ site.data.nicenames.family[family-key] | default: family-key }}
 						{% if family-page != nil and family-page != "" %}
@@ -90,7 +90,7 @@ layout: embed
 										<div class="data-version {{ stat-class-name }}">
 											<span class="data-version-platform">
 												{% if family-page != nil and family-page != "" %}
-												<a href="https://www.caniemail.com/clients/{{family-key}}/#{{ platform-key | slugify }}" target="_blank" rel="noopener">
+												<a href="https://www.cania11y.com/clients/{{family-key}}/#{{ platform-key | slugify }}" target="_blank" rel="noopener">
 												{% endif %}
 												{{ site.data.nicenames.platform[platform-key] | default: platform-key }}
 												{% if family-page != nil and family-page != "" %}
@@ -109,7 +109,7 @@ layout: embed
 													{% assign note-value-display = page.notes_by_num[note-key-slug] | markdownify | strip_html %}
 													{% assign version-notes-title-attribute = version-notes-title-attribute | append: note-key-display | append: note-value-display %}
 												{% endfor %}
-													<a href="https://www.caniemail.com/features/{{ page.slug | escape_once }}#{{ page.title | slugify }}-cite-note-1" target="_blank" title="{{ version-notes-title-attribute }}">?</a>
+													<a href="https://www.cania11y.com/features/{{ page.slug | escape_once }}#{{ page.title | slugify }}-cite-note-1" target="_blank" title="{{ version-notes-title-attribute }}">?</a>
 												</div>
 											{% endif %}
 										</div>
@@ -223,7 +223,7 @@ layout: embed
 <footer class="footer" role="contentinfo">
 	<div class="footer-column">
 		<p>
-			Data from <a href="https://www.caniemail.com/features/{{ page.slug | escape_once }}" target="_blank" rel="noopener">caniemail.com</a>
+			Data from <a href="https://www.cania11y.com/features/{{ page.slug | escape_once }}" target="_blank" rel="noopener">cania11y.com</a>
 			{% if page.last_test_date != nil and page.last_test_date != "" %}
 			 | <span class="footer-last-test-date">Last tested on {{ page.last_test_date | date: '%Y-%m-%d' }}</span>
 			{% endif %}

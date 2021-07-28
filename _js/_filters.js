@@ -26,15 +26,15 @@ class Filters {
 				applyButton.addEventListener('click', e => {
 
 					e.preventDefault();
-					if(window.caniemail && window.caniemail.settings) {
+					if(window.cania11y && window.cania11y.settings) {
 						filter.querySelector('.filter-button--active').classList.remove('filter-button--active');
 						applyButton.classList.add('filter-button--active');
-						window.caniemail.settings.apply();
+						window.cania11y.settings.apply();
 						this.setCurrentValue('apply');
 					}
 
-					if(window.caniemail && window.caniemail.support) {
-						window.caniemail.support.update();
+					if(window.cania11y && window.cania11y.support) {
+						window.cania11y.support.update();
 					}
 				});
 			}
@@ -44,15 +44,15 @@ class Filters {
 				unapplyButton.addEventListener('click', e => {
 
 					e.preventDefault();
-					if(window.caniemail && window.caniemail.settings) {
+					if(window.cania11y && window.cania11y.settings) {
 						filter.querySelector('.filter-button--active').classList.remove('filter-button--active');
 						unapplyButton.classList.add('filter-button--active');
-						window.caniemail.settings.unapply();
+						window.cania11y.settings.unapply();
 						this.setCurrentValue('unapply');
 					}
 
-					if(window.caniemail && window.caniemail.support) {
-						window.caniemail.support.update();
+					if(window.cania11y && window.cania11y.support) {
+						window.cania11y.support.update();
 					}
 				});
 			}
@@ -65,8 +65,8 @@ class Filters {
 
 	showOrHide() {
 
-		if(window.caniemail && window.caniemail.settings) {
-			if(window.caniemail.settings.isFullyChecked() || window.caniemail.settings.isFullyUnchecked()) {
+		if(window.cania11y && window.cania11y.settings) {
+			if(window.cania11y.settings.isFullyChecked() || window.cania11y.settings.isFullyUnchecked()) {
 				this.filters.forEach(filter => {
 					filter.setAttribute('hidden', '');
 				});
@@ -98,8 +98,8 @@ class Filters {
 					filter.querySelector('.filter-button--active').classList.remove('filter-button--active');
 					applyButton.classList.add('filter-button--active');
 				});
-				if(window.caniemail && window.caniemail.settings) {
-					window.caniemail.settings.apply();
+				if(window.cania11y && window.cania11y.settings) {
+					window.cania11y.settings.apply();
 				}
 			} else if(storedValue == 'unapply') {
 				this.filters.forEach(filter => {
@@ -107,13 +107,13 @@ class Filters {
 					filter.querySelector('.filter-button--active').classList.remove('filter-button--active');
 					unapplyButton.classList.add('filter-button--active');
 				});
-				if(window.caniemail && window.caniemail.settings) {
-					window.caniemail.settings.unapply();
+				if(window.cania11y && window.cania11y.settings) {
+					window.cania11y.settings.unapply();
 				}
 			}
 
-			if(window.caniemail && window.caniemail.support) {
-				window.caniemail.support.update();
+			if(window.cania11y && window.cania11y.support) {
+				window.cania11y.support.update();
 			}
 		}
 	}

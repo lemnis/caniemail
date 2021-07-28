@@ -108,8 +108,8 @@ class Support {
 
 		// If we have a subset of email clients selected through the settings,
 		// we add a text to notice it.
-		if(window.caniemail && window.caniemail.filters && window.caniemail.settings) {
-			if(window.caniemail.filters.areApplied() && !window.caniemail.settings.isFullyChecked()) {
+		if(window.cania11y && window.cania11y.filters && window.cania11y.settings) {
+			if(window.cania11y.filters.areApplied() && !window.cania11y.settings.isFullyChecked()) {
 				summaryHTML += `<p class="feature-support-legend">(across selected email clients)</p>`;
 			}
 		}

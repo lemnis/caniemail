@@ -1,15 +1,15 @@
-# Can I email…
+# Can I A11y…
 
-[caniemail.com](https://www.caniemail.com) provides email clients support tables for HTML and CSS features.
+[cania11y.com](https://www.cania11y.com) provides email clients support tables for HTML and CSS features.
 
-_Can I email_ runs on [Jekyll](https://jekyllrb.com/docs/) as [GitHub Pages](https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages) site with a home made theme. The site uses [Sass](https://sass-lang.com/) for CSS compilation.
+_Can I A11y_ runs on [Jekyll](https://jekyllrb.com/docs/) as [GitHub Pages](https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages) site with a home made theme. The site uses [Sass](https://sass-lang.com/) for CSS compilation.
 
 ## Installation
 
 1. **Clone the repository**.
 
 ```sh
-git clone https://github.com/hteumeuleu/caniemail.git
+git clone https://github.com/lemnis/cania11y.git
 ```
 
 See [Cloning a repository](https://help.github.com/en/articles/cloning-a-repository) on GitHub documentation. If you're not familiar with Git or GitHub, I strongly encourage you to try [GitHub's desktop app](https://desktop.github.com/) on macOS, Windows or Linux.
@@ -34,7 +34,7 @@ You can turn on [incremental regeneration](https://jekyllrb.com/docs/configurati
 bundle exec jekyll serve --incremental
 ```
 
-The _embed_ version of the site ([embed.caniemail.com](https://embed.caniemail.com)) is built by specifiying the config file to use.
+The _embed_ version of the site ([embed.cania11y.com](https://embed.cania11y.com)) is built by specifiying the config file to use.
 
 ```sh
 bundle exec jekyll serve --config _config.embed.yml
@@ -67,4 +67,4 @@ Here is a quick overview of the project's folders structure:
 
 ## Licence
 
-[MIT Licence](https://github.com/hteumeuleu/caniemail/blob/master/LICENSE)
+[MIT Licence](https://github.com/lemnis/cania11y/blob/master/LICENSE)

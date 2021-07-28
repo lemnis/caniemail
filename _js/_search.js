@@ -27,9 +27,9 @@ class Search {
 					if(!this.data) {
 						this.loadJSONFile();
 					}
-	
+
 					this.query();
-	
+
 					if(this.term) {
 						this.updateURL();
 					}
@@ -151,7 +151,7 @@ class Search {
 		let message = '';
 		if(n == 0) {
 			message = 'No results found.';
-			message += ' Why not <a href="https://github.com/hteumeuleu/caniemail/issues?utf8=✓&q=is%3Aissue+is%3Aopen+'+encodeURIComponent(this.term)+'">suggest this feature to be added?</a>';
+			message += ' Why not <a href="https://github.com/lemnis/cania11y/issues?utf8=✓&q=is%3Aissue+is%3Aopen+'+encodeURIComponent(this.term)+'">suggest this feature to be added?</a>';
 		} else if (n == 1) {
 			message = '1 result found.';
 		} else {
@@ -249,8 +249,8 @@ class Search {
 						featureContainer.classList.remove('feature--placeholder');
 						featureContainer.classList.remove('loading');
 						featureContainer.querySelector('.data-details').innerHTML = div.querySelector('.data-details').innerHTML;
-						if(window.caniemail && window.caniemail.settings && window.caniemail.settings.unchecked) {
-							featureContainer.querySelector('.data-details').appendChild(window.caniemail.settings.getEmptyDataMessageElement());
+						if(window.cania11y && window.cania11y.settings && window.cania11y.settings.unchecked) {
+							featureContainer.querySelector('.data-details').appendChild(window.cania11y.settings.getEmptyDataMessageElement());
 						}
 						featureContainer.querySelector('.feature-footer').innerHTML = div.querySelector('.feature-footer').innerHTML;
 						featureContainer.querySelector('.feature-header-column:nth-child(1)').innerHTML += div.querySelector('.feature-description').outerHTML;
@@ -270,6 +270,6 @@ class Search {
 
 	updateTitle() {
 
-		document.querySelector('title').innerHTML = `Can I email&hellip; "${this.term}" search results`;
+		document.querySelector('title').innerHTML = `Can I A11y&hellip; "${this.term}" search results`;
 	}
 }

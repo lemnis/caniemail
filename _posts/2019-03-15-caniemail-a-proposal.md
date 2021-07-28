@@ -1,5 +1,5 @@
 ---
-title:  "Can I email: a proposal"
+title:  "Can I A11y: a proposal"
 date: 2019-03-15
 ---
 
@@ -20,25 +20,25 @@ Some email clients provide official information regarding HTML and CSS support. 
 
 # History of the project
 
-I first became aware of the project after [watching a conference](https://www.youtube.com/watch?v=xhUfiOSOk3g) by @M-J-Robbins where he announced his team at Rebel (then RebelMail) was working on a site similar to `caniuse.com` called `caniemail.com`. [A few repos and notes were created on Github](https://github.com/caniemail). And Rebel made a totally killer logo for the project.
+I first became aware of the project after [watching a conference](https://www.youtube.com/watch?v=xhUfiOSOk3g) by @M-J-Robbins where he announced his team at Rebel (then RebelMail) was working on a site similar to `caniuse.com` called `cania11y.com`. [A few repos and notes were created on Github](https://github.com/cania11y). And Rebel made a totally killer logo for the project.
 
-![caniemail logo by Rebel](/assets/images/posts/2019-03-15-logo.png)
+![cania11y logo by Rebel](/assets/images/posts/2019-03-15-logo.png)
 
-In 2017, Rebel didn't renew the domain `caniemail.com`. So I bought it. I first offered to transfer it back to Rebel by contacting Mark on Slack, but it didn't happen. So I started working on the project, mostly thinking and planning how things could or should be. I made [an HTML mockup](https://www.caniemail.com/prototype-2017/) that I only shared about a year later on Slack during a casual conversation.
+In 2017, Rebel didn't renew the domain `cania11y.com`. So I bought it. I first offered to transfer it back to Rebel by contacting Mark on Slack, but it didn't happen. So I started working on the project, mostly thinking and planning how things could or should be. I made [an HTML mockup](https://www.cania11y.com/prototype-2017/) that I only shared about a year later on Slack during a casual conversation.
 
 I always thought that I could free some time to work more on this. Or that I could use time at my company to work on this. But this never happened. So this is why I'm opening this up today in hope we can get something done.
 
 # The proposal
-Caniemail.com should address the problems mentionned above. Thus the project should be:
+Cania11y.com should address the problems mentionned above. Thus the project should be:
 
 1. *Often updated*. That is, as often as email clients evolve. And for this, I mainly count on the second point.
 2. *Opened to contributions*. This includes any aspects of the website. But especially any data published on it. Contributors must be able to update existing data and add new data. Github seems like a good platform to on for this, with Pull Requests, issues, and other easy ways to contribute.
 3. *Transparent on testing*. Any data published should be so with its confirming test. This makes it easy for anyone to rerun the test at a later time, or to use the same test in new email clients.
 4. *Clear*. Sure, every site aims this. But this means the user interface of the website should provide useful informations at a glance, as well as providing full details if needed.
 
-Here's a quick UI prototype I had in mind. This can be found on the branch `prototype` or online at [https://www.caniemail.com/prototype/](https://www.caniemail.com/prototype/).
+Here's a quick UI prototype I had in mind. This can be found on the branch `prototype` or online at [https://www.cania11y.com/prototype/](https://www.cania11y.com/prototype/).
 
-[![Screenshot of a prototype](/assets/images/posts/2019-03-15-prototype.png)](https://www.caniemail.com/prototype/)
+[![Screenshot of a prototype](/assets/images/posts/2019-03-15-prototype.png)](https://www.cania11y.com/prototype/)
 
 The main idea is to regroup email clients through their "family" names, and show only the few most popular first. (I think Outlook, Gmail and Apple Mail are obvious candidates. But maybe Yahoo should be featured there.)
 
@@ -50,4 +50,4 @@ In the following days, I will start issues to start the conversation on the foll
 * Testing
 
 Rémi  
-@HTeuMeuLeu
+@lemnis

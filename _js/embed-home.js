@@ -4,7 +4,7 @@ permalink: "/assets/js/embed-home.js"
 ---
 {% include_relative _generator.js %}
 
-class Caniemail {
+class Cania11y {
 
 	constructor() {
 		this.generator = new Generator();
@@ -12,5 +12,5 @@ class Caniemail {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-	window.caniemail = new Caniemail();
+	window.cania11y = new Cania11y();
 });

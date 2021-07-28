@@ -88,10 +88,10 @@ class Generator {
 	}
 
 	getIframeOutput(featureSlug, featureName) {
-		return `<iframe title="Can I email… ${featureName}" src="https://embed.caniemail.com/${featureSlug}/" width="640" height="420" style="width:100%; max-width:40rem; height:26.25rem; border:none;" loading="lazy"></iframe>`;
+		return `<iframe title="Can I A11y… ${featureName}" src="https://embed.cania11y.com/${featureSlug}/" width="640" height="420" style="width:100%; max-width:40rem; height:26.25rem; border:none;" loading="lazy"></iframe>`;
 	}
 
 	getImageOutput(featureSlug, featureName) {
-		return `<a href="https://www.caniemail.com/features/${featureSlug}/"><img src="https://screenshots.caniemail.com/${featureSlug}.png" alt="Can I email… ${featureName}" width="640" height="400" style="vertical-align:middle; border:0; max-width:100%; height:auto;" /></a>`;
+		return `<a href="https://www.cania11y.com/features/${featureSlug}/"><img src="https://screenshots.cania11y.com/${featureSlug}.png" alt="Can I A11y… ${featureName}" width="640" height="400" style="vertical-align:middle; border:0; max-width:100%; height:auto;" /></a>`;
 	}
 }

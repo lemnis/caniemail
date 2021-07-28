@@ -1,6 +1,6 @@
 ---
 layout: null
-permalink: "/assets/js/caniemail.js"
+permalink: "/assets/js/cania11y.js"
 ---
 {% include_relative _search.js %}
 {% include_relative _settings.js %}
@@ -8,7 +8,7 @@ permalink: "/assets/js/caniemail.js"
 {% include_relative _options.js %}
 {% include_relative _support.js %}
 
-class Caniemail {
+class Cania11y {
 
 	constructor() {
 		this.search = new Search();
@@ -20,6 +20,6 @@ class Caniemail {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-	window.caniemail = new Caniemail();
-	window.caniemail.filters.onDOMContentLoaded();
+	window.cania11y = new Cania11y();
+	window.cania11y.filters.onDOMContentLoaded();
 });
