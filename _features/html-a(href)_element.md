@@ -1,0 +1,90 @@
+---
+{
+  "title": "hyperlink element",
+  "description": "If the a element has an href attribute, then it represents a hyperlink (a hypertext anchor) labeled by its contents.",
+  "category": "html",
+  "keywords": [
+    "hyperlink element"
+  ],
+  "last_test_date": "2019-07-28",
+  "test_results_url": "https://a11ysupport.io/tech/html/a(href)_element",
+  "stats": {
+    "dragon_win": {
+      "chrome": {
+        "75": "y"
+      }
+    },
+    "jaws": {
+      "chrome": {
+        "75": "y"
+      },
+      "ie": {
+        "11": "y"
+      },
+      "firefox": {
+        "68": "y"
+      }
+    },
+    "narrator": {
+      "edge": {
+        "44": "a"
+      }
+    },
+    "nvda": {
+      "chrome": {
+        "75": "y"
+      },
+      "firefox": {
+        "68": "y"
+      }
+    },
+    "orca": {
+      "firefox": {
+        "69": "a"
+      }
+    },
+    "talkback": {
+      "and_chr": {
+        "75": "y"
+      }
+    },
+    "va_and": {
+      "and_chr": {
+        "77": "y"
+      }
+    },
+    "vo_ios": {
+      "ios_saf": {
+        "12.3.1": "y"
+      }
+    },
+    "vo_macos": {
+      "safari": {
+        "12.1.1": "y"
+      }
+    },
+    "vc_ios": {
+      "ios_saf": {
+        "13.0": "a"
+      }
+    },
+    "vc_macos": {
+      "safari": {
+        "13.0.2": "y"
+      }
+    },
+    "wsr": {
+      "edge": {
+        "44": null
+      },
+      "chrome": {
+        "77": "a"
+      }
+    }
+  },
+  "links": {
+    "WHATWG HTML spec for the a element": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-a-element",
+    "HTML AAM for the a element (with href)": "https://w3c.github.io/html-aam/#el-a"
+  }
+}
+---

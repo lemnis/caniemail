@@ -1,28 +1,42 @@
 ---
 {
   "title": "CSS generated content",
-  "category": "css",
   "description": "CSS Generated Content is content that is added to the DOM via CSS such as ::before and ::after content.",
-  "notes": "Avoid using CSS generated content for meaningful textual additions.",
+  "category": "css",
   "keywords": [
     "CSS generated content"
   ],
+  "last_test_date": "2018-07-21",
+  "test_results_url": "https://a11ysupport.io/tech/css/generated_content",
+  "notes": "Avoid using CSS generated content for meaningful textual additions.",
   "stats": {
     "dragon_win": {
       "chrome": {
         "81": "n",
+        "70.0": "n"
+      },
+      "ie": {
+        "11.134": null
+      },
+      "firefox": {
+        "63.0.1": null
       }
     },
     "jaws": {
       "chrome": {
         "75": "a",
+        "81": "a"
       },
       "ie": {
         "11": "n"
       },
       "firefox": {
         "67": "y",
+        "74": "y"
       },
+      "edge": {
+        "44": null
+      }
     },
     "narrator": {
       "edge": {
@@ -32,50 +46,65 @@
     "nvda": {
       "chrome": {
         "75": "a",
+        "81": "a"
       },
       "firefox": {
         "60": "y",
+        "67": "y",
+        "74": "y"
       }
     },
     "talkback": {
       "and_chr": {
         "67": "y",
+        "76": "y",
+        "81": "y"
       }
     },
     "va_and": {
       "and_chr": {
         "77": "a",
+        "81": "a"
       }
     },
     "vo_ios": {
       "ios_saf": {
         "13.4.1": "y",
+        "12.3.1": "y"
       }
     },
     "vo_macos": {
       "safari": {
         "13.1": "y",
+        "12.1.1": "y"
       }
     },
     "orca": {
       "firefox": {
         "69": "y",
+        "74": "y"
       }
     },
     "vc_ios": {
       "ios_saf": {
+        "13.4.1": "a",
         "13.0": "a"
       }
     },
     "vc_macos": {
       "safari": {
+        "13.1": "a",
         "13.0.2": "a"
       }
     },
     "wsr": {
       "chrome": {
+        "77": "n",
         "81": "n"
       },
+      "edge": {
+        "44": null
+      }
     }
   },
   "links": {
@@ -84,4 +113,3 @@
   }
 }
 ---
-# Hey

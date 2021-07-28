@@ -1,85 +1,87 @@
 ---
 {
-  "title": "CSS generated content - alternative text",
-  "category": "css",
-  "description": "The content property accepts alternative text to be specified after a slash (/) after the last <content-list>.",
-  "notes": "",
+  "title": "input[type=\"date\"] element",
+  "description": "",
+  "category": "html",
   "keywords": [
-    "CSS generated content - alternative text"
+    "input[type=\"date\"] element"
   ],
+  "last_test_date": "2018-10-31",
+  "test_results_url": "https://a11ysupport.io/tech/html/input(type-date)_element",
   "stats": {
     "dragon_win": {
       "chrome": {
-        "81": "y"
+        "77": "n"
       }
     },
     "jaws": {
       "chrome": {
-        "81": "y"
+        "85": "y"
       },
       "ie": {
-        "11": "n"
+        "11": "a"
       },
       "firefox": {
-        "74": "n"
+        "80": "a"
       }
     },
     "narrator": {
       "edge": {
-        "44": "n"
+        "85": "a"
       }
     },
     "nvda": {
       "chrome": {
-        "81": "y"
+        "85": "a"
       },
       "firefox": {
-        "74": "n"
+        "80": "a"
       }
     },
     "talkback": {
       "and_chr": {
-        "81": "y"
+        "85": "a"
       }
     },
     "va_and": {
       "and_chr": {
-        "81": "y"
+        "77": "a"
       }
     },
     "vo_ios": {
       "ios_saf": {
-        "13.4.1": "n"
+        "14.0": "a"
       }
     },
     "vo_macos": {
       "safari": {
-        "13.1": "n"
+        "14.0": "a"
       }
     },
     "orca": {
       "firefox": {
-        "74": "n"
+        "80": "u"
       }
     },
     "vc_ios": {
       "ios_saf": {
-        "13.4.1": "n"
+        "13.1": "a"
       }
     },
     "vc_macos": {
       "safari": {
-        "13.1": "n"
+        "13.0.2": "a"
       }
     },
     "wsr": {
       "chrome": {
-        "81": "y"
+        "77": "a"
       }
     }
   },
   "links": {
-    "CSS Generated Content Module Level 3": "https://www.w3.org/TR/css-content-3/#alt"
+    "WHATWG HTML spec for input[type=\"date\"]": "https://html.spec.whatwg.org/multipage/input.html#date-state-(type=date)",
+    "HTML AAM for the input[type=\"date\"]": "https://w3c.github.io/html-aam/#el-input-date"
   }
 }
 ---

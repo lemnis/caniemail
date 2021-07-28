@@ -1,11 +1,13 @@
 ---
 {
-  "title": "input[type=\"color\"] element",
+  "title": "input[type=\"range\"] element",
+  "description": "",
   "category": "html",
-  "description": "The input element represents a color well control, for setting the element's value to a string representing a simple color.",
   "keywords": [
-    "input[type=\"color\"] element"
+    "input[type=\"range\"] element"
   ],
+  "last_test_date": "2018-07-21",
+  "test_results_url": "https://a11ysupport.io/tech/html/input(type-range)_element",
   "stats": {
     "dragon_win": {
       "chrome": {
@@ -14,13 +16,13 @@
     },
     "jaws": {
       "chrome": {
-        "79": "n"
+        "79": "y"
       },
       "ie": {
-        "11": "a"
+        "11": "y"
       },
       "firefox": {
-        "72.0.1": "a"
+        "72": "y"
       }
     },
     "narrator": {
@@ -33,7 +35,7 @@
         "77": "a"
       },
       "firefox": {
-        "69": "a"
+        "69": "y"
       }
     },
     "talkback": {
@@ -43,27 +45,27 @@
     },
     "va_and": {
       "and_chr": {
-        "77": "a"
+        "77": "y"
       }
     },
     "vo_ios": {
       "ios_saf": {
-        "13.2": "y"
+        "13.1": "y"
       }
     },
     "vo_macos": {
       "safari": {
-        "13.0.2": "u"
+        "13.0.2": "y"
       }
     },
     "orca": {
       "firefox": {
-        "69": "a"
+        "69": "y"
       }
     },
     "vc_ios": {
       "ios_saf": {
-        "13.2": "a"
+        "13.1": "a"
       }
     },
     "vc_macos": {
@@ -73,13 +75,13 @@
     },
     "wsr": {
       "chrome": {
-        "77": "a"
+        "77": "y"
       }
     }
   },
   "links": {
-    "WHATWG HTML spec for input[type=\"color\"]": "https://html.spec.whatwg.org/multipage/input.html#color-state-(type=color)",
-    "HTML AAM for the input[type=\"color\"]": "https://w3c.github.io/html-aam/#el-input-color"
+    "WHATWG HTML spec for input[type=\"range\"]": "https://html.spec.whatwg.org/multipage/input.html#range-state-(type=range)",
+    "HTML AAM for the input[type=\"range\"]": "https://w3c.github.io/html-aam/#el-input-range"
   }
 }
 ---
