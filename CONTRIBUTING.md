@@ -53,11 +53,11 @@ HTML background
 * `test_url_results`: A full URL to tests results on an online screenshots service. Make sure this link is accessible for anyone without an account. (For example, `https://app.emailonacid.com/app/acidtest/ABCDEF/list`.)
 * `stats`: The actual support data. Stats are organized on three levels deep:
 
-    * Family: the general brand or naming of the email client. (For example: `outlook`, `gmail`, `apple-mail`.) This is used as a key for sorting and display purposes, so make sure to use the matching key you can find in the `_data/nicenames.yml` file.
+    * Family: the general brand or naming of the software combination. (For example: `outlook`, `gmail`, `apple-mail`.) This is used as a key for sorting and display purposes, so make sure to use the matching key you can find in the `_data/nicenames.yml` file.
     
-        * Platform: the platform of the email client. (For example: `desktop-webmail`, `windows`, `macos`). Once again, make sure to use the matching key name you can find in the `_data/nicenames.yml` file. For better readability, exceptions can be added in naming here. For example, the mobile webmail of the Outlook family is specifically named Outlook.com, so we use a `outlook-com` platform key.
+        * Platform: the platform of the software combination. (For example: `desktop-webmail`, `windows`, `macos`). Once again, make sure to use the matching key name you can find in the `_data/nicenames.yml` file. For better readability, exceptions can be added in naming here. For example, the mobile webmail of the Outlook family is specifically named Outlook.com, so we use a `outlook-com` platform key.
 
-            * Version: the version number or name of the email client. If the version is unknown (for example for webmails or mobile applications), a date in the format of `YYYY-MM` is prefered.
+            * Version: the version number or name of the software combination. If the version is unknown (for example for webmails or mobile applications), a date in the format of `YYYY-MM` is prefered.
 
             Each version has then a value indicating the support level (following [Can I use's own values](https://github.com/Fyrd/caniuse/blob/master/CONTRIBUTING.md)):
 

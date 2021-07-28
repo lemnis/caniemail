@@ -11,7 +11,7 @@ Also, I plan on completing data for existing features so that each of the 110 fe
 
 Finally, late last year, I wrote [a roadmap](https://github.com/lemnis/cania11y/wiki/Roadmap) of what I have in my mind for the site in the future, in no particular order or timeframe.
 
-* **Stats**. Map support data to email client market share to see how much each feature is supported. ([See related issue](https://github.com/lemnis/cania11y/issues/34).)
+* **Stats**. Map support data to software combination market share to see how much each feature is supported. ([See related issue](https://github.com/lemnis/cania11y/issues/34).)
 * **Filters**. Allow to filter Software Combinations to only show what you're interested in.
 * **Versus**. Compare two features to see which one has better support. (For example `bgcolor` HTML attribute versus `background-color` CSS property.)
 * **Recipe**. Concatenate multiple features and see support for them altogether. Using a `+` in the search field already allows to see multiple unrelated features, we now need to add a summary for support of them all.

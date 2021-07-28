@@ -12,7 +12,7 @@
 {% assign support-scores-names-u = "" | split: '' %}
 
 {% comment %}
-	1. We loop through every email client family of the current feature page.
+	1. We loop through every software combination family of the current feature page.
 {% endcomment %}
 {% for support-family in page.stats %}
 	{% assign support-family-key = support-family | first %}
@@ -26,7 +26,7 @@
 		{% assign support-platform-values = support-platform | last %}
 		{% assign support-platform-name = site.data.nicenames.platform[support-platform-key] | default: support-platform-key %}
 		{% comment %}
-			3. We go for the last version listed for that specific email client.
+			3. We go for the last version listed for that specific software combination.
 		{% endcomment %}
 		{% for support-version in support-platform-values %}
 			{% if forloop.last == true %}
@@ -95,7 +95,7 @@
 			{% endif %}
 			<span class="feature-support-summary-value supported" {{ support-scores-y-title-string }}>{{ support-scores-y }}%</span>
 			{% if support-scores-a != 0 %}
-			+ 
+			+
 			{% else %}
 			{{ site.data.nicenames.support['supported'] | downcase }}
 			{% endif %}
