@@ -186,7 +186,7 @@
 			<span class="score-name">
 				{% assign family-page = site.clients | where:"slug", client-family | first %}
 				{% if family-page != nil and family-page != "" %}
-				<a href="/clients/{{client-family}}/#{{ client-platform | slugify }}">
+				<a href="{{ site.url }}/clients/{{client-family}}/#{{ client-platform | slugify }}">
 				{% endif %}
 				{{ site.data.nicenames.family[client-family] | default: client-family }}
 				({{ site.data.nicenames.platform[client-platform] | default: client-platform }})

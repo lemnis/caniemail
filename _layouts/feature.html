@@ -58,7 +58,7 @@ layout: default
 					<span>
 						{% assign family-page = site.clients | where:"slug", client-family | first %}
 						{% if family-page != nil and family-page != "" %}
-						<a href="/clients/{{family-key}}/">
+						<a href="{{ site.url }}/clients/{{family-key}}/">
 						{% endif %}
 						{{ site.data.nicenames.family[family-key] | default: family-key }}
 						{% if family-page != nil and family-page != "" %}
@@ -73,7 +73,7 @@ layout: default
 						<div class="data-client data-client--{{ platform-key | slugify }}">
 							<h4 class="data-platform-name">
 								{% if family-page != nil and family-page != "" %}
-								<a href="/clients/{{family-key}}/#{{ platform-key | slugify }}">
+								<a href="{{ site.url }}/clients/{{family-key}}/#{{ platform-key | slugify }}">
 								{% endif %}
 								{{ site.data.nicenames.platform[platform-key] | default: platform-key }}
 								{% if family-page != nil and family-page != "" %}
