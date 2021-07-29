@@ -68,7 +68,7 @@ h4:only-of-type{background:green;}
   </style>
 </head>
 <body>
-<div><a href="/" class="active">:active a</a></div>
+<div><a href="{{ site.url }}/" class="active">:active a</a></div>
 <label class="active" tabindex="0">:active tabindex label</label>
 <div class="after">::after</div>
 <div class="before">::before</div>
@@ -85,7 +85,7 @@ h4:only-of-type{background:green;}
 <div class="first-of-type"><span>:first-of-type</span><span>not this one</span></div>
 <button class="focus">:focus - button</button><br>
 <div class="focus" tabindex="0">:focus - tabindex div</div>
-<a href="/" class="hover">:hover - link</a><br>
+<a href="{{ site.url }}/" class="hover">:hover - link</a><br>
 <div class="hover">:hover - div</div>
 <input type="number" min="8" max="10" value="9" class="in-range"><span>:in-range</span>
 <div><progress  max="100">
