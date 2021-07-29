@@ -8,6 +8,7 @@
   ],
   "last_test_date": "2020-10-01",
   "test_results_url": "https://a11ysupport.io/tech/aria/option_role",
+  "test_url": "https://a11ysupport.io/tech/aria/option_role",
   "stats": {
     "jaws": {
       "chrome": {

@@ -15,7 +15,7 @@ permalink: "/api/data.json"
 			"category":{{ feature.category | jsonify }},
 			"keywords":{{ feature.keywords | jsonify }},
 			"last_test_date":{{ feature.last_test_date | jsonify }},
-			"test_url":{{ feature.test_url | prepend:site.url | jsonify }},
+			"test_url":{{ feature.test_url | jsonify }},
 			"test_results_url":{{ feature.test_results_url | jsonify }},
 			"stats":{{ feature.stats | jsonify}},
 			"notes":{{ feature.notes | jsonify}},

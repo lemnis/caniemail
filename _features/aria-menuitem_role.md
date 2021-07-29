@@ -8,6 +8,7 @@
   ],
   "last_test_date": "2020-03-25",
   "test_results_url": "https://a11ysupport.io/tech/aria/menuitem_role",
+  "test_url": "https://a11ysupport.io/tech/aria/menuitem_role",
   "stats": {
     "dragon_win": {
       "chrome": {

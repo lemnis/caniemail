@@ -8,6 +8,7 @@
   ],
   "last_test_date": "2020-04-13",
   "test_results_url": "https://a11ysupport.io/tech/aria/aria-relevant_attribute",
+  "test_url": "https://a11ysupport.io/tech/aria/aria-relevant_attribute",
   "stats": {
     "dragon_win": {
       "chrome": {

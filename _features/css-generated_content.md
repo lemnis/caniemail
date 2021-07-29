@@ -8,6 +8,7 @@
   ],
   "last_test_date": "2018-07-21",
   "test_results_url": "https://a11ysupport.io/tech/css/generated_content",
+  "test_url": "https://a11ysupport.io/tech/css/generated_content",
   "notes": "Avoid using CSS generated content for meaningful textual additions.",
   "stats": {
     "dragon_win": {

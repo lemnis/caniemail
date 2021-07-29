@@ -8,6 +8,7 @@
   ],
   "last_test_date": "2020-04-16",
   "test_results_url": "https://a11ysupport.io/tech/css/generated_content_alt",
+  "test_url": "https://a11ysupport.io/tech/css/generated_content_alt",
   "notes": "",
   "stats": {
     "dragon_win": {

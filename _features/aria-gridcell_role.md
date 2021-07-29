@@ -8,6 +8,7 @@
   ],
   "last_test_date": "2019-09-13",
   "test_results_url": "https://a11ysupport.io/tech/aria/gridcell_role",
+  "test_url": "https://a11ysupport.io/tech/aria/gridcell_role",
   "stats": {
     "jaws": {
       "chrome": {

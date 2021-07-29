@@ -8,6 +8,7 @@
   ],
   "last_test_date": "2018-10-29",
   "test_results_url": "https://a11ysupport.io/tech/html/input(type-checkbox)_element",
+  "test_url": "https://a11ysupport.io/tech/html/input(type-checkbox)_element",
   "stats": {
     "dragon_win": {
       "chrome": {

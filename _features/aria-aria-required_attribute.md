@@ -8,6 +8,7 @@
   ],
   "last_test_date": "2019-01-06",
   "test_results_url": "https://a11ysupport.io/tech/aria/aria-required_attribute",
+  "test_url": "https://a11ysupport.io/tech/aria/aria-required_attribute",
   "stats": {
     "dragon_win": {
       "chrome": {

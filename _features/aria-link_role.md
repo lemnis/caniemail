@@ -8,6 +8,7 @@
   ],
   "last_test_date": "2019-09-14",
   "test_results_url": "https://a11ysupport.io/tech/aria/link_role",
+  "test_url": "https://a11ysupport.io/tech/aria/link_role",
   "stats": {
     "dragon_win": {
       "ie": {

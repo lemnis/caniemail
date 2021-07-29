@@ -8,6 +8,7 @@
   ],
   "last_test_date": "2018-11-08",
   "test_results_url": "https://a11ysupport.io/tech/html/disabled_attribute",
+  "test_url": "https://a11ysupport.io/tech/html/disabled_attribute",
   "stats": {
     "jaws": {
       "ie": {

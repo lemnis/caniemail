@@ -9,6 +9,7 @@
   ],
   "last_test_date": "2019-05-03",
   "test_results_url": "https://a11ysupport.io/tech/html/td_element",
+  "test_url": "https://a11ysupport.io/tech/html/td_element",
   "stats": {
     "jaws": {
       "chrome": {

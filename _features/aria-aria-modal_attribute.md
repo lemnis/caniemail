@@ -8,6 +8,7 @@
   ],
   "last_test_date": "2019-08-13",
   "test_results_url": "https://a11ysupport.io/tech/aria/aria-modal_attribute",
+  "test_url": "https://a11ysupport.io/tech/aria/aria-modal_attribute",
   "stats": {
     "jaws": {
       "chrome": {

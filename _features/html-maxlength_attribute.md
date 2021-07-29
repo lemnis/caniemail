@@ -8,6 +8,7 @@
   ],
   "last_test_date": "2020-04-03",
   "test_results_url": "https://a11ysupport.io/tech/html/maxlength_attribute",
+  "test_url": "https://a11ysupport.io/tech/html/maxlength_attribute",
   "stats": {
     "dragon_win": {
       "chrome": {

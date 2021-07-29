@@ -8,6 +8,7 @@
   ],
   "last_test_date": "2019-11-11",
   "test_results_url": "https://a11ysupport.io/tech/aria/aria-pressed_attribute",
+  "test_url": "https://a11ysupport.io/tech/aria/aria-pressed_attribute",
   "stats": {
     "jaws": {
       "chrome": {

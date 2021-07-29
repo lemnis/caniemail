@@ -8,6 +8,7 @@
   ],
   "last_test_date": "2018-09-05",
   "test_results_url": "https://a11ysupport.io/tech/html/dt_element",
+  "test_url": "https://a11ysupport.io/tech/html/dt_element",
   "stats": {
     "jaws": {
       "chrome": {

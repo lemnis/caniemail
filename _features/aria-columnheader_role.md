@@ -8,6 +8,7 @@
   ],
   "last_test_date": "2020-05-07",
   "test_results_url": "https://a11ysupport.io/tech/aria/columnheader_role",
+  "test_url": "https://a11ysupport.io/tech/aria/columnheader_role",
   "stats": {
     "jaws": {
       "chrome": {

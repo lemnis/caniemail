@@ -8,6 +8,7 @@
   ],
   "last_test_date": "2020-07-14",
   "test_results_url": "https://a11ysupport.io/tech/aria/log_role",
+  "test_url": "https://a11ysupport.io/tech/aria/log_role",
   "stats": {
     "jaws": {
       "chrome": {

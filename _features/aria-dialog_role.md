@@ -8,6 +8,7 @@
   ],
   "last_test_date": "2019-08-13",
   "test_results_url": "https://a11ysupport.io/tech/aria/dialog_role",
+  "test_url": "https://a11ysupport.io/tech/aria/dialog_role",
   "stats": {
     "jaws": {
       "chrome": {

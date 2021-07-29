@@ -8,6 +8,7 @@
   ],
   "last_test_date": "2020-06-24",
   "test_results_url": "https://a11ysupport.io/tech/aria/aria-live_attribute",
+  "test_url": "https://a11ysupport.io/tech/aria/aria-live_attribute",
   "stats": {
     "jaws": {
       "chrome": {

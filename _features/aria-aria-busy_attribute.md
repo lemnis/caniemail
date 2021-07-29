@@ -8,6 +8,7 @@
   ],
   "last_test_date": "2021-03-01",
   "test_results_url": "https://a11ysupport.io/tech/aria/aria-busy_attribute",
+  "test_url": "https://a11ysupport.io/tech/aria/aria-busy_attribute",
   "stats": {
     "jaws": {
       "chrome": {

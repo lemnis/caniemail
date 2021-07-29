@@ -8,6 +8,7 @@
   ],
   "last_test_date": "2019-08-05",
   "test_results_url": "https://a11ysupport.io/tech/html/details_element",
+  "test_url": "https://a11ysupport.io/tech/html/details_element",
   "stats": {
     "dragon_win": {
       "chrome": {

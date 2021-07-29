@@ -8,6 +8,7 @@
   ],
   "last_test_date": "2019-09-02",
   "test_results_url": "https://a11ysupport.io/tech/aria/aria-errormessage_attribute",
+  "test_url": "https://a11ysupport.io/tech/aria/aria-errormessage_attribute",
   "stats": {
     "jaws": {
       "chrome": {

@@ -8,6 +8,7 @@
   ],
   "last_test_date": "2019-05-19",
   "test_results_url": "https://a11ysupport.io/tech/aria/aria-details_attribute",
+  "test_url": "https://a11ysupport.io/tech/aria/aria-details_attribute",
   "notes": "There is poor support for `aria-details`, so it should not be used as the only means of conveying the relationship between an object and its detailed description. Since `aria-details` can only reference an element that is elsewhere on the same page, the details will likely sill be discoverable by screen reader users. Until support is more robust, it might be worth while to consider an additional indication that the object has a detailed description on the same page by way of the `alt` attribute or similar method.",
   "stats": {
     "jaws": {

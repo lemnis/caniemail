@@ -8,6 +8,7 @@
   ],
   "last_test_date": "2020-08-15",
   "test_results_url": "https://a11ysupport.io/tech/html/button_element",
+  "test_url": "https://a11ysupport.io/tech/html/button_element",
   "stats": {
     "jaws": {
       "chrome": {

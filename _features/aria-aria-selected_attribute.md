@@ -8,6 +8,7 @@
   ],
   "last_test_date": "2019-08-02",
   "test_results_url": "https://a11ysupport.io/tech/aria/aria-selected_attribute",
+  "test_url": "https://a11ysupport.io/tech/aria/aria-selected_attribute",
   "stats": {
     "jaws": {
       "chrome": {

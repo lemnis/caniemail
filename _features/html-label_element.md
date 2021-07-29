@@ -8,6 +8,7 @@
   ],
   "last_test_date": "2018-06-19",
   "test_results_url": "https://a11ysupport.io/tech/html/label_element",
+  "test_url": "https://a11ysupport.io/tech/html/label_element",
   "notes": "Use the explicit label technique wherever possible and avoid depending on implicit labels.",
   "stats": {
     "dragon_win": {

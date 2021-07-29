@@ -8,6 +8,7 @@
   ],
   "last_test_date": "2019-07-20",
   "test_results_url": "https://a11ysupport.io/tech/html/input(type-text)_element",
+  "test_url": "https://a11ysupport.io/tech/html/input(type-text)_element",
   "stats": {
     "dragon_win": {
       "chrome": {

@@ -8,6 +8,7 @@
   ],
   "last_test_date": "2019-07-12",
   "test_results_url": "https://a11ysupport.io/tech/aria/heading_role",
+  "test_url": "https://a11ysupport.io/tech/aria/heading_role",
   "stats": {
     "jaws": {
       "ie": {

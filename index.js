@@ -86,6 +86,7 @@ function convertFeature(feature) {
 		keywords: feature.keywords,
 		last_test_date: feature.date_updated,
 		test_results_url: `https://a11ysupport.io/tech/${feature.id}`,
+		test_url: `https://a11ysupport.io/tech/${feature.id}`,
 		notes: feature.recommendation,
 		stats,
 		links: []

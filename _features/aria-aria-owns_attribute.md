@@ -8,6 +8,7 @@
   ],
   "last_test_date": "2020-08-31",
   "test_results_url": "https://a11ysupport.io/tech/aria/aria-owns_attribute",
+  "test_url": "https://a11ysupport.io/tech/aria/aria-owns_attribute",
   "stats": {
     "jaws": {
       "chrome": {

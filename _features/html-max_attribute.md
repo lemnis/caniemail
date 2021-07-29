@@ -8,6 +8,7 @@
   ],
   "last_test_date": "2019-09-23",
   "test_results_url": "https://a11ysupport.io/tech/html/max_attribute",
+  "test_url": "https://a11ysupport.io/tech/html/max_attribute",
   "stats": {
     "dragon_win": {
       "chrome": {

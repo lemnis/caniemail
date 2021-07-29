@@ -8,6 +8,7 @@
   ],
   "last_test_date": "2019-01-06",
   "test_results_url": "https://a11ysupport.io/tech/aria/checkbox_role",
+  "test_url": "https://a11ysupport.io/tech/aria/checkbox_role",
   "stats": {
     "dragon_win": {
       "chrome": {

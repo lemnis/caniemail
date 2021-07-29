@@ -8,6 +8,7 @@
   ],
   "last_test_date": "2020-02-14",
   "test_results_url": "https://a11ysupport.io/tech/aria/aria-invalid_attribute",
+  "test_url": "https://a11ysupport.io/tech/aria/aria-invalid_attribute",
   "stats": {
     "jaws": {
       "chrome": {
