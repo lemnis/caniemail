@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Can I A11y… Vo_macos</title>
+	<link rel="stylesheet" href="/caniemail/assets/css/style.css" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" /><link rel="shortcut icon" href="/caniemail/assets/images/favicon-local.png" /><link rel="prefetch" href="/caniemail/assets/js/features.json" /><meta property="og:title" content="Can I A11y…" />
+	<meta property="og:description" content="Vo_macos" />
+	<meta name="description" content="Vo_macos" />
+	<meta property="og:image" content="https://www.cania11y.com/assets/images/og.png" /><meta property="og:type" content="website" />
+	<meta property="og:url" content="/clients/vo_macos/" />
+	<meta http-equiv="content-security-policy" content="script-src 'self' 'unsafe-inline' https://www.google-analytics.com; base-uri 'self';" />
+	<meta name="color-scheme" content="dark" />
+</head>
+<body>
+	<div class="cania11y page--default">
+		<header class="header" role="banner">
+	<div class="menu">
+	<nav class="nav" role="navigation">
+	
+		<a href="/" class="tab">Home</a>
+	
+		<a href="/features/" class="tab">Features</a>
+	
+		<a href="/news/" class="tab">News</a>
+	
+</nav>
+	
+		<a href="/clients/" class="tab"><span class="tab-longname">Compare email </span>clients</a>
+	</div>
+	<div class="search" role="search">
+	<form action="/search/" method="get" class="search-form">
+		<label for="search" class="search-label">Can I A11y</label>
+		<span class="search-input-container"><input type="search" class="search-input" id="search" name="s" spellcheck="false" value="" placeholder="HTML, CSS, …"></span>
+		<span class="search-question-mark" aria-hidden="true">?</span>
+		<span class="search-actions">
+			<noscript>
+				<button type="submit" class="button search-button">Search</button>
+				<style>.settings-button { display:none; }</style>
+			</noscript>
+			<button type="button" class="button settings-button"><span class="icon icon--gear" aria-hidden="true"></span> Settings</button>
+		</span>
+	</form>
+</div>
+	<div class="settings" hidden>
+	<form action="/" method="get" id="settings-form" class="settings-form">
+		<div class="settings-title">
+			Software Combinations <button type="button" id="settings-check-all-button" class="button" data-label-toggle="Check all" data-checked="false">Uncheck all</button>
+		</div>
+		<div class="settings-options">
+			<ul class="settings-list">
+				
+				
+					<li class="settings-list-item">
+						<input type="checkbox" id="settings-jaws" name="jaws" value="on">
+						<label for="settings-jaws">JAWS</label>
+						<ul class="settings-child-list">
+						
+							<li class="settings-child-list-item">
+								<input type="checkbox" id="settings-jaws-chrome" name="jaws" value="chrome">
+								<label for="settings-jaws-chrome">Chrome</label>
+							</li>
+						
+							<li class="settings-child-list-item">
+								<input type="checkbox" id="settings-jaws-ie" name="jaws" value="ie">
+								<label for="settings-jaws-ie">IE</label>
+							</li>
+						
+							<li class="settings-child-list-item">
+								<input type="checkbox" id="settings-jaws-firefox" name="jaws" value="firefox">
+								<label for="settings-jaws-firefox">Firefox</label>
+							</li>
+						
+						</ul>
+					</li>
+				
+					<li class="settings-list-item">
+						<input type="checkbox" id="settings-narrator" name="narrator" value="on">
+						<label for="settings-narrator">Narrator</label>
+						<ul class="settings-child-list">
+						
+							<li class="settings-child-list-item">
+								<input type="checkbox" id="settings-narrator-edge" name="narrator" value="edge">
+								<label for="settings-narrator-edge">Edge</label>
+							</li>
+						
+						</ul>
+					</li>
+				
+					<li class="settings-list-item">
+						<input type="checkbox" id="settings-dragon_win" name="dragon_win" value="on">
+						<label for="settings-dragon_win">Dragon Naturally Speaking</label>
+						<ul class="settings-child-list">
+						
+							<li class="settings-child-list-item">
+								<input type="checkbox" id="settings-dragon_win-chrome" name="dragon_win" value="chrome">
+								<label for="settings-dragon_win-chrome">Chrome</label>
+							</li>
+						
+						</ul>
+					</li>
+				
+					<li class="settings-list-item">
+						<input type="checkbox" id="settings-nvda" name="nvda" value="on">
+						<label for="settings-nvda">NVDA</label>
+						<ul class="settings-child-list">
+						
+							<li class="settings-child-list-item">
+								<input type="checkbox" id="settings-nvda-chrome" name="nvda" value="chrome">
+								<label for="settings-nvda-chrome">Chrome</label>
+							</li>
+						
+							<li class="settings-child-list-item">
+								<input type="checkbox" id="settings-nvda-firefox" name="nvda" value="firefox">
+								<label for="settings-nvda-firefox">Firefox</label>
+							</li>
+						
+						</ul>
+					</li>
+				
+					<li class="settings-list-item">
+						<input type="checkbox" id="settings-vo_macos" name="vo_macos" value="on">
+						<label for="settings-vo_macos">Voice Control (MacOS)</label>
+						<ul class="settings-child-list">
+						
+							<li class="settings-child-list-item">
+								<input type="checkbox" id="settings-vo_macos-safari" name="vo_macos" value="safari">
+								<label for="settings-vo_macos-safari">Safari</label>
+							</li>
+						
+						</ul>
+					</li>
+				
+					<li class="settings-list-item">
+						<input type="checkbox" id="settings-orca" name="orca" value="on">
+						<label for="settings-orca">Orca</label>
+						<ul class="settings-child-list">
+						
+							<li class="settings-child-list-item">
+								<input type="checkbox" id="settings-orca-firefox" name="orca" value="firefox">
+								<label for="settings-orca-firefox">Firefox</label>
+							</li>
+						
+						</ul>
+					</li>
+				
+			</ul>
+		</div>
+	</form>
+	<style id="settings-style"></style>
+</div>
+</header>
+		<main class="main" role="main">
+			<div class="post">
+	<div class="post-inside">
+		<h1 class="post-title">Voice Control (MacOS)</h1>
+		
+
+
+		
+		<ul>
+			
+			<li><a href="#safari">Voice Control (MacOS) (Safari)</a></li>
+			
+		</ul>
+		
+	</div>
+</div>
+
+
+	
+	
+	
+	
+	<div class="post post--client" id="safari">
+		<h2 class="post-title">
+<span class="client-name">Voice Control (MacOS)</span> (Safari)</h2>
+		
+		
+		
+			<h3 class="list-title">Supported</h3>
+			<ul class="client-tags">
+			
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									<li><a class="tag supported" href="/features/aria-alert_role/">alert role</a></li>
+								
+									<li><a class="tag supported" href="/features/aria-alertdialog_role/">alertdialog role</a></li>
+								
+									<li><a class="tag supported" href="/features/aria-aria-atomic_attribute/">aria-atomic attribute</a></li>
+								
+									<li><a class="tag supported" href="/features/aria-aria-checked_attribute/">aria-checked attribute</a></li>
+								
+									<li><a class="tag supported" href="/features/aria-aria-current_attribute/">aria-current attribute</a></li>
+								
+									<li><a class="tag supported" href="/features/aria-aria-disabled_attribute/">aria-disabled attribute</a></li>
+								
+									<li><a class="tag supported" href="/features/aria-aria-invalid_attribute/">aria-invalid attribute</a></li>
+								
+									<li><a class="tag supported" href="/features/aria-aria-level_attribute/">aria-level attribute</a></li>
+								
+									<li><a class="tag supported" href="/features/aria-aria-live_attribute/">aria-live attribute</a></li>
+								
+									<li><a class="tag supported" href="/features/aria-aria-required_attribute/">aria-required attribute</a></li>
+								
+									<li><a class="tag supported" href="/features/aria-aria-roledescription_attribute/">aria-roledescription attribute</a></li>
+								
+									<li><a class="tag supported" href="/features/aria-button_role/">button role</a></li>
+								
+									<li><a class="tag supported" href="/features/aria-checkbox_role/">checkbox role</a></li>
+								
+									<li><a class="tag supported" href="/features/aria-group_role/">group role</a></li>
+								
+									<li><a class="tag supported" href="/features/aria-heading_role/">heading role</a></li>
+								
+									<li><a class="tag supported" href="/features/aria-link_role/">link role</a></li>
+								
+									<li><a class="tag supported" href="/features/aria-radiogroup_role/">radiogroup role</a></li>
+								
+									<li><a class="tag supported" href="/features/css-generated_content/">CSS generated content</a></li>
+								
+									<li><a class="tag supported" href="/features/html-a(href)_element/">hyperlink element</a></li>
+								
+									<li><a class="tag supported" href="/features/html-input(type-button)_element/">input[type="button"] element</a></li>
+								
+									<li><a class="tag supported" href="/features/html-input(type-checkbox)_element/">input[type="checkbox"] element</a></li>
+								
+									<li><a class="tag supported" href="/features/html-input(type-image)_element/">input[type="image"] element</a></li>
+								
+									<li><a class="tag supported" href="/features/html-input(type-range)_element/">input[type="range"] element</a></li>
+								
+									<li><a class="tag supported" href="/features/html-input(type-reset)_element/">input[type="reset"] element</a></li>
+								
+									<li><a class="tag supported" href="/features/html-input(type-submit)_element/">input[type="submit"] element</a></li>
+								
+									<li><a class="tag supported" href="/features/html-label_element/">label element</a></li>
+								
+									<li><a class="tag supported" href="/features/html-max_attribute/">max attribute</a></li>
+								
+									<li><a class="tag supported" href="/features/html-min_attribute/">min attribute</a></li>
+								
+									<li><a class="tag supported" href="/features/html-role_attribute/">role attribute</a></li>
+								
+									<li><a class="tag supported" href="/features/html-scope_attribute/">scope attribute</a></li>
+								
+									<li><a class="tag supported" href="/features/html-section_element/">section element</a></li>
+								
+									<li><a class="tag supported" href="/features/html-table_element/">table element</a></li>
+								
+									<li><a class="tag supported" href="/features/html-td_element/">td element</a></li>
+								
+									<li><a class="tag supported" href="/features/html-textarea_element/">textarea element</a></li>
+								
+									<li><a class="tag supported" href="/features/html-th_element/">th element</a></li>
+								
+			</ul>
+		
+		
+			<h3 class="list-title">Partially supported</h3>
+			<ul class="client-tags">
+			
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									<li><a class="tag mitigated" href="/features/aria-aria-activedescendant_attribute/">aria-activedescendant attribute</a></li>
+								
+									<li><a class="tag mitigated" href="/features/aria-aria-autocomplete_attribute/">aria-autocomplete attribute</a></li>
+								
+									<li><a class="tag mitigated" href="/features/aria-aria-busy_attribute/">aria-busy attribute</a></li>
+								
+									<li><a class="tag mitigated" href="/features/aria-aria-controls_attribute/">aria-controls attribute</a></li>
+								
+									<li><a class="tag mitigated" href="/features/aria-aria-describedby_attribute/">aria-describedby attribute</a></li>
+								
+									<li><a class="tag mitigated" href="/features/aria-aria-errormessage_attribute/">aria-errormessage attribute</a></li>
+								
+									<li><a class="tag mitigated" href="/features/aria-aria-expanded_attribute/">aria-expanded attribute</a></li>
+								
+									<li><a class="tag mitigated" href="/features/aria-aria-haspopup_attribute/">aria-haspopup attribute</a></li>
+								
+									<li><a class="tag mitigated" href="/features/aria-aria-label_attribute/">aria-label attribute</a></li>
+								
+									<li><a class="tag mitigated" href="/features/aria-aria-labelledby_attribute/">aria-labelledby attribute</a></li>
+								
+									<li><a class="tag mitigated" href="/features/aria-aria-modal_attribute/">aria-modal attribute</a></li>
+								
+									<li><a class="tag mitigated" href="/features/aria-aria-pressed_attribute/">aria-pressed attribute</a></li>
+								
+									<li><a class="tag mitigated" href="/features/aria-aria-relevant_attribute/">aria-relevant attribute</a></li>
+								
+									<li><a class="tag mitigated" href="/features/aria-aria-selected_attribute/">aria-selected attribute</a></li>
+								
+									<li><a class="tag mitigated" href="/features/aria-aria-sort_attribute/">aria-sort attribute</a></li>
+								
+									<li><a class="tag mitigated" href="/features/aria-columnheader_role/">columnheader role</a></li>
+								
+									<li><a class="tag mitigated" href="/features/aria-combobox_role/">combobox role</a></li>
+								
+									<li><a class="tag mitigated" href="/features/aria-dialog_role/">dialog role</a></li>
+								
+									<li><a class="tag mitigated" href="/features/aria-grid_role/">grid role</a></li>
+								
+									<li><a class="tag mitigated" href="/features/aria-gridcell_role/">gridcell role</a></li>
+								
+									<li><a class="tag mitigated" href="/features/aria-listbox_role/">listbox role</a></li>
+								
+									<li><a class="tag mitigated" href="/features/aria-log_role/">log role</a></li>
+								
+									<li><a class="tag mitigated" href="/features/aria-menu_role/">menu role</a></li>
+								
+									<li><a class="tag mitigated" href="/features/aria-menuitem_role/">menuitem role</a></li>
+								
+									<li><a class="tag mitigated" href="/features/aria-option_role/">option role</a></li>
+								
+									<li><a class="tag mitigated" href="/features/aria-status_role/">status role</a></li>
+								
+									<li><a class="tag mitigated" href="/features/html-a_element/">placeholder link element</a></li>
+								
+									<li><a class="tag mitigated" href="/features/html-button_element/">button element</a></li>
+								
+									<li><a class="tag mitigated" href="/features/html-datalist_element/">datalist element</a></li>
+								
+									<li><a class="tag mitigated" href="/features/html-dd_element/">dd element</a></li>
+								
+									<li><a class="tag mitigated" href="/features/html-details_element/">details element</a></li>
+								
+									<li><a class="tag mitigated" href="/features/html-disabled_attribute/">disabled attribute</a></li>
+								
+									<li><a class="tag mitigated" href="/features/html-dl_element/">dl element (description list)</a></li>
+								
+									<li><a class="tag mitigated" href="/features/html-dt_element/">dt element</a></li>
+								
+									<li><a class="tag mitigated" href="/features/html-fieldset_element/">fieldset element</a></li>
+								
+									<li><a class="tag mitigated" href="/features/html-figcaption_element/">figcaption element</a></li>
+								
+									<li><a class="tag mitigated" href="/features/html-figure_element/">figure element</a></li>
+								
+									<li><a class="tag mitigated" href="/features/html-h1-6_elements/">h1, h2, h3, h4, h5, and h6 elements</a></li>
+								
+									<li><a class="tag mitigated" href="/features/html-headers_attribute/">headers attribute</a></li>
+								
+									<li><a class="tag mitigated" href="/features/html-input(type-color)_element/">input[type="color"] element</a></li>
+								
+									<li><a class="tag mitigated" href="/features/html-input(type-date)_element/">input[type="date"] element</a></li>
+								
+									<li><a class="tag mitigated" href="/features/html-input(type-datetime-local)_element/">input[type="datetime-local"] element</a></li>
+								
+									<li><a class="tag mitigated" href="/features/html-input(type-email)_element/">input[type="email"] element</a></li>
+								
+									<li><a class="tag mitigated" href="/features/html-input(type-file)_element/">input[type="file"] element</a></li>
+								
+									<li><a class="tag mitigated" href="/features/html-input(type-month)_element/">input[type="month"] element</a></li>
+								
+									<li><a class="tag mitigated" href="/features/html-input(type-number)_element/">input[type="number"] element</a></li>
+								
+									<li><a class="tag mitigated" href="/features/html-input(type-password)_element/">input[type="password"] element</a></li>
+								
+									<li><a class="tag mitigated" href="/features/html-input(type-radio)_element/">input[type="radio"] element</a></li>
+								
+									<li><a class="tag mitigated" href="/features/html-input(type-search)_element/">input[type="search"] element</a></li>
+								
+									<li><a class="tag mitigated" href="/features/html-input(type-tel)_element/">input[type="tel"] element</a></li>
+								
+									<li><a class="tag mitigated" href="/features/html-input(type-text)_element/">input[type="text"] element</a></li>
+								
+									<li><a class="tag mitigated" href="/features/html-input(type-time)_element/">input[type="time"] element</a></li>
+								
+									<li><a class="tag mitigated" href="/features/html-input(type-url)_element/">input[type="url"] element</a></li>
+								
+									<li><a class="tag mitigated" href="/features/html-input(type-week)_element/">input[type="week"] element</a></li>
+								
+									<li><a class="tag mitigated" href="/features/html-lang_attribute/">lang attribute</a></li>
+								
+									<li><a class="tag mitigated" href="/features/html-legend_element/">legend element</a></li>
+								
+									<li><a class="tag mitigated" href="/features/html-li_element/">li element</a></li>
+								
+									<li><a class="tag mitigated" href="/features/html-list_attribute/">list attribute</a></li>
+								
+									<li><a class="tag mitigated" href="/features/html-maxlength_attribute/">maxlength attribute</a></li>
+								
+									<li><a class="tag mitigated" href="/features/html-ol_element/">ol element</a></li>
+								
+									<li><a class="tag mitigated" href="/features/html-optgroup_element/">optgroup element</a></li>
+								
+									<li><a class="tag mitigated" href="/features/html-option_element/">option element</a></li>
+								
+									<li><a class="tag mitigated" href="/features/html-required_attribute/">required attribute</a></li>
+								
+									<li><a class="tag mitigated" href="/features/html-select_element/">select element</a></li>
+								
+									<li><a class="tag mitigated" href="/features/html-summary_element/">summary element</a></li>
+								
+									<li><a class="tag mitigated" href="/features/html-ul_element/">ul element</a></li>
+								
+			</ul>
+		
+		
+			<h3 class="list-title">Not supported</h3>
+			<ul class="client-tags">
+			
+									
+									
+									
+									<li><a class="tag unsupported" href="/features/aria-aria-details_attribute/">aria-details attribute</a></li>
+								
+									<li><a class="tag unsupported" href="/features/aria-aria-flowto_attribute/">aria-flowto attribute</a></li>
+								
+									<li><a class="tag unsupported" href="/features/aria-aria-owns_attribute/">aria-owns attribute</a></li>
+								
+			</ul>
+		
+		
+			<h3 class="list-title">Support unknown</h3>
+			<ul class="client-tags">
+			
+									
+									<li><a class="tag unknown" href="/features/svg-title_element/">title element</a></li>
+								
+			</ul>
+		
+	</div>
+
+		</main>
+		<footer class="footer" role="contentinfo">
+	<div class="footer-section">
+		<h1 class="footer-title">Can I A11y…</h1>
+		<p>
+			Launched and maintained by <a href="https://twitter.com/lemnis">@lemnis</a> and the team at <a href="https://www.tilt-studio.fr/">Tilt Studio</a>.
+		</p>
+		<p>
+			Based on the original <a href="https://www.caniuse.com">caniuse.com</a> by <a href="https://twitter.com/Fyrd">@Fyrd</a> and designed by <a href="https://twitter.com/Lensco">@Lensco</a>.<br>
+			Also based on the original name and idea by <a href="https://twitter.com/M_J_Robbins">@M_J_Robbins</a> and the team at <a href="https://www.gorebel.com/">Rebel</a>.<br>
+		</p>
+		<p>
+			Support data contributions by the wonderful email geeks community <a href="https://github.com/lemnis/cania11y/graphs/contributors">on GitHub</a>.
+		</p>
+		<p>
+			If you see something wrong, please <a href="https://github.com/lemnis/cania11y/issues">report bugs on GitHub</a> or contact us on <a href="https://www.twitter.com/cania11y/">Twitter</a>.
+		</p>
+	</div>
+	<div class="footer-section">
+		<h2 class="footer-title">Site links</h2>
+		<ul class="footer-links">
+			<li><a href="/">Home</a></li>
+			<li><a href="/features/">Feature index</a></li>
+			<li><a href="/clients/">Compare software combinations</a></li>
+			<li><a href="/scoreboard/">software combination Support Scoreboard</a></li>
+			<li><a href="/api/data.json">Data available in JSON</a></li>
+			<li><a href="https://github.com/lemnis/cania11y">Cania11y on GitHub</a></li>
+			<li><a href="https://embed.cania11y.com">The Cania11y Embed</a></li>
+		</ul>
+	</div>
+	<div class="footer-section">
+		<h2 class="footer-title">Legend</h2>
+		<ol class="legend-list">
+			<li>
+<span class="supported"></span> = Supported</li>
+			<li>
+<span class="unsupported"></span> = Not supported</li>
+			<li>
+<span class="mitigated"></span> = Partial support</li>
+			<li>
+<span class="mixed"></span> = Mixed support</li>
+			<li>
+<span class="unknown"></span> = Support unknown</li>
+		</ol>
+		<p class="a11y-colors">
+			<button type="button" class="a11y-colors-button link-button" data-label-toggle="Use default colors">Enable accessible colors</button>
+			<noscript>
+				<style>.a11y-colors { display:none; }</style>
+			</noscript>
+		</p>
+	</div>
+</footer>
+
+	</div>
+	
+	<script src="/caniemail/assets/js/cania11y.js" defer></script>
+</body>
+</html>
