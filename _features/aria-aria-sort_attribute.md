@@ -11,13 +11,13 @@
   "stats": {
     "jaws": {
       "chrome": {
-        "85": "y"
+        "85": "a"
       },
       "ie": {
         "11": "a"
       },
       "firefox": {
-        "80": "y"
+        "80": "a"
       }
     },
     "narrator": {
@@ -33,7 +33,7 @@
         "80": "a"
       },
       "ie": {
-        "11": null
+        "11": "u"
       }
     },
     "orca": {
@@ -56,32 +56,7 @@
         "85": "a"
       },
       "and_ff": {
-        "80": null
-      }
-    },
-    "dragon_win": {
-      "chrome": {
-        "all": "u"
-      }
-    },
-    "va_and": {
-      "and_chr": {
-        "all": "u"
-      }
-    },
-    "vc_ios": {
-      "ios_saf": {
-        "all": "u"
-      }
-    },
-    "vc_macos": {
-      "safari": {
-        "all": "u"
-      }
-    },
-    "wsr": {
-      "chrome": {
-        "all": "u"
+        "80": "u"
       }
     }
   },

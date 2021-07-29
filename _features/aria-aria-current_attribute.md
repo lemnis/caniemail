@@ -20,7 +20,7 @@
         "66": "y"
       },
       "edge": {
-        "44": null
+        "44": "n"
       }
     },
     "narrator": {
@@ -36,10 +36,10 @@
         "66": "y"
       },
       "ie": {
-        "11": null
+        "11": "y"
       },
       "edge": {
-        "44.17763": null
+        "44.17763": "y"
       }
     },
     "orca": {
@@ -52,7 +52,7 @@
         "75": "n"
       },
       "firefox": {
-        "unknown": null
+        "unknown": "u"
       }
     },
     "vo_ios": {
@@ -63,31 +63,6 @@
     "vo_macos": {
       "safari": {
         "12.1": "y"
-      }
-    },
-    "dragon_win": {
-      "chrome": {
-        "all": "u"
-      }
-    },
-    "va_and": {
-      "and_chr": {
-        "all": "u"
-      }
-    },
-    "vc_ios": {
-      "ios_saf": {
-        "all": "u"
-      }
-    },
-    "vc_macos": {
-      "safari": {
-        "all": "u"
-      }
-    },
-    "wsr": {
-      "chrome": {
-        "all": "u"
       }
     }
   },

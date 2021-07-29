@@ -22,7 +22,7 @@
     },
     "narrator": {
       "edge": {
-        "44.17763": "y"
+        "44.17763": "a"
       }
     },
     "nvda": {
@@ -45,37 +45,12 @@
     },
     "vo_ios": {
       "ios_saf": {
-        "12.3.1": "n"
+        "12.3.1": "a"
       }
     },
     "vo_macos": {
       "safari": {
         "12.1.1": "y"
-      }
-    },
-    "dragon_win": {
-      "chrome": {
-        "all": "u"
-      }
-    },
-    "va_and": {
-      "and_chr": {
-        "all": "u"
-      }
-    },
-    "vc_ios": {
-      "ios_saf": {
-        "all": "u"
-      }
-    },
-    "vc_macos": {
-      "safari": {
-        "all": "u"
-      }
-    },
-    "wsr": {
-      "chrome": {
-        "all": "u"
       }
     }
   },

@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/lemnis/cania11y#readme",
   "dependencies": {
-    "a11ysupport": "^1.0.0"
+    "a11ysupport": "^1.0.0",
+    "lodash": "^4.17.21"
   }
 }

@@ -11,7 +11,7 @@
   "stats": {
     "jaws": {
       "chrome": {
-        "84": "y"
+        "84": "a"
       },
       "ie": {
         "11": "a"
@@ -22,12 +22,12 @@
     },
     "narrator": {
       "edge": {
-        "83": "y"
+        "83": "a"
       }
     },
     "nvda": {
       "chrome": {
-        "84": "y"
+        "84": "a"
       },
       "firefox": {
         "77": "a"
@@ -40,42 +40,17 @@
     },
     "vo_ios": {
       "ios_saf": {
-        "13.4.1": "y"
+        "13.4.1": "a"
       }
     },
     "vo_macos": {
       "safari": {
-        "13.1.1": "y"
+        "13.1.1": "a"
       }
     },
     "orca": {
       "firefox": {
         "77": "a"
-      }
-    },
-    "dragon_win": {
-      "chrome": {
-        "all": "u"
-      }
-    },
-    "va_and": {
-      "and_chr": {
-        "all": "u"
-      }
-    },
-    "vc_ios": {
-      "ios_saf": {
-        "all": "u"
-      }
-    },
-    "vc_macos": {
-      "safari": {
-        "all": "u"
-      }
-    },
-    "wsr": {
-      "chrome": {
-        "all": "u"
       }
     }
   },

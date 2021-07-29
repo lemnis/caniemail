@@ -11,7 +11,7 @@
   "stats": {
     "dragon_win": {
       "chrome": {
-        "77": "n"
+        "77": "u"
       }
     },
     "jaws": {

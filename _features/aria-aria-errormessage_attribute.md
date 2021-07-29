@@ -20,7 +20,7 @@
         "66": "a"
       },
       "edge": {
-        "44": null
+        "44": "u"
       }
     },
     "narrator": {
@@ -54,31 +54,6 @@
     "vo_macos": {
       "safari": {
         "12.1.2": "a"
-      }
-    },
-    "dragon_win": {
-      "chrome": {
-        "all": "u"
-      }
-    },
-    "va_and": {
-      "and_chr": {
-        "all": "u"
-      }
-    },
-    "vc_ios": {
-      "ios_saf": {
-        "all": "u"
-      }
-    },
-    "vc_macos": {
-      "safari": {
-        "all": "u"
-      }
-    },
-    "wsr": {
-      "chrome": {
-        "all": "u"
       }
     }
   },

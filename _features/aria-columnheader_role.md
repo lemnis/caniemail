@@ -11,13 +11,13 @@
   "stats": {
     "jaws": {
       "chrome": {
-        "81": "y"
+        "81": "a"
       },
       "ie": {
-        "11": "y"
+        "11": "a"
       },
       "firefox": {
-        "76": "y"
+        "76": "a"
       }
     },
     "narrator": {
@@ -27,15 +27,15 @@
     },
     "nvda": {
       "chrome": {
-        "81": "y"
+        "81": "a"
       },
       "firefox": {
-        "76": "y"
+        "76": "a"
       }
     },
     "talkback": {
       "and_chr": {
-        "80": "y"
+        "80": "a"
       }
     },
     "vo_ios": {
@@ -50,32 +50,7 @@
     },
     "orca": {
       "firefox": {
-        "76": "y"
-      }
-    },
-    "dragon_win": {
-      "chrome": {
-        "all": "u"
-      }
-    },
-    "va_and": {
-      "and_chr": {
-        "all": "u"
-      }
-    },
-    "vc_ios": {
-      "ios_saf": {
-        "all": "u"
-      }
-    },
-    "vc_macos": {
-      "safari": {
-        "all": "u"
-      }
-    },
-    "wsr": {
-      "chrome": {
-        "all": "u"
+        "76": "a"
       }
     }
   },

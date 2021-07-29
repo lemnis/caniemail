@@ -6,41 +6,41 @@
   "keywords": [
     "input[type=\"number\"] element"
   ],
-  "last_test_date": "2019-10-14",
+  "last_test_date": "2020-03-16",
   "test_results_url": "https://a11ysupport.io/tech/html/input(type-number)_element",
   "stats": {
     "dragon_win": {
       "chrome": {
-        "77": "y"
+        "77": "a"
       }
     },
     "jaws": {
       "chrome": {
-        "79": "y"
+        "89": "a"
       },
       "ie": {
-        "11": "y"
+        "11": "a"
       },
       "firefox": {
-        "72": "y"
+        "86": "a"
       }
     },
     "narrator": {
       "edge": {
-        "44": "y"
+        "89": "a"
       }
     },
     "nvda": {
       "chrome": {
-        "77": "a"
+        "89": "a"
       },
       "firefox": {
-        "69": "a"
+        "86": "a"
       }
     },
     "talkback": {
       "and_chr": {
-        "77": "y"
+        "89": "a"
       }
     },
     "va_and": {
@@ -50,17 +50,17 @@
     },
     "vo_ios": {
       "ios_saf": {
-        "13.1": "y"
+        "4.4.1": "a"
       }
     },
     "vo_macos": {
       "safari": {
-        "13.0.2": "y"
+        "14.0.3": "a"
       }
     },
     "orca": {
       "firefox": {
-        "69": "a"
+        "86": "a"
       }
     },
     "vc_ios": {
@@ -70,12 +70,12 @@
     },
     "vc_macos": {
       "safari": {
-        "13.0.2": "y"
+        "13.0.2": "a"
       }
     },
     "wsr": {
       "edge": {
-        "44": null
+        "44": "a"
       },
       "chrome": {
         "77": "a"

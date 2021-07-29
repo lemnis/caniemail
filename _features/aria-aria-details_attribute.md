@@ -12,13 +12,13 @@
   "stats": {
     "jaws": {
       "chrome": {
-        "74": "y"
+        "74": "a"
       },
       "ie": {
-        "11.134": "y"
+        "11.134": "a"
       },
       "firefox": {
-        "66": "y"
+        "66": "a"
       }
     },
     "narrator": {
@@ -52,31 +52,6 @@
     "vo_macos": {
       "safari": {
         "12.1": "n"
-      }
-    },
-    "dragon_win": {
-      "chrome": {
-        "all": "u"
-      }
-    },
-    "va_and": {
-      "and_chr": {
-        "all": "u"
-      }
-    },
-    "vc_ios": {
-      "ios_saf": {
-        "all": "u"
-      }
-    },
-    "vc_macos": {
-      "safari": {
-        "all": "u"
-      }
-    },
-    "wsr": {
-      "chrome": {
-        "all": "u"
       }
     }
   },

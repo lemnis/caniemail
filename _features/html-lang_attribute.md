@@ -12,70 +12,11 @@
     "nvda": {
       "firefox": {
         "62": "y"
-      },
-      "chrome": {
-        "all": "u"
       }
     },
     "vo_macos": {
       "safari": {
         "12": "a"
-      }
-    },
-    "dragon_win": {
-      "chrome": {
-        "all": "u"
-      }
-    },
-    "jaws": {
-      "chrome": {
-        "all": "u"
-      },
-      "ie": {
-        "all": "u"
-      },
-      "firefox": {
-        "all": "u"
-      }
-    },
-    "narrator": {
-      "edge": {
-        "all": "u"
-      }
-    },
-    "talkback": {
-      "and_chr": {
-        "all": "u"
-      }
-    },
-    "va_and": {
-      "and_chr": {
-        "all": "u"
-      }
-    },
-    "vo_ios": {
-      "ios_saf": {
-        "all": "u"
-      }
-    },
-    "orca": {
-      "firefox": {
-        "all": "u"
-      }
-    },
-    "vc_ios": {
-      "ios_saf": {
-        "all": "u"
-      }
-    },
-    "vc_macos": {
-      "safari": {
-        "all": "u"
-      }
-    },
-    "wsr": {
-      "chrome": {
-        "all": "u"
       }
     }
   },

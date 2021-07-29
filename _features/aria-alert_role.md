@@ -14,15 +14,15 @@
         "84": "a"
       },
       "ie": {
-        "11": "y"
+        "11": "a"
       },
       "firefox": {
-        "77": "y"
+        "77": "a"
       }
     },
     "narrator": {
       "edge": {
-        "83": "y"
+        "83": "a"
       }
     },
     "nvda": {
@@ -30,7 +30,7 @@
         "84": "a"
       },
       "firefox": {
-        "77": "y"
+        "77": "a"
       }
     },
     "talkback": {
@@ -40,7 +40,7 @@
     },
     "vo_ios": {
       "ios_saf": {
-        "13.4.1": "y"
+        "13.4.1": "a"
       }
     },
     "vo_macos": {
@@ -50,32 +50,7 @@
     },
     "orca": {
       "firefox": {
-        "77": "n"
-      }
-    },
-    "dragon_win": {
-      "chrome": {
-        "all": "u"
-      }
-    },
-    "va_and": {
-      "and_chr": {
-        "all": "u"
-      }
-    },
-    "vc_ios": {
-      "ios_saf": {
-        "all": "u"
-      }
-    },
-    "vc_macos": {
-      "safari": {
-        "all": "u"
-      }
-    },
-    "wsr": {
-      "chrome": {
-        "all": "u"
+        "77": "u"
       }
     }
   },

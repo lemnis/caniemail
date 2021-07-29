@@ -1,40 +1,81 @@
-function converFeature(feature) {
-	const stats = {};
-	feature.tests?.map((test) => {
-		for (const at in test.versions) {
-			stats[at] = stats[at] || {};
+function isObject(item) {
+	return (
+		item &&
+		typeof item === "object" &&
+		!Array.isArray(item) &&
+		item !== null
+	);
+}
 
-			for (const browserName in test.versions[at].browsers) {
-				stats[at][browserName] = stats[at][browserName] || {};
-				const browser = test.versions[at].browsers[browserName];
-				stats[at][browserName][browser.browser_version] = null;
+function mergeDeep(target, source) {
+	if (isObject(target) && isObject(source)) {
+		for (const key in source) {
+			if (isObject(source[key])) {
+				if (!target[key]) Object.assign(target, { [key]: {} });
+				mergeDeep(target[key], source[key]);
+			} else if (Array.isArray(source[key])) {
+				// if (!target[key]) Object.assign(target, { [key]: source[key] });
+				target[key] = [...(target[key] || []), ...source[key]];
+			} else {
+				Object.assign(target, { [key]: source[key] });
 			}
 		}
-	});
+	}
+	return target;
+}
 
-	for (const at in feature.core_support_by_at_browser) {
-		stats[at] = stats[at] || {};
-		for (const browserName in feature.core_support_by_at_browser[at]) {
-			stats[at][browserName] = stats[at][browserName] || {};
-			const browser = feature.core_support_by_at_browser[at][browserName];
+function convertFeature(feature) {
+	const tests = feature.tests?.map((test) => {
+		const r = {};
+		for (const atName in test.versions) {
+			r[atName] = r[atName] || {};
+
+			for (const browserName in test.versions[atName].browsers) {
+				r[atName][browserName] = r[atName][browserName] || {};
+				const browser = test.versions[atName].browsers[browserName];
+				browserVersion = browser.browser_version;
+				r[atName][browserName][browserVersion] = [];
+				test.assertions.forEach((assertion) => {
+					const at = assertion.results[atName];
+					const browser = at.browsers[browserName];
+					r[atName] = r[atName] || {};
+					r[atName][browserName] = r[atName][browserName] || {};
+					r[atName][browserName][browserVersion] =
+						r[atName][browserName][browserVersion] || [];
+					r[atName][browserName][browserVersion].push(
+						browser?.support
+					);
+				});
+			}
+		}
+
+		return r;
+	});
+	const mapped = tests.reduce((curr, next) => mergeDeep(curr, next), {});
+	let stats = {};
+	for (const atName in mapped) {
+		for (const browserName in mapped[atName]) {
+			const keys = Object.keys(mapped[atName][browserName]);
+			const values = Object.values(mapped[atName][browserName]).flat();
+			const ordered = keys.sort((a, b) => parseFloat(a) - parseFloat(b));
+			const key =
+				keys.length === 1
+					? keys[0]
+					: `${ordered[0]}-${ordered[ordered.length - 1]}`;
+			stats[atName] = stats[atName] || {};
+			stats[atName][browserName] = stats[atName][browserName] || {};
+			// stats[atName][browserName][key] = values.flat();
 			let result = "u";
-			if (browser.values.every((v) => v === "y")) {
+			if (values.every((v) => v === "y")) {
 				result = "y";
-			} else if (browser.values.some((v) => v === "y")) {
+			} else if (values.some((v) => v === "y")) {
 				result = "a";
-			} else if (browser.values.every((v) => v === "n")) {
+			} else if (values.every((v) => v === "n")) {
 				result = "n";
-			} else if (browser.values.every((v) => v === "na")) {
+			} else if (values.every((v) => v === "na")) {
 				result = "na";
 			}
-			const keys = Object.keys(stats[at][browserName]);
-			if (keys.length > 0) {
-				keys.forEach((k) => {
-					stats[at][browserName][k] = result;
-				});
-			} else {
-				stats[at][browserName]["all"] = "u";
-			}
+			stats[atName][browserName][key] = result;
 		}
 	}
 
@@ -47,22 +88,22 @@ function converFeature(feature) {
 		test_results_url: `https://a11ysupport.io/tech/${feature.id}`,
 		notes: feature.recommendation,
 		stats,
-		links: [].concat(feature.related_issues, feature.references).filter(Boolean).reduce(
-			(acc, curr) => {
+		links: []
+			.concat(feature.related_issues, feature.references)
+			.filter(Boolean)
+			.reduce((acc, curr) => {
 				acc[curr.title] = curr.url;
 				return acc;
-			},
-			{}
-		),
+			}, {}),
 	};
 }
 
 const fs = require("fs");
 const paths = [
-	__dirname + "/node_modules/a11ysupport/build/tech/html/",
-	__dirname + "/node_modules/a11ysupport/build/tech/css/",
-	__dirname + "/node_modules/a11ysupport/build/tech/aria/",
-	__dirname + "/node_modules/a11ysupport/build/tech/svg/",
+	__dirname + "/../a11ysupport.io/build/tech/html/",
+	__dirname + "/../a11ysupport.io/build/tech/css/",
+	__dirname + "/../a11ysupport.io/build/tech/aria/",
+	__dirname + "/../a11ysupport.io/build/tech/svg/",
 ];
 
 paths.forEach((path) => {
@@ -78,7 +119,7 @@ paths.forEach((path) => {
 					throw new Error(err);
 				}
 
-				const feature = converFeature(JSON.parse(raw));
+				const feature = convertFeature(JSON.parse(raw));
 				const hasResults = !Object.values(Object.values(feature.stats))
 					.map((i) => Object.values(i))
 					.flat()
