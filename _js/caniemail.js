@@ -1,6 +1,6 @@
 ---
 layout: null
-permalink: "/assets/js/cania11y.js"
+permalink: "./assets/js/cania11y.js"
 ---
 {% include_relative _search.js %}
 {% include_relative _settings.js %}
