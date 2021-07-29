@@ -9,7 +9,7 @@ permalink: /features/
 	<ul class="list list--features">
 		{% assign features = category.items | sort:'id' %}
 		{% for feature in features %}
-			<li><a href="{{ feature.url }}">{{ feature.title | escape_once }}</a></li>
+			<li><a href="{{ site.url }}{{ feature.url }}">{{ feature.title | escape_once }}</a></li>
 		{% endfor %}
 	</ul>
 {% endfor %}

@@ -151,7 +151,7 @@ layout: default
 					{% assign link-title = link | first %}
 					{% assign link-url = link | last %}
 					<li>
-						<a href="{{ link-url | escape_once }}">{{ link-title | markdownify | strip_html | strip }}</a>
+						<a href="{{ site.url }}{{ link-url | escape_once }}">{{ link-title | markdownify | strip_html | strip }}</a>
 					</li>
 				{% endfor %}
 				</ul>
@@ -186,7 +186,7 @@ layout: default
 					View test code button.
 				{% endcomment %}
 				{% if page.test_url != nil and page.test_url != "" %}
-				<a href="{{ page.test_url }}" class="button">View the test code</a>
+				<a href="{{ site.url }}{{ page.test_url }}" class="button">View the test code</a>
 				{% endif %}
 				{% comment %}
 					View test results button.
@@ -209,7 +209,7 @@ layout: default
 						{% if test-results-url-provider != "" %}
 							{% assign test-results-url-provider = test-results-url-provider | prepend: " on " %}
 						{% endif %}
-						<a href="{{ page.test_results_url }}" class="button">View test results{{test-results-url-provider}}</a>
+						<a href="{{ site.url }}{{ page.test_results_url }}" class="button">View test results{{test-results-url-provider}}</a>
 					{% endif %}
 				{% endif %}
 			</div>
