@@ -1,6 +1,6 @@
 ---
 layout: null
-permalink: "/caniemail/assets/js/cania11y.js"
+permalink: "/assets/js/caniemail.js"
 ---
 {% include_relative _search.js %}
 {% include_relative _settings.js %}

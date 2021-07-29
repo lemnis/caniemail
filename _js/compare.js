@@ -1,6 +1,6 @@
 ---
 layout: null
-permalink: "/caniemail/assets/js/compare.js"
+permalink: "/assets/js/compare.js"
 ---
 class Compare {
 

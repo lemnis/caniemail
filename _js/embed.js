@@ -1,6 +1,6 @@
 ---
 layout: null
-permalink: "/caniemail/assets/js/embed.js"
+permalink: "/assets/js/embed.js"
 ---
 {% include_relative _options.js %}
 {% include_relative _parameter.js %}

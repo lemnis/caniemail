@@ -1,6 +1,6 @@
 ---
 layout: null
-permalink: "/caniemail/assets/js/embed-home.js"
+permalink: "/assets/js/embed-home.js"
 ---
 {% include_relative _generator.js %}
 
