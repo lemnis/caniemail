@@ -1,6 +1,6 @@
 {
 	"api_version":"1.0.3",
-	"last_update_date":"2021-07-29 11:57:50 +0200",
+	"last_update_date":"2021-07-29 12:02:17 +0200",
 	"nicenames":{"family":{"dragon_win":"Dragon Naturally Speaking","jaws":"JAWS","nvda":"NVDA","narrator":"Narrator","talkback":"TalkBack","va_and":"Voice Access (Android)","vo_ios":"VoiceOver (iOS)","vo_macos":"Voice Control (MacOS)","orca":"Orca","vc_ios":"Voice Control (iOS)","vc_macos":"Voice Control (MacOS)","wsr":"Windows Speech Recognition"},"platform":{"chrome":"Chrome","safari":"Safari","edge":"Edge","ie":"IE","firefox":"Firefox","ios_saf":"iOS","and_chr":"Android"},"support":{"supported":"Supported","mitigated":"Partially supported","unsupported":"Not supported","unknown":"Support unknown","mixed":"Mixed support","inapplicable":"Not Applicablet"},"category":{"html":"HTML","css":"CSS","aria":"ARIA","svg":"SVG"}},
 	"data":[
 		{
