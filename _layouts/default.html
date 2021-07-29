@@ -3,6 +3,7 @@
 <head>
 	<meta charset="utf-8" />
 	<title>Can I A11y… {{ page.title | remove: '`' | escape_once | markdownify | strip_html | strip }}</title>
+	<base href="/caniemail" />
 	<link rel="stylesheet" href="/assets/css/style.css" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	{%- if jekyll.environment == 'production' -%}
