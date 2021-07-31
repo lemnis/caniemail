@@ -9,10 +9,17 @@
   "last_test_date": "2019-07-19",
   "test_results_url": "https://a11ysupport.io/tech/html/select_element",
   "test_url": "https://a11ysupport.io/tech/html/select_element",
+  "notes_by_num": {
+    "1": "HTML select element test: said \"click list box\"",
+    "2": "HTML select element test: Partial support due to the work around needed to activate an option. I was unable to activate an option after double tapping the pop up button. The list was displayed and I could swipe right to navigate options, but double tapping just closed the list and didn't change the value. Work around: swipe right through the entire page until you reach the open options at the end of the page, then you can navigate and make your selection.",
+    "3": "HTML select element test: Focus was sent back to the select after a choice was made, so the control was announced again with the new value",
+    "4": "HTML select element test: implied by the pop up button",
+    "5": "HTML select element test: Implied by the pop up button role"
+  },
   "stats": {
     "dragon_win": {
       "chrome": {
-        "75": "a"
+        "75": "a #1"
       }
     },
     "jaws": {
@@ -28,12 +35,12 @@
     },
     "narrator": {
       "edge": {
-        "44": "a"
+        "44": "y"
       }
     },
     "nvda": {
       "chrome": {
-        "80": "a"
+        "80": "y"
       },
       "firefox": {
         "73": "y"
@@ -46,7 +53,7 @@
     },
     "talkback": {
       "and_chr": {
-        "80": "a"
+        "80": "y #2"
       }
     },
     "va_and": {
@@ -56,12 +63,12 @@
     },
     "vo_ios": {
       "ios_saf": {
-        "13.3.1": "a"
+        "13.3.1": "y #3 #4"
       }
     },
     "vo_macos": {
       "safari": {
-        "13.0.5": "a"
+        "13.0.5": "y #5"
       }
     },
     "vc_ios": {

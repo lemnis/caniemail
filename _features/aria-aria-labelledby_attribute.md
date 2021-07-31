@@ -9,21 +9,24 @@
   "last_test_date": "2019-01-06",
   "test_results_url": "https://a11ysupport.io/tech/aria/aria-labelledby_attribute",
   "test_url": "https://a11ysupport.io/tech/aria/aria-labelledby_attribute",
+  "notes_by_num": {
+    "1": "APG 1.1 Checkbox Example (Two State): Pressing the TAB or SHIFT+TAB keys to focus the first (or last) checkbox in the group caused the group label to be announced"
+  },
   "stats": {
     "dragon_win": {
       "chrome": {
-        "76-77": "a"
+        "76-77": "u"
       }
     },
     "jaws": {
       "chrome": {
-        "74-84": "a"
+        "74-84": "a #1"
       },
       "ie": {
-        "11-11.134": "a"
+        "11-11.134": "y #1"
       },
       "firefox": {
-        "66-79": "a"
+        "66-79": "a #1"
       }
     },
     "narrator": {
@@ -33,7 +36,7 @@
     },
     "nvda": {
       "chrome": {
-        "74-84": "a"
+        "74-84": "y"
       },
       "firefox": {
         "67-79": "a"

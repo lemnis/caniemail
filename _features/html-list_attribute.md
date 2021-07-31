@@ -9,77 +9,82 @@
   "last_test_date": "2019-07-19",
   "test_results_url": "https://a11ysupport.io/tech/html/list_attribute",
   "test_url": "https://a11ysupport.io/tech/html/list_attribute",
+  "notes_by_num": {
+    "1": "HTML input with datalist test: The role is not consistently conveyed across browsers, and is often presented with a modifier (\"combo\" or \"has popup\") to convey the presence of the datalist.",
+    "2": "HTML input with datalist test: When paired with IE, JAWS does not alter the role to convey the datalist functionality.",
+    "3": "HTML input with datalist test: The role is not consistently conveyed across browsers, and is often presented with a modifier (\"combo box\" or \"subMenu\") to convey the presence of the datalist."
+  },
   "stats": {
     "dragon_win": {
       "chrome": {
-        "79": "a"
+        "79": "na"
       }
     },
     "jaws": {
       "chrome": {
-        "80": "a"
+        "80": "y #1"
       },
       "ie": {
-        "11": "a"
+        "11": "n #2"
       },
       "firefox": {
-        "73": "a"
+        "73": "y #1"
       }
     },
     "narrator": {
       "edge": {
-        "44": "a"
+        "44": "y"
       }
     },
     "nvda": {
       "chrome": {
-        "80": "a"
+        "80": "y #3"
       },
       "firefox": {
-        "73": "a"
+        "73": "y #3"
       }
     },
     "orca": {
       "firefox": {
-        "73": "a"
+        "73": "n"
       }
     },
     "talkback": {
       "and_chr": {
-        "80": "a"
+        "80": "y"
       }
     },
     "va_and": {
       "and_chr": {
-        "79": "a"
+        "79": "na"
       }
     },
     "vo_ios": {
       "ios_saf": {
-        "13.3.1": "a"
+        "13.3.1": "y"
       }
     },
     "vo_macos": {
       "safari": {
-        "13.0.5": "a"
+        "13.0.5": "y"
       }
     },
     "vc_ios": {
       "ios_saf": {
-        "13.3.1": "a"
+        "13.3.1": "na"
       }
     },
     "vc_macos": {
       "safari": {
-        "13.0.5": "a"
+        "13.0.5": "na"
       }
     },
     "wsr": {
       "edge": {
-        "44": "a"
+        "44": "na"
       },
       "chrome": {
-        "79": "a"
+        "79": "na"
       }
     }
   },

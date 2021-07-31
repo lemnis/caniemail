@@ -9,16 +9,19 @@
   "last_test_date": "2019-08-13",
   "test_results_url": "https://a11ysupport.io/tech/aria/dialog_role",
   "test_url": "https://a11ysupport.io/tech/aria/dialog_role",
+  "notes_by_num": {
+    "1": "ARIA dialog role must use document mode: An element in the dialog had to receive focus before the contents of the dialog would be read by NVDA."
+  },
   "stats": {
     "jaws": {
       "chrome": {
-        "74-88": "a"
+        "74-88": "y"
       },
       "ie": {
-        "11-11.253": "a"
+        "11-11.253": "y"
       },
       "firefox": {
-        "66-85": "a"
+        "66-85": "y"
       }
     },
     "narrator": {
@@ -31,12 +34,12 @@
         "74-88": "y"
       },
       "firefox": {
-        "64.0.2-85": "y"
+        "64.0.2-85": "y #1"
       }
     },
     "orca": {
       "firefox": {
-        "69-85": "a"
+        "69-85": "y"
       }
     },
     "talkback": {

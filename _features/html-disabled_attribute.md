@@ -9,21 +9,24 @@
   "last_test_date": "2018-11-08",
   "test_results_url": "https://a11ysupport.io/tech/html/disabled_attribute",
   "test_url": "https://a11ysupport.io/tech/html/disabled_attribute",
+  "notes_by_num": {
+    "1": "HTML button[type=\"button\" disabled]: Target is in tab order even with the disabled attribute."
+  },
   "stats": {
     "jaws": {
       "ie": {
-        "11-11.134": "a"
+        "11-11.134": "y"
       },
       "firefox": {
-        "63-73": "a"
+        "63-73": "y"
       },
       "chrome": {
-        "77-80": "a"
+        "77-80": "y"
       }
     },
     "narrator": {
       "edge": {
-        "44-44.17763": "a"
+        "44-44.17763": "y"
       }
     },
     "nvda": {
@@ -31,22 +34,22 @@
         "63.0.1-73": "y"
       },
       "chrome": {
-        "77-80": "a"
+        "77-80": "y"
       }
     },
     "orca": {
       "firefox": {
-        "69-73": "a"
+        "69-73": "y"
       }
     },
     "vo_ios": {
       "ios_saf": {
-        "12.1-13.3.1": "a"
+        "12.1-13.3.1": "y #1"
       }
     },
     "vo_macos": {
       "safari": {
-        "12.0.1-13.0.5": "a"
+        "12.0.1-13.0.5": "y"
       }
     },
     "talkback": {
@@ -56,30 +59,30 @@
     },
     "dragon_win": {
       "chrome": {
-        "75": "a"
+        "75": "n"
       }
     },
     "va_and": {
       "and_chr": {
-        "77": "a"
+        "77": "y"
       }
     },
     "vc_ios": {
       "ios_saf": {
-        "13.0": "a"
+        "13.0": "u"
       }
     },
     "vc_macos": {
       "safari": {
-        "13.0.2": "a"
+        "13.0.2": "y"
       }
     },
     "wsr": {
       "edge": {
-        "44": "a"
+        "44": "u"
       },
       "chrome": {
-        "77": "a"
+        "77": "u"
       }
     }
   },

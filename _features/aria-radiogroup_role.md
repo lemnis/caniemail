@@ -9,6 +9,9 @@
   "last_test_date": "2019-01-06",
   "test_results_url": "https://a11ysupport.io/tech/aria/radiogroup_role",
   "test_url": "https://a11ysupport.io/tech/aria/radiogroup_role",
+  "notes_by_num": {
+    "1": "aria-required attribute on role=radiogroup: Reading mode passed because \"Contains 2 items\" implies a grouping"
+  },
   "stats": {
     "jaws": {
       "chrome": {
@@ -23,7 +26,7 @@
     },
     "narrator": {
       "edge": {
-        "44.17763": "a"
+        "44.17763": "y #1"
       }
     },
     "nvda": {
@@ -46,7 +49,7 @@
     },
     "vo_ios": {
       "ios_saf": {
-        "12.3.1": "a"
+        "12.3.1": "n"
       }
     },
     "vo_macos": {

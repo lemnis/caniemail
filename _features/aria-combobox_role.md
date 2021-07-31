@@ -12,46 +12,46 @@
   "stats": {
     "jaws": {
       "chrome": {
-        "86": "a"
+        "86": "y"
       },
       "ie": {
         "11": "a"
       },
       "firefox": {
-        "82": "a"
+        "82": "y"
       }
     },
     "narrator": {
       "edge": {
-        "86": "a"
+        "86": "y"
       }
     },
     "nvda": {
       "chrome": {
-        "86": "a"
+        "86": "y"
       },
       "firefox": {
-        "82": "a"
+        "82": "y"
       }
     },
     "talkback": {
       "and_chr": {
-        "86": "a"
+        "86": "y"
       }
     },
     "vo_ios": {
       "ios_saf": {
-        "14.2": "a"
+        "14.2": "y"
       }
     },
     "vo_macos": {
       "safari": {
-        "14.0": "a"
+        "14.0": "y"
       }
     },
     "orca": {
       "firefox": {
-        "82": "a"
+        "82": "y"
       }
     },
     "dragon_win": {

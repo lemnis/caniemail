@@ -9,6 +9,15 @@
   "last_test_date": "2019-07-28",
   "test_results_url": "https://a11ysupport.io/tech/html/a_element",
   "test_url": "https://a11ysupport.io/tech/html/a_element",
+  "notes_by_num": {
+    "1": "HTML links example 6 - A placeholder link by itself: partial support because HTML5 does not call these anchors.",
+    "2": "HTML links example 7 - A placeholder link in a paragraph: partial support because HTML5 does not call these anchors.",
+    "3": "HTML links example 8 - A placeholder link that wraps many elements: partial support because HTML5 does not call these anchors.",
+    "4": "HTML links example 6 - A placeholder link by itself: The text role was conveyed along with the readonly state. No semantics should be conveyed.",
+    "5": "HTML links example 7 - A placeholder link in a paragraph: The text role was conveyed along with the readonly state. No semantics should be conveyed.",
+    "6": "HTML links example 8 - A placeholder link that wraps many elements: The text role was conveyed along with the readonly state. No semantics should be conveyed.",
+    "7": "HTML links example 6 - A placeholder link by itself: Partial support because the element is not \"clickable\""
+  },
   "stats": {
     "dragon_win": {
       "chrome": {
@@ -17,18 +26,18 @@
     },
     "jaws": {
       "chrome": {
-        "75": "a"
+        "75": "a #1 #2 #3"
       },
       "ie": {
-        "11": "a"
+        "11": "a #1 #2 #3"
       },
       "firefox": {
-        "68": "a"
+        "68": "a #1 #2 #3"
       }
     },
     "narrator": {
       "edge": {
-        "44": "a"
+        "44": "a #4 #5 #6"
       }
     },
     "nvda": {
@@ -61,7 +70,7 @@
     },
     "vo_macos": {
       "safari": {
-        "12.1.1": "a"
+        "12.1.1": "a #7"
       }
     },
     "vc_ios": {

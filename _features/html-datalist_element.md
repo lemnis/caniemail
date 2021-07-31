@@ -9,6 +9,15 @@
   "last_test_date": "2019-07-19",
   "test_results_url": "https://a11ysupport.io/tech/html/datalist_element",
   "test_url": "https://a11ysupport.io/tech/html/datalist_element",
+  "notes_by_num": {
+    "1": "HTML input with datalist test: The datalist is conveyed as a menu as opposed to a listbox.",
+    "2": "HTML input with datalist test: The datalist role is implied by the \"combo\" role and \"suggestions\" announcement.",
+    "3": "HTML input with datalist test: The datalist role is implied by the \"has auto complete\" announcement for the text input, combined with down arrow navigating suggestions. However, table semantics were also announced when none exist.",
+    "4": "HTML input with datalist test: The datalist role is implied by the \"has auto complete\" announcement for the text input, combined with down arrow navigating suggestions. However, all options are announced as \"blank\".",
+    "5": "HTML input with datalist test: boundaries are implied by the menu and focus being sent back to the input",
+    "6": "HTML input with datalist test: Suggestions are listed in the normal virtual keyboard predictions. However, there is no indication that these predictions are suggestions from the website, and may be confused with the normal virtual keyboard predictions.",
+    "7": "HTML input with datalist test: Boundaries can be implied by the role of \"prediction\" being announced for each available prediction. In other words, when the user hears a different role announced, they can assume they left the predictions."
+  },
   "stats": {
     "dragon_win": {
       "chrome": {
@@ -17,10 +26,10 @@
     },
     "jaws": {
       "chrome": {
-        "80": "a"
+        "80": "a #1"
       },
       "ie": {
-        "11": "a"
+        "11": "n"
       },
       "firefox": {
         "73": "a"
@@ -28,58 +37,58 @@
     },
     "narrator": {
       "edge": {
-        "44": "a"
+        "44": "y #2"
       }
     },
     "nvda": {
       "chrome": {
-        "80": "a"
+        "80": "a #3"
       },
       "firefox": {
-        "73": "a"
+        "73": "a #4"
       }
     },
     "orca": {
       "firefox": {
-        "73": "a"
+        "73": "a #5"
       }
     },
     "talkback": {
       "and_chr": {
-        "80": "a"
+        "80": "y"
       }
     },
     "va_and": {
       "and_chr": {
-        "79": "a"
+        "79": "na"
       }
     },
     "vo_ios": {
       "ios_saf": {
-        "13.3.1": "a"
+        "13.3.1": "a #6 #7"
       }
     },
     "vo_macos": {
       "safari": {
-        "13.0.5": "a"
+        "13.0.5": "n"
       }
     },
     "vc_ios": {
       "ios_saf": {
-        "13.3.1": "a"
+        "13.3.1": "na"
       }
     },
     "vc_macos": {
       "safari": {
-        "13.0.5": "a"
+        "13.0.5": "na"
       }
     },
     "wsr": {
       "edge": {
-        "44": "a"
+        "44": "na"
       },
       "chrome": {
-        "79": "a"
+        "79": "na"
       }
     }
   },

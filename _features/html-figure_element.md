@@ -12,13 +12,13 @@
   "stats": {
     "jaws": {
       "chrome": {
-        "76": "a"
+        "76": "y"
       },
       "ie": {
         "11": "a"
       },
       "firefox": {
-        "69": "a"
+        "69": "y"
       }
     },
     "narrator": {
@@ -36,7 +36,7 @@
     },
     "orca": {
       "firefox": {
-        "69": "a"
+        "69": "y"
       }
     },
     "talkback": {

@@ -9,6 +9,9 @@
   "last_test_date": "2019-08-02",
   "test_results_url": "https://a11ysupport.io/tech/aria/aria-selected_attribute",
   "test_url": "https://a11ysupport.io/tech/aria/aria-selected_attribute",
+  "notes_by_num": {
+    "1": "ARIA gridcell role with aria-selected: Narrator appears to intercept the enter key when aria-selected is set to false"
+  },
   "stats": {
     "jaws": {
       "chrome": {
@@ -23,7 +26,7 @@
     },
     "narrator": {
       "edge": {
-        "44-86": "a"
+        "44-86": "a #1"
       }
     },
     "nvda": {
@@ -56,27 +59,27 @@
     },
     "dragon_win": {
       "chrome": {
-        "87": "a"
+        "87": "na"
       }
     },
     "va_and": {
       "and_chr": {
-        "87": "a"
+        "87": "na"
       }
     },
     "vc_macos": {
       "safari": {
-        "14.0.1": "a"
+        "14.0.1": "na"
       }
     },
     "vc_ios": {
       "ios_saf": {
-        "14.2": "a"
+        "14.2": "na"
       }
     },
     "wsr": {
       "chrome": {
-        "87": "a"
+        "87": "na"
       }
     }
   },

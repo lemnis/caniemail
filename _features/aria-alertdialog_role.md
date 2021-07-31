@@ -9,6 +9,9 @@
   "last_test_date": "2019-01-06",
   "test_results_url": "https://a11ysupport.io/tech/aria/alertdialog_role",
   "test_url": "https://a11ysupport.io/tech/aria/alertdialog_role",
+  "notes_by_num": {
+    "1": "ARIA alertdialog role must use document mode: An element in the dialog had to receive focus before the contents of the dialog would be read by NVDA."
+  },
   "stats": {
     "jaws": {
       "chrome": {
@@ -31,7 +34,7 @@
         "74": "y"
       },
       "firefox": {
-        "64.0.2": "y"
+        "64.0.2": "y #1"
       }
     },
     "orca": {

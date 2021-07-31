@@ -9,15 +9,21 @@
   "last_test_date": "2018-10-19",
   "test_results_url": "https://a11ysupport.io/tech/html/lang_attribute",
   "test_url": "https://a11ysupport.io/tech/html/lang_attribute",
+  "notes_by_num": {
+    "1": "HTML option[lang] element: Had to install the Simplified Chinese language in the Windows 10 Language Settings for this to work. If the language is not installed, nothing will be announced.",
+    "2": "HTML p[lang] element: Had to install the Simplified Chinese language in the Windows 10 Language Settings for this to work. If the language is not installed, nothing will be announced.",
+    "3": "HTML option[lang] element: Had the Chinese language installed in VO settings.",
+    "4": "HTML p[lang] element: Had to install the Chinese language in the Language Settings for VoiceOver."
+  },
   "stats": {
     "nvda": {
       "firefox": {
-        "62": "y"
+        "62": "y #1 #2"
       }
     },
     "vo_macos": {
       "safari": {
-        "12": "a"
+        "12": "a #3 #4"
       }
     }
   },

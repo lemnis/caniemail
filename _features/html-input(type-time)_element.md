@@ -9,6 +9,9 @@
   "last_test_date": "2018-07-21",
   "test_results_url": "https://a11ysupport.io/tech/html/input(type-time)_element",
   "test_url": "https://a11ysupport.io/tech/html/input(type-time)_element",
+  "notes_by_num": {
+    "1": "Basic html time input test: unable to change the value without using the date picker widget"
+  },
   "stats": {
     "dragon_win": {
       "chrome": {
@@ -28,7 +31,7 @@
     },
     "narrator": {
       "edge": {
-        "85": "a"
+        "85": "a #1"
       }
     },
     "nvda": {
