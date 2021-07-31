@@ -9,10 +9,14 @@
   "last_test_date": "2018-07-21",
   "test_results_url": "https://a11ysupport.io/tech/html/input(type-reset)_element",
   "test_url": "https://a11ysupport.io/tech/html/input(type-reset)_element",
+  "notes_by_num": {
+    "1": "Didn't convey its name",
+    "2": "Didn't convey its role"
+  },
   "stats": {
     "dragon_win": {
       "chrome": {
-        "76": "u"
+        "76": "u #1 #2"
       }
     },
     "jaws": {
@@ -51,7 +55,7 @@
     },
     "va_and": {
       "and_chr": {
-        "77": "a"
+        "77": "y"
       }
     },
     "vo_ios": {
@@ -66,20 +70,20 @@
     },
     "vc_ios": {
       "ios_saf": {
-        "13.0": "a"
+        "13.0": "y"
       }
     },
     "vc_macos": {
       "safari": {
-        "13.0.2": "a"
+        "13.0.2": "y"
       }
     },
     "wsr": {
       "edge": {
-        "44": "a"
+        "44": "y"
       },
       "chrome": {
-        "77": "a"
+        "77": "y"
       }
     }
   },

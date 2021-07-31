@@ -10,7 +10,8 @@
   "test_results_url": "https://a11ysupport.io/tech/html/disabled_attribute",
   "test_url": "https://a11ysupport.io/tech/html/disabled_attribute",
   "notes_by_num": {
-    "1": "HTML button[type=\"button\" disabled]: Target is in tab order even with the disabled attribute."
+    "1": "HTML button[type=\"button\" disabled]: Target is in tab order even with the disabled attribute.",
+    "2": "Didn't convey the disabled state"
   },
   "stats": {
     "jaws": {
@@ -54,12 +55,12 @@
     },
     "talkback": {
       "and_chr": {
-        "78-80": "a"
+        "78-80": "a #2"
       }
     },
     "dragon_win": {
       "chrome": {
-        "75": "n"
+        "75": "n #2"
       }
     },
     "va_and": {

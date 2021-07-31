@@ -10,34 +10,36 @@
   "test_results_url": "https://a11ysupport.io/tech/html/a_element",
   "test_url": "https://a11ysupport.io/tech/html/a_element",
   "notes_by_num": {
-    "1": "HTML links example 6 - A placeholder link by itself: partial support because HTML5 does not call these anchors.",
-    "2": "HTML links example 7 - A placeholder link in a paragraph: partial support because HTML5 does not call these anchors.",
-    "3": "HTML links example 8 - A placeholder link that wraps many elements: partial support because HTML5 does not call these anchors.",
-    "4": "HTML links example 6 - A placeholder link by itself: The text role was conveyed along with the readonly state. No semantics should be conveyed.",
-    "5": "HTML links example 7 - A placeholder link in a paragraph: The text role was conveyed along with the readonly state. No semantics should be conveyed.",
-    "6": "HTML links example 8 - A placeholder link that wraps many elements: The text role was conveyed along with the readonly state. No semantics should be conveyed.",
-    "7": "HTML links example 6 - A placeholder link by itself: Partial support because the element is not \"clickable\""
+    "1": "Didn't convey the link role; OR MUST convey as a placeholder link",
+    "2": "HTML links example 6 - A placeholder link by itself: partial support because HTML5 does not call these anchors.",
+    "3": "HTML links example 7 - A placeholder link in a paragraph: partial support because HTML5 does not call these anchors.",
+    "4": "HTML links example 8 - A placeholder link that wraps many elements: partial support because HTML5 does not call these anchors.",
+    "5": "HTML links example 6 - A placeholder link by itself: The text role was conveyed along with the readonly state. No semantics should be conveyed.",
+    "6": "HTML links example 7 - A placeholder link in a paragraph: The text role was conveyed along with the readonly state. No semantics should be conveyed.",
+    "7": "HTML links example 8 - A placeholder link that wraps many elements: The text role was conveyed along with the readonly state. No semantics should be conveyed.",
+    "8": "HTML links example 6 - A placeholder link by itself: Partial support because the element is not \"clickable\"",
+    "9": "Didn't convey its name"
   },
   "stats": {
     "dragon_win": {
       "chrome": {
-        "75": "a"
+        "75": "a #1"
       }
     },
     "jaws": {
       "chrome": {
-        "75": "a #1 #2 #3"
+        "75": "a #2 #3 #4"
       },
       "ie": {
-        "11": "a #1 #2 #3"
+        "11": "a #2 #3 #4"
       },
       "firefox": {
-        "68": "a #1 #2 #3"
+        "68": "a #2 #3 #4"
       }
     },
     "narrator": {
       "edge": {
-        "44": "a #4 #5 #6"
+        "44": "a #5 #6 #7"
       }
     },
     "nvda": {
@@ -60,7 +62,7 @@
     },
     "va_and": {
       "and_chr": {
-        "77": "a"
+        "77": "y"
       }
     },
     "vo_ios": {
@@ -70,25 +72,25 @@
     },
     "vo_macos": {
       "safari": {
-        "12.1.1": "a #7"
+        "12.1.1": "a #8"
       }
     },
     "vc_ios": {
       "ios_saf": {
-        "13.0": "a"
+        "13.0": "y"
       }
     },
     "vc_macos": {
       "safari": {
-        "13.0.2": "a"
+        "13.0.2": "y"
       }
     },
     "wsr": {
       "edge": {
-        "44": "a"
+        "44": "a #1 #9"
       },
       "chrome": {
-        "77": "u"
+        "77": "u #9 #1"
       }
     }
   },

@@ -15,15 +15,17 @@
     "3": "HTML links example 3 - A link in a list: Boundaries implied by navigation",
     "4": "HTML links example 4 - A visited link: Boundaries implied by navigation",
     "5": "HTML links example 5 - A link that wraps many elements: Announces the link role on every line, and does not announce something like \"entering link\" or \"leaving link\" when entering or leaving.",
-    "6": "HTML links example 3 - A link in a list: boundaries implied by navigation",
-    "7": "HTML links example 5 - A link that wraps many elements: The entire content is announced as a link, and it is not possible to navigate content within the link. No semantics inside the link are conveyed.",
-    "8": "HTML links example 5 - A link that wraps many elements: Boundaries implied by navigation. The entire content is announced as a link, and it is not possible to navigate content within the link. No semantics inside the link are conveyed.",
-    "9": "HTML links example 5 - A link that wraps many elements: The entire contents of the link are announced when navigating to the link. Users can navigate into the link contain and navigate object by object."
+    "6": "Didn't convey the visited state",
+    "7": "HTML links example 3 - A link in a list: boundaries implied by navigation",
+    "8": "HTML links example 5 - A link that wraps many elements: The entire content is announced as a link, and it is not possible to navigate content within the link. No semantics inside the link are conveyed.",
+    "9": "HTML links example 5 - A link that wraps many elements: Boundaries implied by navigation. The entire content is announced as a link, and it is not possible to navigate content within the link. No semantics inside the link are conveyed.",
+    "10": "HTML links example 5 - A link that wraps many elements: The entire contents of the link are announced when navigating to the link. Users can navigate into the link contain and navigate object by object.",
+    "11": "Didn't convey its name"
   },
   "stats": {
     "dragon_win": {
       "chrome": {
-        "75": "a"
+        "75": "y"
       }
     },
     "jaws": {
@@ -39,15 +41,15 @@
     },
     "narrator": {
       "edge": {
-        "44": "a #1 #2 #3 #4"
+        "44": "a #1 #2 #3 #4 #6"
       }
     },
     "nvda": {
       "chrome": {
-        "75": "y #1 #2 #6 #4 #5"
+        "75": "y #1 #2 #7 #4 #5"
       },
       "firefox": {
-        "68": "y #1 #2 #6 #4 #5"
+        "68": "y #1 #2 #7 #4 #5"
       }
     },
     "orca": {
@@ -57,12 +59,12 @@
     },
     "talkback": {
       "and_chr": {
-        "75": "a #1 #2 #3 #4 #7 #8"
+        "75": "a #1 #2 #3 #4 #6 #8 #9"
       }
     },
     "va_and": {
       "and_chr": {
-        "77": "a"
+        "77": "y"
       }
     },
     "vo_ios": {
@@ -72,25 +74,25 @@
     },
     "vo_macos": {
       "safari": {
-        "12.1.1": "y #1 #2 #3 #4 #9"
+        "12.1.1": "y #1 #2 #3 #4 #10"
       }
     },
     "vc_ios": {
       "ios_saf": {
-        "13.0": "a"
+        "13.0": "y"
       }
     },
     "vc_macos": {
       "safari": {
-        "13.0.2": "a"
+        "13.0.2": "y"
       }
     },
     "wsr": {
       "edge": {
-        "44": "a"
+        "44": "a #11"
       },
       "chrome": {
-        "77": "a"
+        "77": "a #11"
       }
     }
   },

@@ -10,7 +10,10 @@
   "test_results_url": "https://a11ysupport.io/tech/aria/dialog_role",
   "test_url": "https://a11ysupport.io/tech/aria/dialog_role",
   "notes_by_num": {
-    "1": "ARIA dialog role must use document mode: An element in the dialog had to receive focus before the contents of the dialog would be read by NVDA."
+    "1": "Didn't convey the boundaries of the dialog",
+    "2": "ARIA dialog role must use document mode: An element in the dialog had to receive focus before the contents of the dialog would be read by NVDA.",
+    "3": "Didn't convey the name of the dialog",
+    "4": "Didn't convey its role"
   },
   "stats": {
     "jaws": {
@@ -26,7 +29,7 @@
     },
     "narrator": {
       "edge": {
-        "44.17763-88": "a"
+        "44.17763-88": "a #1"
       }
     },
     "nvda": {
@@ -34,7 +37,7 @@
         "74-88": "y"
       },
       "firefox": {
-        "64.0.2-85": "y #1"
+        "64.0.2-85": "y #2"
       }
     },
     "orca": {
@@ -44,12 +47,12 @@
     },
     "talkback": {
       "and_chr": {
-        "67-88": "a"
+        "67-88": "a #3 #4 #1"
       }
     },
     "vo_ios": {
       "ios_saf": {
-        "12.1.2-14.3": "a"
+        "12.1.2-14.3": "a #3 #4"
       }
     },
     "vo_macos": {

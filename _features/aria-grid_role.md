@@ -9,6 +9,12 @@
   "last_test_date": "2020-05-07",
   "test_results_url": "https://a11ysupport.io/tech/aria/grid_role",
   "test_url": "https://a11ysupport.io/tech/aria/grid_role",
+  "notes_by_num": {
+    "1": "Didn't switch to interaction mode",
+    "2": "Didn't convey its name",
+    "3": "Didn't convey its role",
+    "4": "Didn't convey boundaries"
+  },
   "stats": {
     "jaws": {
       "chrome": {
@@ -23,7 +29,7 @@
     },
     "narrator": {
       "edge": {
-        "44": "a"
+        "44": "a #1"
       }
     },
     "nvda": {
@@ -36,12 +42,12 @@
     },
     "talkback": {
       "and_chr": {
-        "80": "a"
+        "80": "y"
       }
     },
     "vo_ios": {
       "ios_saf": {
-        "13.4.1": "u"
+        "13.4.1": "u #2 #3 #4"
       }
     },
     "vo_macos": {

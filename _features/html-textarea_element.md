@@ -9,10 +9,13 @@
   "last_test_date": "2020-01-03",
   "test_results_url": "https://a11ysupport.io/tech/html/textarea_element",
   "test_url": "https://a11ysupport.io/tech/html/textarea_element",
+  "notes_by_num": {
+    "1": "Didn't convey its name"
+  },
   "stats": {
     "dragon_win": {
       "chrome": {
-        "78": "a"
+        "78": "y"
       }
     },
     "jaws": {
@@ -46,7 +49,7 @@
     },
     "va_and": {
       "and_chr": {
-        "78": "a"
+        "78": "a #1"
       }
     },
     "vo_ios": {
@@ -66,17 +69,17 @@
     },
     "vc_ios": {
       "ios_saf": {
-        "13.3": "a"
+        "13.3": "y"
       }
     },
     "vc_macos": {
       "safari": {
-        "13.0.4": "a"
+        "13.0.4": "y"
       }
     },
     "wsr": {
       "chrome": {
-        "78": "a"
+        "78": "y"
       }
     }
   },

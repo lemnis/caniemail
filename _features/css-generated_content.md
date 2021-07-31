@@ -11,43 +11,44 @@
   "test_url": "https://a11ysupport.io/tech/css/generated_content",
   "notes": "Avoid using CSS generated content for meaningful textual additions.",
   "notes_by_num": {
-    "1": "CSS generated content in form label: It worked if I said \"click generated\", which means that the CSS generated content is not taken into account.",
-    "2": "CSS Generated Content with HTML span element: When using the next/previous line command, you have to swipe left/right three times to hear the entire sentence. The first swipe right reads the before generated content 'this', the next swipe right reads the html contents 'is generated', and the final swipe right reads the after generated content 'content'."
+    "1": "Didn't be included as part of the accessible name",
+    "2": "CSS generated content in form label: It worked if I said \"click generated\", which means that the CSS generated content is not taken into account.",
+    "3": "CSS Generated Content with HTML span element: When using the next/previous line command, you have to swipe left/right three times to hear the entire sentence. The first swipe right reads the before generated content 'this', the next swipe right reads the html contents 'is generated', and the final swipe right reads the after generated content 'content'."
   },
   "stats": {
     "dragon_win": {
       "chrome": {
-        "70.0-81": "n"
+        "70.0-81": "n #1"
       },
       "ie": {
-        "11.134": "n #1"
+        "11.134": "n #2"
       },
       "firefox": {
-        "63.0.1": "n"
+        "63.0.1": "n #1"
       }
     },
     "jaws": {
       "chrome": {
-        "75-81": "a"
+        "75-81": "a #1"
       },
       "ie": {
-        "11": "u"
+        "11": "u #1"
       },
       "firefox": {
         "67-74": "y"
       },
       "edge": {
-        "44": "a"
+        "44": "a #1"
       }
     },
     "narrator": {
       "edge": {
-        "44": "a"
+        "44": "a #1"
       }
     },
     "nvda": {
       "chrome": {
-        "75-81": "a"
+        "75-81": "a #1"
       },
       "firefox": {
         "60-74": "y"
@@ -65,7 +66,7 @@
     },
     "vo_ios": {
       "ios_saf": {
-        "12.3.1-13.4.1": "y #2"
+        "12.3.1-13.4.1": "y #3"
       }
     },
     "vo_macos": {
@@ -90,7 +91,7 @@
     },
     "wsr": {
       "chrome": {
-        "77-81": "n"
+        "77-81": "n #1"
       },
       "edge": {
         "44": "y"

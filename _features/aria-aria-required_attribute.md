@@ -10,12 +10,13 @@
   "test_results_url": "https://a11ysupport.io/tech/aria/aria-required_attribute",
   "test_url": "https://a11ysupport.io/tech/aria/aria-required_attribute",
   "notes_by_num": {
-    "1": "aria-required attribute on each HTML radio button in a fieldset: The required state is conveyed for each radio in the group. Some users might find this confusing since only one radio can be selected at a time."
+    "1": "aria-required attribute on each HTML radio button in a fieldset: The required state is conveyed for each radio in the group. Some users might find this confusing since only one radio can be selected at a time.",
+    "2": "Didn't convey the \"true\" value"
   },
   "stats": {
     "dragon_win": {
       "chrome": {
-        "76": "na"
+        "76": "y"
       }
     },
     "jaws": {
@@ -31,7 +32,7 @@
     },
     "narrator": {
       "edge": {
-        "44-44.17763": "a #1"
+        "44-44.17763": "a #1 #2"
       }
     },
     "nvda": {
@@ -44,17 +45,17 @@
     },
     "orca": {
       "firefox": {
-        "69": "a"
+        "69": "a #2"
       }
     },
     "talkback": {
       "and_chr": {
-        "76": "a"
+        "76": "a #2"
       }
     },
     "va_and": {
       "and_chr": {
-        "77": "na"
+        "77": "y"
       }
     },
     "vo_ios": {
@@ -69,20 +70,20 @@
     },
     "vc_macos": {
       "safari": {
-        "13.0.2": "na"
+        "13.0.2": "y"
       }
     },
     "vc_ios": {
       "ios_saf": {
-        "13.0": "na"
+        "13.0": "y"
       }
     },
     "wsr": {
       "edge": {
-        "44": "na"
+        "44": "y"
       },
       "chrome": {
-        "77": "na"
+        "77": "y"
       }
     }
   },

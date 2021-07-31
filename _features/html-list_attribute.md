@@ -12,12 +12,13 @@
   "notes_by_num": {
     "1": "HTML input with datalist test: The role is not consistently conveyed across browsers, and is often presented with a modifier (\"combo\" or \"has popup\") to convey the presence of the datalist.",
     "2": "HTML input with datalist test: When paired with IE, JAWS does not alter the role to convey the datalist functionality.",
-    "3": "HTML input with datalist test: The role is not consistently conveyed across browsers, and is often presented with a modifier (\"combo box\" or \"subMenu\") to convey the presence of the datalist."
+    "3": "HTML input with datalist test: The role is not consistently conveyed across browsers, and is often presented with a modifier (\"combo box\" or \"subMenu\") to convey the presence of the datalist.",
+    "4": "Didn't convey the presence of the list attribute"
   },
   "stats": {
     "dragon_win": {
       "chrome": {
-        "79": "na"
+        "79": "y"
       }
     },
     "jaws": {
@@ -46,7 +47,7 @@
     },
     "orca": {
       "firefox": {
-        "73": "n"
+        "73": "n #4"
       }
     },
     "talkback": {
@@ -56,7 +57,7 @@
     },
     "va_and": {
       "and_chr": {
-        "79": "na"
+        "79": "y"
       }
     },
     "vo_ios": {
@@ -71,20 +72,20 @@
     },
     "vc_ios": {
       "ios_saf": {
-        "13.3.1": "na"
+        "13.3.1": "y"
       }
     },
     "vc_macos": {
       "safari": {
-        "13.0.5": "na"
+        "13.0.5": "y"
       }
     },
     "wsr": {
       "edge": {
-        "44": "na"
+        "44": "y"
       },
       "chrome": {
-        "79": "na"
+        "79": "y"
       }
     }
   },

@@ -9,43 +9,51 @@
   "last_test_date": "2019-04-02",
   "test_results_url": "https://a11ysupport.io/tech/aria/aria-haspopup_attribute",
   "test_url": "https://a11ysupport.io/tech/aria/aria-haspopup_attribute",
+  "notes_by_num": {
+    "1": "Didn't convey the \"dialog\" value",
+    "2": "Didn't convey the \"grid\" value",
+    "3": "Didn't convey the \"listbox\" value",
+    "4": "Didn't convey the \"tree\" value",
+    "5": "Didn't convey the \"menu\" value",
+    "6": "Didn't convey the \"true\" value (see note)"
+  },
   "stats": {
     "jaws": {
       "chrome": {
-        "75-86": "a"
+        "75-86": "a #1 #2 #3 #4"
       },
       "ie": {
-        "11": "a"
+        "11": "a #3 #1 #2 #4"
       },
       "firefox": {
-        "67-82": "a"
+        "67-82": "a #1 #2 #3 #4"
       },
       "edge": {
-        "44": "a"
+        "44": "a #1 #2 #3 #5 #4 #6"
       }
     },
     "narrator": {
       "edge": {
-        "44-86": "a"
+        "44-86": "a #6 #1 #2 #3 #5 #4"
       }
     },
     "nvda": {
       "chrome": {
-        "75-86": "a"
+        "75-86": "a #1 #2 #3 #4"
       },
       "firefox": {
-        "67-82": "a"
+        "67-82": "a #1 #2 #3 #4"
       },
       "ie": {
-        "11": "a"
+        "11": "a #1 #2 #3 #4"
       },
       "edge": {
-        "44.17763": "a"
+        "44.17763": "a #1 #2 #3 #5 #4 #6"
       }
     },
     "talkback": {
       "and_chr": {
-        "75-86": "a"
+        "75-86": "a #3"
       }
     },
     "vo_ios": {
@@ -60,32 +68,32 @@
     },
     "orca": {
       "firefox": {
-        "69-82": "a"
+        "69-82": "a #1 #2 #3 #5 #4 #6"
       }
     },
     "dragon_win": {
       "chrome": {
-        "80-87": "na"
+        "80-87": "y"
       }
     },
     "va_and": {
       "and_chr": {
-        "80-87": "na"
+        "80-87": "y"
       }
     },
     "vc_macos": {
       "safari": {
-        "13.0.5-14.0.1": "na"
+        "13.0.5-14.0.1": "y"
       }
     },
     "vc_ios": {
       "ios_saf": {
-        "13.3.1-14.2": "na"
+        "13.3.1-14.2": "y"
       }
     },
     "wsr": {
       "chrome": {
-        "80-87": "na"
+        "80-87": "y"
       }
     }
   },

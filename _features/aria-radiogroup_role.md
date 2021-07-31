@@ -10,7 +10,10 @@
   "test_results_url": "https://a11ysupport.io/tech/aria/radiogroup_role",
   "test_url": "https://a11ysupport.io/tech/aria/radiogroup_role",
   "notes_by_num": {
-    "1": "aria-required attribute on role=radiogroup: Reading mode passed because \"Contains 2 items\" implies a grouping"
+    "1": "aria-required attribute on role=radiogroup: Reading mode passed because \"Contains 2 items\" implies a grouping",
+    "2": "Didn't convey the group name if it has a group name",
+    "3": "Didn't convey its role",
+    "4": "Didn't convey the boundaries of the group"
   },
   "stats": {
     "jaws": {
@@ -44,12 +47,12 @@
     },
     "talkback": {
       "and_chr": {
-        "76": "n"
+        "76": "n #2 #3 #4"
       }
     },
     "vo_ios": {
       "ios_saf": {
-        "12.3.1": "n"
+        "12.3.1": "n #2 #3 #4"
       }
     },
     "vo_macos": {

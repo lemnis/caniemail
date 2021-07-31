@@ -9,16 +9,20 @@
   "last_test_date": "2020-08-15",
   "test_results_url": "https://a11ysupport.io/tech/html/button_element",
   "test_url": "https://a11ysupport.io/tech/html/button_element",
+  "notes_by_num": {
+    "1": "Didn't convey inner-text name changes when in focus",
+    "2": "Didn't convey its name"
+  },
   "stats": {
     "jaws": {
       "chrome": {
-        "76-86": "a"
+        "76-86": "a #1"
       },
       "ie": {
         "11": "y"
       },
       "firefox": {
-        "68-82": "a"
+        "68-82": "a #1"
       }
     },
     "narrator": {
@@ -28,15 +32,15 @@
     },
     "nvda": {
       "chrome": {
-        "76-86": "a"
+        "76-86": "a #1"
       },
       "firefox": {
-        "68-82": "a"
+        "68-82": "a #1"
       }
     },
     "talkback": {
       "and_chr": {
-        "76-86": "a"
+        "76-86": "a #1"
       }
     },
     "vo_ios": {
@@ -51,7 +55,7 @@
     },
     "orca": {
       "firefox": {
-        "69-82": "a"
+        "69-82": "a #1"
       }
     },
     "dragon_win": {
@@ -66,7 +70,7 @@
     },
     "vc_macos": {
       "safari": {
-        "13.0.5-14.0.1": "a"
+        "13.0.5-14.0.1": "a #2"
       }
     },
     "vc_ios": {
@@ -79,7 +83,7 @@
         "77-87": "a"
       },
       "edge": {
-        "44": "a"
+        "44": "y"
       }
     }
   },

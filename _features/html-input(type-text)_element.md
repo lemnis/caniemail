@@ -21,56 +21,57 @@
     "9": "HTML input with datalist test: The role is not consistently conveyed across browsers, and is often presented with a modifier (\"combo box\" or \"subMenu\") to convey the presence of the datalist.",
     "10": "HTML input with datalist test: Focus was returned to the text input but only the value was announced",
     "11": "HTML input with datalist test: value was announced and focus was returned to the text input.",
-    "12": "HTML input with datalist test: The activated suggestion was announced, and focus was moved to a new suggestion"
+    "12": "Didn't convey its name",
+    "13": "HTML input with datalist test: The activated suggestion was announced, and focus was moved to a new suggestion"
   },
   "stats": {
     "dragon_win": {
       "chrome": {
-        "76-79": "a"
+        "76-79": "y"
       }
     },
     "jaws": {
       "chrome": {
-        "79-80": "a #1 #2"
+        "79-80": "y #1 #2"
       },
       "ie": {
         "11": "a #3 #4"
       },
       "firefox": {
-        "72-73": "a #1 #5"
+        "72-73": "y #1 #5"
       }
     },
     "narrator": {
       "edge": {
-        "44": "a #6"
+        "44": "y #6"
       }
     },
     "nvda": {
       "chrome": {
-        "76-80": "a #7 #8"
+        "76-80": "y #7 #8"
       },
       "firefox": {
-        "68-73": "a #9 #10"
+        "68-73": "y #9 #10"
       }
     },
     "orca": {
       "firefox": {
-        "69-73": "a"
+        "69-73": "y"
       }
     },
     "talkback": {
       "and_chr": {
-        "76-80": "a #11"
+        "76-80": "y #11"
       }
     },
     "va_and": {
       "and_chr": {
-        "77-79": "a"
+        "77-79": "a #12"
       }
     },
     "vo_ios": {
       "ios_saf": {
-        "12.3.1-13.3.1": "a #12"
+        "12.3.1-13.3.1": "y #13"
       }
     },
     "vo_macos": {
@@ -80,12 +81,12 @@
     },
     "vc_ios": {
       "ios_saf": {
-        "13.0-13.3.1": "a"
+        "13.0-13.3.1": "y"
       }
     },
     "vc_macos": {
       "safari": {
-        "13.0.5-13.0.2": "a"
+        "13.0.5-13.0.2": "y"
       }
     },
     "wsr": {
@@ -93,7 +94,7 @@
         "44": "a"
       },
       "chrome": {
-        "77-79": "a"
+        "77-79": "y"
       }
     }
   },

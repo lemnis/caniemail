@@ -9,16 +9,19 @@
   "last_test_date": "2019-09-16",
   "test_results_url": "https://a11ysupport.io/tech/aria/aria-label_attribute",
   "test_url": "https://a11ysupport.io/tech/aria/aria-label_attribute",
+  "notes_by_num": {
+    "1": "Didn't convey name changes when in focus"
+  },
   "stats": {
     "jaws": {
       "chrome": {
-        "77-84": "a"
+        "77-84": "a #1"
       },
       "ie": {
-        "11": "a"
+        "11": "a #1"
       },
       "firefox": {
-        "69-79": "a"
+        "69-79": "a #1"
       }
     },
     "narrator": {
@@ -36,12 +39,12 @@
     },
     "orca": {
       "firefox": {
-        "69-79": "a"
+        "69-79": "a #1"
       }
     },
     "talkback": {
       "and_chr": {
-        "77-84": "a"
+        "77-84": "a #1"
       }
     },
     "vo_ios": {

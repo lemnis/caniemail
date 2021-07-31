@@ -9,39 +9,44 @@
   "last_test_date": "2020-07-08",
   "test_results_url": "https://a11ysupport.io/tech/aria/status_role",
   "test_url": "https://a11ysupport.io/tech/aria/status_role",
+  "notes_by_num": {
+    "1": "Didn't convey its name and role while navigating the page if it has a name",
+    "2": "Didn't convey the implicit aria-atomic value of true by announcing the entire region",
+    "3": "Didn't convey its name and role as part of the live announcement if it has a name"
+  },
   "stats": {
     "jaws": {
       "chrome": {
-        "84": "a"
+        "84": "a #1"
       },
       "ie": {
-        "11": "a"
+        "11": "a #2 #1 #3"
       },
       "firefox": {
-        "77": "a"
+        "77": "a #2 #1 #3"
       }
     },
     "narrator": {
       "edge": {
-        "83": "a"
+        "83": "a #1"
       }
     },
     "nvda": {
       "chrome": {
-        "84": "a"
+        "84": "a #1"
       },
       "firefox": {
-        "77": "a"
+        "77": "a #2 #1 #3"
       }
     },
     "talkback": {
       "and_chr": {
-        "84": "a"
+        "84": "a #2"
       }
     },
     "vo_ios": {
       "ios_saf": {
-        "13.4.1": "a"
+        "13.4.1": "a #1 #3"
       }
     },
     "vo_macos": {
@@ -51,7 +56,7 @@
     },
     "orca": {
       "firefox": {
-        "77": "a"
+        "77": "a #2 #1"
       }
     }
   },

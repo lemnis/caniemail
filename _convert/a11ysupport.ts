@@ -24,7 +24,7 @@ function convertFeature(feature: Feature) {
 				r[atName][browserName][browserVersion] = [];
 
 				test.assertions.forEach((assertion) => {
-					if(assertion.feature_title === feature.title) {
+					if (assertion.feature_title === feature.title) {
 						const at = assertion.results[atName];
 						const browser = at.browsers[browserName];
 						r[atName] = r[atName] || {};
@@ -36,6 +36,8 @@ function convertFeature(feature: Feature) {
 							support: browser?.support,
 							note: browser?.notes
 								? test.title + ": " + browser?.notes
+								: browser?.support === "n"
+								? "Didn't " + assertion.assertion_title
 								: undefined,
 						});
 					}
@@ -65,7 +67,7 @@ function convertFeature(feature: Feature) {
 			stats[atName][browserName] = stats[atName][browserName] || {};
 			// stats[atName][browserName][key] = browserSupport.flat();
 			let result = "u";
-			if (browserSupport.every((v) => v === "y")) {
+			if (browserSupport.every((v) => v === "y" || v === 'na')) {
 				result = "y";
 			} else if (browserSupport.some((v) => v === "y")) {
 				result = "a";

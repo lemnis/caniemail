@@ -9,6 +9,14 @@
   "last_test_date": "2019-01-06",
   "test_results_url": "https://a11ysupport.io/tech/aria/aria-current_attribute",
   "test_url": "https://a11ysupport.io/tech/aria/aria-current_attribute",
+  "notes_by_num": {
+    "1": "Didn't convey the \"date\" value",
+    "2": "Didn't convey the \"location\" value",
+    "3": "Didn't convey the \"page\" value",
+    "4": "Didn't convey the \"step\" value",
+    "5": "Didn't convey the \"time\" value",
+    "6": "Didn't convey the \"true\" value"
+  },
   "stats": {
     "jaws": {
       "chrome": {
@@ -21,12 +29,12 @@
         "66": "y"
       },
       "edge": {
-        "44": "n"
+        "44": "n #1 #2 #3 #4 #5 #6"
       }
     },
     "narrator": {
       "edge": {
-        "44.17763": "n"
+        "44.17763": "n #1 #2 #3 #4 #5 #6"
       }
     },
     "nvda": {
@@ -45,12 +53,12 @@
     },
     "orca": {
       "firefox": {
-        "69": "n"
+        "69": "n #1 #2 #3 #4 #5 #6"
       }
     },
     "talkback": {
       "and_chr": {
-        "75": "n"
+        "75": "n #1 #2 #3 #4 #5 #6"
       },
       "firefox": {
         "unknown": "u"

@@ -9,16 +9,19 @@
   "last_test_date": "2020-06-24",
   "test_results_url": "https://a11ysupport.io/tech/aria/aria-live_attribute",
   "test_url": "https://a11ysupport.io/tech/aria/aria-live_attribute",
+  "notes_by_num": {
+    "1": "Didn't convey the assertive value by interrupting the current announcement"
+  },
   "stats": {
     "jaws": {
       "chrome": {
-        "84": "a"
+        "84": "a #1"
       },
       "ie": {
-        "11": "a"
+        "11": "a #1"
       },
       "firefox": {
-        "77": "a"
+        "77": "a #1"
       }
     },
     "narrator": {
@@ -28,10 +31,10 @@
     },
     "nvda": {
       "chrome": {
-        "84": "a"
+        "84": "a #1"
       },
       "firefox": {
-        "77": "a"
+        "77": "a #1"
       }
     },
     "talkback": {
@@ -51,7 +54,7 @@
     },
     "orca": {
       "firefox": {
-        "77": "a"
+        "77": "a #1"
       }
     }
   },

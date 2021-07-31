@@ -9,13 +9,18 @@
   "last_test_date": "2019-01-21",
   "test_results_url": "https://a11ysupport.io/tech/html/figure_element",
   "test_url": "https://a11ysupport.io/tech/html/figure_element",
+  "notes_by_num": {
+    "1": "Didn't convey its name",
+    "2": "Didn't convey its role",
+    "3": "Didn't convey the boundaries of the element"
+  },
   "stats": {
     "jaws": {
       "chrome": {
         "76": "y"
       },
       "ie": {
-        "11": "a"
+        "11": "a #1 #2 #3"
       },
       "firefox": {
         "69": "y"
@@ -23,15 +28,15 @@
     },
     "narrator": {
       "edge": {
-        "44": "a"
+        "44": "a #1 #2 #3"
       }
     },
     "nvda": {
       "chrome": {
-        "76": "a"
+        "76": "a #1 #2 #3"
       },
       "firefox": {
-        "69": "a"
+        "69": "a #1 #2 #3"
       }
     },
     "orca": {
@@ -41,17 +46,17 @@
     },
     "talkback": {
       "and_chr": {
-        "76": "a"
+        "76": "a #1 #2 #3"
       }
     },
     "vo_ios": {
       "ios_saf": {
-        "12.4.1": "a"
+        "12.4.1": "a #1 #2 #3"
       }
     },
     "vo_macos": {
       "safari": {
-        "12.1.2": "a"
+        "12.1.2": "a #1 #2 #3"
       }
     }
   },

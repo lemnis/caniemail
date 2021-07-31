@@ -9,6 +9,9 @@
   "last_test_date": "2019-01-06",
   "test_results_url": "https://a11ysupport.io/tech/aria/aria-describedby_attribute",
   "test_url": "https://a11ysupport.io/tech/aria/aria-describedby_attribute",
+  "notes_by_num": {
+    "1": "Didn't convey the value if valid"
+  },
   "stats": {
     "jaws": {
       "chrome": {
@@ -21,7 +24,7 @@
         "60": "y"
       },
       "edge": {
-        "44": "n"
+        "44": "n #1"
       }
     },
     "narrator": {
@@ -44,12 +47,12 @@
     },
     "vo_ios": {
       "ios_saf": {
-        "12.1.4-14.4": "a"
+        "12.1.4-14.4": "a #1"
       }
     },
     "vo_macos": {
       "safari": {
-        "12.0.3-14.0.3": "a"
+        "12.0.3-14.0.3": "a #1"
       }
     },
     "talkback": {

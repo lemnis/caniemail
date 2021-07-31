@@ -12,74 +12,74 @@
   "stats": {
     "dragon_win": {
       "chrome": {
-        "88": "na"
+        "88": "y"
       }
     },
     "jaws": {
       "chrome": {
-        "88": "a"
+        "88": "y"
       },
       "ie": {
-        "11": "a"
+        "11": "y"
       },
       "firefox": {
-        "85": "a"
+        "85": "y"
       }
     },
     "narrator": {
       "edge": {
-        "88": "a"
+        "88": "y"
       }
     },
     "nvda": {
       "chrome": {
-        "88": "a"
+        "88": "y"
       },
       "firefox": {
-        "85": "a"
+        "85": "y"
       }
     },
     "orca": {
       "firefox": {
-        "85": "a"
+        "85": "y"
       }
     },
     "talkback": {
       "and_chr": {
-        "88": "a"
+        "88": "y"
       }
     },
     "va_and": {
       "and_chr": {
-        "88": "na"
+        "88": "y"
       }
     },
     "vo_ios": {
       "ios_saf": {
-        "14.4": "a"
+        "14.4": "y"
       }
     },
     "vo_macos": {
       "safari": {
-        "14.0.3": "a"
+        "14.0.3": "y"
       }
     },
     "vc_ios": {
       "ios_saf": {
-        "14.4": "na"
+        "14.4": "y"
       }
     },
     "vc_macos": {
       "safari": {
-        "14.0.3": "na"
+        "14.0.3": "y"
       }
     },
     "wsr": {
       "edge": {
-        "88": "na"
+        "88": "y"
       },
       "chrome": {
-        "88": "na"
+        "88": "y"
       }
     }
   },

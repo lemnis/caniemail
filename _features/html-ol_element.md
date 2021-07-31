@@ -9,10 +9,14 @@
   "last_test_date": "2019-09-15",
   "test_results_url": "https://a11ysupport.io/tech/html/ol_element",
   "test_url": "https://a11ysupport.io/tech/html/ol_element",
+  "notes_by_num": {
+    "1": "Didn't convey the nesting level",
+    "2": "Didn't convey the number of items in the list"
+  },
   "stats": {
     "dragon_win": {
       "chrome": {
-        "76": "na"
+        "76": "y"
       }
     },
     "jaws": {
@@ -33,10 +37,10 @@
     },
     "nvda": {
       "chrome": {
-        "76": "a"
+        "76": "a #1"
       },
       "firefox": {
-        "69": "a"
+        "69": "a #1"
       }
     },
     "orca": {
@@ -51,7 +55,7 @@
     },
     "vo_ios": {
       "ios_saf": {
-        "12.4.1": "a"
+        "12.4.1": "a #1 #2"
       }
     },
     "vo_macos": {
