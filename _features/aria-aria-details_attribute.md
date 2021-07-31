@@ -3,9 +3,7 @@
   "title": "aria-details attribute",
   "description": "Identifies the element that provides a detailed, extended description for the object. See related aria-describedby.",
   "category": "aria",
-  "keywords": [
-    "aria-details attribute"
-  ],
+  "keywords": "aria-details attribute",
   "last_test_date": "2019-05-19",
   "test_results_url": "https://a11ysupport.io/tech/aria/aria-details_attribute",
   "test_url": "https://a11ysupport.io/tech/aria/aria-details_attribute",

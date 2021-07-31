@@ -3,9 +3,7 @@
   "title": "aria-describedby attribute",
   "description": "Identifies the element (or elements) that describes the object. See related aria-labelledby.",
   "category": "aria",
-  "keywords": [
-    "aria-describedby attribute"
-  ],
+  "keywords": "aria-describedby attribute",
   "last_test_date": "2019-01-06",
   "test_results_url": "https://a11ysupport.io/tech/aria/aria-describedby_attribute",
   "test_url": "https://a11ysupport.io/tech/aria/aria-describedby_attribute",

@@ -3,9 +3,7 @@
   "title": "optgroup element",
   "description": "The optgroup element represents a group of option elements with a common label.",
   "category": "html",
-  "keywords": [
-    "optgroup element"
-  ],
+  "keywords": "optgroup element",
   "last_test_date": "2019-08-02",
   "test_results_url": "https://a11ysupport.io/tech/html/optgroup_element",
   "test_url": "https://a11ysupport.io/tech/html/optgroup_element",

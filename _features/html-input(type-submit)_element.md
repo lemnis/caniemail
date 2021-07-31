@@ -3,9 +3,7 @@
   "title": "input[type=\"submit\"] element",
   "description": "",
   "category": "html",
-  "keywords": [
-    "input[type=\"submit\"] element"
-  ],
+  "keywords": "input[type=\"submit\"] element",
   "last_test_date": "2018-07-21",
   "test_results_url": "https://a11ysupport.io/tech/html/input(type-submit)_element",
   "test_url": "https://a11ysupport.io/tech/html/input(type-submit)_element",

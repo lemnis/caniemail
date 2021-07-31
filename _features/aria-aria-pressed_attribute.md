@@ -3,9 +3,7 @@
   "title": "aria-pressed attribute",
   "description": "Indicates the current \"pressed\" state of toggle buttons. See related aria-checked and aria-selected.",
   "category": "aria",
-  "keywords": [
-    "aria-pressed attribute"
-  ],
+  "keywords": "aria-pressed attribute",
   "last_test_date": "2019-11-11",
   "test_results_url": "https://a11ysupport.io/tech/aria/aria-pressed_attribute",
   "test_url": "https://a11ysupport.io/tech/aria/aria-pressed_attribute",

@@ -3,9 +3,7 @@
   "title": "menuitem role",
   "description": "An option in a set of choices contained by a menu or menubar.",
   "category": "aria",
-  "keywords": [
-    "menuitem role"
-  ],
+  "keywords": "menuitem role",
   "last_test_date": "2020-03-25",
   "test_results_url": "https://a11ysupport.io/tech/aria/menuitem_role",
   "test_url": "https://a11ysupport.io/tech/aria/menuitem_role",

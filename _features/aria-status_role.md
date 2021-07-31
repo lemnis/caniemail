@@ -3,9 +3,7 @@
   "title": "status role",
   "description": "A type of live region whose content is advisory information for the user but is not important enough to justify an alert, often but not necessarily presented as a status bar.",
   "category": "aria",
-  "keywords": [
-    "status role"
-  ],
+  "keywords": "status role",
   "last_test_date": "2020-07-08",
   "test_results_url": "https://a11ysupport.io/tech/aria/status_role",
   "test_url": "https://a11ysupport.io/tech/aria/status_role",

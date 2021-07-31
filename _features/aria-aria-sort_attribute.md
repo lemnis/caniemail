@@ -3,9 +3,7 @@
   "title": "aria-sort attribute",
   "description": "Indicates if items in a table or grid are sorted in ascending or descending order.",
   "category": "aria",
-  "keywords": [
-    "aria-sort attribute"
-  ],
+  "keywords": "aria-sort attribute",
   "last_test_date": "2020-09-08",
   "test_results_url": "https://a11ysupport.io/tech/aria/aria-sort_attribute",
   "test_url": "https://a11ysupport.io/tech/aria/aria-sort_attribute",

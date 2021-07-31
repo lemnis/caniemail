@@ -3,9 +3,7 @@
   "title": "section element",
   "description": "Per the HTML AAM spec, a section element will be mapped to the region role if the section element has an accessible name. Otherwise, no corresponding role. Only the `aria-label`, `aria-labelledby`, and `title` attributes can provide an accessible name. ",
   "category": "html",
-  "keywords": [
-    "section element"
-  ],
+  "keywords": "section element",
   "last_test_date": "2019-09-16",
   "test_results_url": "https://a11ysupport.io/tech/html/section_element",
   "test_url": "https://a11ysupport.io/tech/html/section_element",

@@ -3,9 +3,7 @@
   "title": "input[type=\"checkbox\"] element",
   "description": "The input element represents a two-state control that represents the element's checkedness state.",
   "category": "html",
-  "keywords": [
-    "input[type=\"checkbox\"] element"
-  ],
+  "keywords": "input[type=\"checkbox\"] element",
   "last_test_date": "2018-10-29",
   "test_results_url": "https://a11ysupport.io/tech/html/input(type-checkbox)_element",
   "test_url": "https://a11ysupport.io/tech/html/input(type-checkbox)_element",

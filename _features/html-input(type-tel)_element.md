@@ -3,9 +3,7 @@
   "title": "input[type=\"tel\"] element",
   "description": "",
   "category": "html",
-  "keywords": [
-    "input[type=\"tel\"] element"
-  ],
+  "keywords": "input[type=\"tel\"] element",
   "last_test_date": "2018-07-21",
   "test_results_url": "https://a11ysupport.io/tech/html/input(type-tel)_element",
   "test_url": "https://a11ysupport.io/tech/html/input(type-tel)_element",

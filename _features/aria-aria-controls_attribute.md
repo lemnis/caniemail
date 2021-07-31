@@ -3,9 +3,7 @@
   "title": "aria-controls attribute",
   "description": "Identifies the element (or elements) whose contents or presence are controlled by the current element. See related aria-owns.",
   "category": "aria",
-  "keywords": [
-    "aria-controls attribute"
-  ],
+  "keywords": "aria-controls attribute",
   "last_test_date": "2020-11-09",
   "test_results_url": "https://a11ysupport.io/tech/aria/aria-controls_attribute",
   "test_url": "https://a11ysupport.io/tech/aria/aria-controls_attribute",

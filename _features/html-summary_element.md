@@ -3,9 +3,7 @@
   "title": "summary element",
   "description": "The details element represents a disclosure widget from which the user can obtain additional information or controls. Note that per the HTML5 spec, headings are allowed in the summary element.",
   "category": "html",
-  "keywords": [
-    "summary element"
-  ],
+  "keywords": "summary element",
   "last_test_date": "2019-08-05",
   "test_results_url": "https://a11ysupport.io/tech/html/summary_element",
   "test_url": "https://a11ysupport.io/tech/html/summary_element",

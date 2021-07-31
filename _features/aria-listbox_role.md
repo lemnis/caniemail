@@ -3,9 +3,7 @@
   "title": "listbox role",
   "description": "A widget that allows the user to select one or more items from a list of choices. See related combobox and list.",
   "category": "aria",
-  "keywords": [
-    "listbox role"
-  ],
+  "keywords": "listbox role",
   "last_test_date": "2020-10-01",
   "test_results_url": "https://a11ysupport.io/tech/aria/listbox_role",
   "test_url": "https://a11ysupport.io/tech/aria/listbox_role",

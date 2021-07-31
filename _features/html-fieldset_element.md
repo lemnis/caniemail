@@ -3,9 +3,7 @@
   "title": "fieldset element",
   "description": "The fieldset element represents a set of form controls (or other content) grouped together, optionally with a caption.",
   "category": "html",
-  "keywords": [
-    "fieldset element"
-  ],
+  "keywords": "fieldset element",
   "last_test_date": "2019-08-21",
   "test_results_url": "https://a11ysupport.io/tech/html/fieldset_element",
   "test_url": "https://a11ysupport.io/tech/html/fieldset_element",

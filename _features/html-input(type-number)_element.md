@@ -3,9 +3,7 @@
   "title": "input[type=\"number\"] element",
   "description": "",
   "category": "html",
-  "keywords": [
-    "input[type=\"number\"] element"
-  ],
+  "keywords": "input[type=\"number\"] element",
   "last_test_date": "2020-03-16",
   "test_results_url": "https://a11ysupport.io/tech/html/input(type-number)_element",
   "test_url": "https://a11ysupport.io/tech/html/input(type-number)_element",

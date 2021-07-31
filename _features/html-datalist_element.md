@@ -3,9 +3,7 @@
   "title": "datalist element",
   "description": "The datalist element represents a set of option elements that represent predefined options for other controls. It is attached to an input via the list attribute.",
   "category": "html",
-  "keywords": [
-    "datalist element"
-  ],
+  "keywords": "datalist element",
   "last_test_date": "2019-07-19",
   "test_results_url": "https://a11ysupport.io/tech/html/datalist_element",
   "test_url": "https://a11ysupport.io/tech/html/datalist_element",

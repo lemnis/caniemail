@@ -3,9 +3,7 @@
   "title": "dialog role",
   "description": "A dialog is a descendant window of the primary window of a web application. For HTML pages, the primary application window is the entire web document, i.e., the body element.",
   "category": "aria",
-  "keywords": [
-    "dialog role"
-  ],
+  "keywords": "dialog role",
   "last_test_date": "2019-08-13",
   "test_results_url": "https://a11ysupport.io/tech/aria/dialog_role",
   "test_url": "https://a11ysupport.io/tech/aria/dialog_role",

@@ -3,9 +3,7 @@
   "title": "dt element",
   "description": "Description list - term element. See [the `dl` element](/tech/html/dl_element) for more information.",
   "category": "html",
-  "keywords": [
-    "dt element"
-  ],
+  "keywords": "dt element",
   "last_test_date": "2018-09-05",
   "test_results_url": "https://a11ysupport.io/tech/html/dt_element",
   "test_url": "https://a11ysupport.io/tech/html/dt_element",

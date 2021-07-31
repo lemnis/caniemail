@@ -3,9 +3,7 @@
   "title": "textarea element",
   "description": "",
   "category": "html",
-  "keywords": [
-    "textarea element"
-  ],
+  "keywords": "textarea element",
   "last_test_date": "2020-01-03",
   "test_results_url": "https://a11ysupport.io/tech/html/textarea_element",
   "test_url": "https://a11ysupport.io/tech/html/textarea_element",

@@ -3,9 +3,7 @@
   "title": "input[type=\"email\"] element",
   "description": "",
   "category": "html",
-  "keywords": [
-    "input[type=\"email\"] element"
-  ],
+  "keywords": "input[type=\"email\"] element",
   "last_test_date": "2018-07-21",
   "test_results_url": "https://a11ysupport.io/tech/html/input(type-email)_element",
   "test_url": "https://a11ysupport.io/tech/html/input(type-email)_element",

@@ -3,9 +3,7 @@
   "title": "input[type=\"button\"] element",
   "description": "The input element represents a button with no default behavior.",
   "category": "html",
-  "keywords": [
-    "input[type=\"button\"] element"
-  ],
+  "keywords": "input[type=\"button\"] element",
   "last_test_date": "2018-07-21",
   "test_results_url": "https://a11ysupport.io/tech/html/input(type-button)_element",
   "test_url": "https://a11ysupport.io/tech/html/input(type-button)_element",

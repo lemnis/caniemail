@@ -3,9 +3,7 @@
   "title": "alertdialog role",
   "description": "A type of dialog that contains an alert message, where initial focus goes to an element within the dialog. See related alert and dialog.",
   "category": "aria",
-  "keywords": [
-    "alertdialog role"
-  ],
+  "keywords": "alertdialog role",
   "last_test_date": "2019-01-06",
   "test_results_url": "https://a11ysupport.io/tech/aria/alertdialog_role",
   "test_url": "https://a11ysupport.io/tech/aria/alertdialog_role",

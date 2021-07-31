@@ -3,9 +3,7 @@
   "title": "label element",
   "description": "The HTML `<label>` element provides instructions for an associated form control.",
   "category": "html",
-  "keywords": [
-    "label element"
-  ],
+  "keywords": "label element",
   "last_test_date": "2018-06-19",
   "test_results_url": "https://a11ysupport.io/tech/html/label_element",
   "test_url": "https://a11ysupport.io/tech/html/label_element",

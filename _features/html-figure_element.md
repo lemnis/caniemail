@@ -3,9 +3,7 @@
   "title": "figure element",
   "description": "",
   "category": "html",
-  "keywords": [
-    "figure element"
-  ],
+  "keywords": "figure element",
   "last_test_date": "2019-01-21",
   "test_results_url": "https://a11ysupport.io/tech/html/figure_element",
   "test_url": "https://a11ysupport.io/tech/html/figure_element",

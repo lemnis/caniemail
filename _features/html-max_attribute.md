@@ -3,9 +3,7 @@
   "title": "max attribute",
   "description": "The min and max attributes indicate the allowed range of values for the element.",
   "category": "html",
-  "keywords": [
-    "max attribute"
-  ],
+  "keywords": "max attribute",
   "last_test_date": "2019-09-23",
   "test_results_url": "https://a11ysupport.io/tech/html/max_attribute",
   "test_url": "https://a11ysupport.io/tech/html/max_attribute",

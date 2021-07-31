@@ -3,9 +3,7 @@
   "title": "maxlength attribute",
   "description": "The min and max attributes indicate the allowed range of values for the element.",
   "category": "html",
-  "keywords": [
-    "maxlength attribute"
-  ],
+  "keywords": "maxlength attribute",
   "last_test_date": "2020-04-03",
   "test_results_url": "https://a11ysupport.io/tech/html/maxlength_attribute",
   "test_url": "https://a11ysupport.io/tech/html/maxlength_attribute",

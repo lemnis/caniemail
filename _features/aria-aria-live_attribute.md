@@ -3,9 +3,7 @@
   "title": "aria-live attribute",
   "description": "Indicates that an element will be updated, and describes the types of updates the user agents, assistive technologies, and user can expect from the live region.",
   "category": "aria",
-  "keywords": [
-    "aria-live attribute"
-  ],
+  "keywords": "aria-live attribute",
   "last_test_date": "2020-06-24",
   "test_results_url": "https://a11ysupport.io/tech/aria/aria-live_attribute",
   "test_url": "https://a11ysupport.io/tech/aria/aria-live_attribute",

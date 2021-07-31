@@ -3,9 +3,7 @@
   "title": "figcaption element",
   "description": "",
   "category": "html",
-  "keywords": [
-    "figcaption element"
-  ],
+  "keywords": "figcaption element",
   "last_test_date": "2019-01-21",
   "test_results_url": "https://a11ysupport.io/tech/html/figcaption_element",
   "test_url": "https://a11ysupport.io/tech/html/figcaption_element",

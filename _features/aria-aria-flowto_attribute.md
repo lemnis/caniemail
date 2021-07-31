@@ -3,9 +3,7 @@
   "title": "aria-flowto attribute",
   "description": "Identifies the next element (or elements) in an alternate reading order of content which, at the user's discretion, allows assistive technology to override the general default of reading in document source order.",
   "category": "aria",
-  "keywords": [
-    "aria-flowto attribute"
-  ],
+  "keywords": "aria-flowto attribute",
   "last_test_date": "2019-01-08",
   "test_results_url": "https://a11ysupport.io/tech/aria/aria-flowto_attribute",
   "test_url": "https://a11ysupport.io/tech/aria/aria-flowto_attribute",

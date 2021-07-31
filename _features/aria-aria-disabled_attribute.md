@@ -3,9 +3,7 @@
   "title": "aria-disabled attribute",
   "description": "Indicates that the element is perceivable but disabled, so it is not editable or otherwise operable. See related aria-hidden and aria-readonly.",
   "category": "aria",
-  "keywords": [
-    "aria-disabled attribute"
-  ],
+  "keywords": "aria-disabled attribute",
   "last_test_date": "2020-01-08",
   "test_results_url": "https://a11ysupport.io/tech/aria/aria-disabled_attribute",
   "test_url": "https://a11ysupport.io/tech/aria/aria-disabled_attribute",

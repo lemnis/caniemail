@@ -3,9 +3,7 @@
   "title": "link role",
   "description": "An interactive reference to an internal or external resource that, when activated, causes the user agent to navigate to that resource. See related button.",
   "category": "aria",
-  "keywords": [
-    "link role"
-  ],
+  "keywords": "link role",
   "last_test_date": "2019-09-14",
   "test_results_url": "https://a11ysupport.io/tech/aria/link_role",
   "test_url": "https://a11ysupport.io/tech/aria/link_role",

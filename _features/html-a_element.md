@@ -3,9 +3,7 @@
   "title": "placeholder link element",
   "description": "If the a element has no href attribute, then the element represents a placeholder for where a link might otherwise have been placed, if it had been relevant, consisting of just the element's contents.",
   "category": "html",
-  "keywords": [
-    "placeholder link element"
-  ],
+  "keywords": "placeholder link element",
   "last_test_date": "2019-07-28",
   "test_results_url": "https://a11ysupport.io/tech/html/a_element",
   "test_url": "https://a11ysupport.io/tech/html/a_element",

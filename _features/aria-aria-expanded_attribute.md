@@ -3,9 +3,7 @@
   "title": "aria-expanded attribute",
   "description": "Indicates whether the element, or another grouping element it controls, is currently expanded or collapsed.",
   "category": "aria",
-  "keywords": [
-    "aria-expanded attribute"
-  ],
+  "keywords": "aria-expanded attribute",
   "last_test_date": "2020-03-25",
   "test_results_url": "https://a11ysupport.io/tech/aria/aria-expanded_attribute",
   "test_url": "https://a11ysupport.io/tech/aria/aria-expanded_attribute",

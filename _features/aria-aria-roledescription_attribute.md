@@ -3,9 +3,7 @@
   "title": "aria-roledescription attribute",
   "description": "Defines a human-readable, author-localized description for the role of an element.",
   "category": "aria",
-  "keywords": [
-    "aria-roledescription attribute"
-  ],
+  "keywords": "aria-roledescription attribute",
   "last_test_date": "2018-11-12",
   "test_results_url": "https://a11ysupport.io/tech/aria/aria-roledescription_attribute",
   "test_url": "https://a11ysupport.io/tech/aria/aria-roledescription_attribute",

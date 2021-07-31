@@ -3,9 +3,7 @@
   "title": "role attribute",
   "description": "The role attribute is used to convey the purpose of various elements to users of assistive technology. While the role attribute is defined in ARIA, these expectations test the attribute as implemented in HTML.",
   "category": "html",
-  "keywords": [
-    "role attribute"
-  ],
+  "keywords": "role attribute",
   "last_test_date": "2019-12-02",
   "test_results_url": "https://a11ysupport.io/tech/html/role_attribute",
   "test_url": "https://a11ysupport.io/tech/html/role_attribute",

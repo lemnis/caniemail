@@ -3,9 +3,7 @@
   "title": "alert role",
   "description": "A type of live region with important, and usually time-sensitive, information. See related alertdialog and status.",
   "category": "aria",
-  "keywords": [
-    "alert role"
-  ],
+  "keywords": "alert role",
   "last_test_date": "2020-06-19",
   "test_results_url": "https://a11ysupport.io/tech/aria/alert_role",
   "test_url": "https://a11ysupport.io/tech/aria/alert_role",

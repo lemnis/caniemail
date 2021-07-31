@@ -3,9 +3,7 @@
   "title": "input[type=\"datetime-local\"] element",
   "description": "",
   "category": "html",
-  "keywords": [
-    "input[type=\"datetime-local\"] element"
-  ],
+  "keywords": "input[type=\"datetime-local\"] element",
   "last_test_date": "2018-07-21",
   "test_results_url": "https://a11ysupport.io/tech/html/input(type-datetime-local)_element",
   "test_url": "https://a11ysupport.io/tech/html/input(type-datetime-local)_element",

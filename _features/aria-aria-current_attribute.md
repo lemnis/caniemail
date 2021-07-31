@@ -3,9 +3,7 @@
   "title": "aria-current attribute",
   "description": "Indicates the element that represents the current item within a container or set of related elements.",
   "category": "aria",
-  "keywords": [
-    "aria-current attribute"
-  ],
+  "keywords": "aria-current attribute",
   "last_test_date": "2019-01-06",
   "test_results_url": "https://a11ysupport.io/tech/aria/aria-current_attribute",
   "test_url": "https://a11ysupport.io/tech/aria/aria-current_attribute",

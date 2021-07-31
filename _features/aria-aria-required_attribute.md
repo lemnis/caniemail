@@ -3,9 +3,7 @@
   "title": "aria-required attribute",
   "description": "Indicates that user input is required on the element before a form may be submitted.",
   "category": "aria",
-  "keywords": [
-    "aria-required attribute"
-  ],
+  "keywords": "aria-required attribute",
   "last_test_date": "2019-01-06",
   "test_results_url": "https://a11ysupport.io/tech/aria/aria-required_attribute",
   "test_url": "https://a11ysupport.io/tech/aria/aria-required_attribute",

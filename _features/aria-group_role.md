@@ -3,9 +3,7 @@
   "title": "group role",
   "description": "A set of user interface objects which are not intended to be included in a page summary or table of contents by assistive technologies.",
   "category": "aria",
-  "keywords": [
-    "group role"
-  ],
+  "keywords": "group role",
   "last_test_date": "2019-01-06",
   "test_results_url": "https://a11ysupport.io/tech/aria/group_role",
   "test_url": "https://a11ysupport.io/tech/aria/group_role",

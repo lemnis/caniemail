@@ -3,9 +3,7 @@
   "title": "li element",
   "description": "",
   "category": "html",
-  "keywords": [
-    "li element"
-  ],
+  "keywords": "li element",
   "last_test_date": "2020-09-21",
   "test_results_url": "https://a11ysupport.io/tech/html/li_element",
   "test_url": "https://a11ysupport.io/tech/html/li_element",

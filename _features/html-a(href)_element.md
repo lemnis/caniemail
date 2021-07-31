@@ -3,9 +3,7 @@
   "title": "hyperlink element",
   "description": "If the a element has an href attribute, then it represents a hyperlink (a hypertext anchor) labeled by its contents.",
   "category": "html",
-  "keywords": [
-    "hyperlink element"
-  ],
+  "keywords": "hyperlink element",
   "last_test_date": "2019-07-28",
   "test_results_url": "https://a11ysupport.io/tech/html/a(href)_element",
   "test_url": "https://a11ysupport.io/tech/html/a(href)_element",

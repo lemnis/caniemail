@@ -3,9 +3,7 @@
   "title": "legend element",
   "description": "The legend element represents a caption for the rest of the contents of the legend element's parent fieldset element, if any.",
   "category": "html",
-  "keywords": [
-    "legend element"
-  ],
+  "keywords": "legend element",
   "last_test_date": "2019-08-21",
   "test_results_url": "https://a11ysupport.io/tech/html/legend_element",
   "test_url": "https://a11ysupport.io/tech/html/legend_element",

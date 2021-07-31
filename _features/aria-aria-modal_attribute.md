@@ -3,9 +3,7 @@
   "title": "aria-modal attribute",
   "description": "Indicates whether an element is modal when displayed. For more robust support, consider making the rest of the document [inert](https://github.com/WICG/inert) when an element has aria-modal=true.",
   "category": "aria",
-  "keywords": [
-    "aria-modal attribute"
-  ],
+  "keywords": "aria-modal attribute",
   "last_test_date": "2019-08-13",
   "test_results_url": "https://a11ysupport.io/tech/aria/aria-modal_attribute",
   "test_url": "https://a11ysupport.io/tech/aria/aria-modal_attribute",

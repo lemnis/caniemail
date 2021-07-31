@@ -3,9 +3,7 @@
   "title": "aria-relevant attribute",
   "description": "Indicates what notifications the user agent will trigger when the accessibility tree within a live region is modified. See related aria-relevant.",
   "category": "aria",
-  "keywords": [
-    "aria-relevant attribute"
-  ],
+  "keywords": "aria-relevant attribute",
   "last_test_date": "2020-04-13",
   "test_results_url": "https://a11ysupport.io/tech/aria/aria-relevant_attribute",
   "test_url": "https://a11ysupport.io/tech/aria/aria-relevant_attribute",

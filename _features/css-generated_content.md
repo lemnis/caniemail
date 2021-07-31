@@ -3,9 +3,7 @@
   "title": "CSS generated content",
   "description": "CSS Generated Content is content that is added to the DOM via CSS such as ::before and ::after content.",
   "category": "css",
-  "keywords": [
-    "CSS generated content"
-  ],
+  "keywords": "CSS generated content",
   "last_test_date": "2018-07-21",
   "test_results_url": "https://a11ysupport.io/tech/css/generated_content",
   "test_url": "https://a11ysupport.io/tech/css/generated_content",

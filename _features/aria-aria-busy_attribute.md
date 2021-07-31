@@ -3,9 +3,7 @@
   "title": "aria-busy attribute",
   "description": "Indicates an element is being modified and that assistive technologies MAY want to wait until the modifications are complete before exposing them to the user.",
   "category": "aria",
-  "keywords": [
-    "aria-busy attribute"
-  ],
+  "keywords": "aria-busy attribute",
   "last_test_date": "2021-03-01",
   "test_results_url": "https://a11ysupport.io/tech/aria/aria-busy_attribute",
   "test_url": "https://a11ysupport.io/tech/aria/aria-busy_attribute",

@@ -3,9 +3,7 @@
   "title": "button element",
   "description": "The button element represents a button labeled by its contents.",
   "category": "html",
-  "keywords": [
-    "button element"
-  ],
+  "keywords": "button element",
   "last_test_date": "2020-08-15",
   "test_results_url": "https://a11ysupport.io/tech/html/button_element",
   "test_url": "https://a11ysupport.io/tech/html/button_element",

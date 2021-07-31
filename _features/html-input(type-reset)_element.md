@@ -3,9 +3,7 @@
   "title": "input[type=\"reset\"] element",
   "description": "The input element represents a button that, when activated, resets the form.",
   "category": "html",
-  "keywords": [
-    "input[type=\"reset\"] element"
-  ],
+  "keywords": "input[type=\"reset\"] element",
   "last_test_date": "2018-07-21",
   "test_results_url": "https://a11ysupport.io/tech/html/input(type-reset)_element",
   "test_url": "https://a11ysupport.io/tech/html/input(type-reset)_element",

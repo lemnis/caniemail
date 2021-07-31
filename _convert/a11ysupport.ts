@@ -111,7 +111,7 @@ function convertFeature(feature: Feature) {
 		title: feature.title,
 		description: feature.description,
 		category: (feature as any).techId,
-		keywords: feature.keywords,
+		keywords: feature.keywords.toString(),
 		last_test_date: feature.date_updated,
 		test_results_url: `https://a11ysupport.io/tech/${feature.id}`,
 		test_url: `https://a11ysupport.io/tech/${feature.id}`,

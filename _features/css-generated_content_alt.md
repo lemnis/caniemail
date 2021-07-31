@@ -3,9 +3,7 @@
   "title": "CSS generated content - alternative text",
   "description": "The content property accepts alternative text to be specified after a slash (/) after the last <content-list>.",
   "category": "css",
-  "keywords": [
-    "CSS generated content - alternative text"
-  ],
+  "keywords": "CSS generated content - alternative text",
   "last_test_date": "2020-04-16",
   "test_results_url": "https://a11ysupport.io/tech/css/generated_content_alt",
   "test_url": "https://a11ysupport.io/tech/css/generated_content_alt",

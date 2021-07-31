@@ -3,9 +3,7 @@
   "title": "input[type=\"radio\"] element",
   "description": "The html radio input",
   "category": "html",
-  "keywords": [
-    "input[type=\"radio\"] element"
-  ],
+  "keywords": "input[type=\"radio\"] element",
   "last_test_date": "2019-08-21",
   "test_results_url": "https://a11ysupport.io/tech/html/input(type-radio)_element",
   "test_url": "https://a11ysupport.io/tech/html/input(type-radio)_element",

@@ -3,9 +3,7 @@
   "title": "lang attribute",
   "description": "The HTML `lang` attributes lets authors change the language for content on a page.",
   "category": "html",
-  "keywords": [
-    "lang attribute"
-  ],
+  "keywords": "lang attribute",
   "last_test_date": "2018-10-19",
   "test_results_url": "https://a11ysupport.io/tech/html/lang_attribute",
   "test_url": "https://a11ysupport.io/tech/html/lang_attribute",

@@ -3,9 +3,7 @@
   "title": "log role",
   "description": "A type of live region where new information is added in meaningful order and old information may disappear",
   "category": "aria",
-  "keywords": [
-    "log role"
-  ],
+  "keywords": "log role",
   "last_test_date": "2020-07-14",
   "test_results_url": "https://a11ysupport.io/tech/aria/log_role",
   "test_url": "https://a11ysupport.io/tech/aria/log_role",

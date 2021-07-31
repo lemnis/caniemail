@@ -3,9 +3,7 @@
   "title": "aria-labelledby attribute",
   "description": "Identifies the element (or elements) that labels the current element. See related aria-describedby.",
   "category": "aria",
-  "keywords": [
-    "aria-labelledby attribute"
-  ],
+  "keywords": "aria-labelledby attribute",
   "last_test_date": "2019-01-06",
   "test_results_url": "https://a11ysupport.io/tech/aria/aria-labelledby_attribute",
   "test_url": "https://a11ysupport.io/tech/aria/aria-labelledby_attribute",

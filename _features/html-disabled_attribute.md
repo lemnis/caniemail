@@ -3,9 +3,7 @@
   "title": "disabled attribute",
   "description": "The HTML `disabled` attribute lets authors disable form controls. Note, adding the disabled attribute to form controls will generally cause them to not be focusable.",
   "category": "html",
-  "keywords": [
-    "disabled attribute"
-  ],
+  "keywords": "disabled attribute",
   "last_test_date": "2018-11-08",
   "test_results_url": "https://a11ysupport.io/tech/html/disabled_attribute",
   "test_url": "https://a11ysupport.io/tech/html/disabled_attribute",

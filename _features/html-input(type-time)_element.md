@@ -3,9 +3,7 @@
   "title": "input[type=\"time\"] element",
   "description": "",
   "category": "html",
-  "keywords": [
-    "input[type=\"time\"] element"
-  ],
+  "keywords": "input[type=\"time\"] element",
   "last_test_date": "2018-07-21",
   "test_results_url": "https://a11ysupport.io/tech/html/input(type-time)_element",
   "test_url": "https://a11ysupport.io/tech/html/input(type-time)_element",

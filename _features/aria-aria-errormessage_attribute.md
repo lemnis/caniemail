@@ -3,9 +3,7 @@
   "title": "aria-errormessage attribute",
   "description": "Identifies the element that provides an error message for the object.  See related aria-invalid and aria-describedby. ",
   "category": "aria",
-  "keywords": [
-    "aria-errormessage attribute"
-  ],
+  "keywords": "aria-errormessage attribute",
   "last_test_date": "2019-09-02",
   "test_results_url": "https://a11ysupport.io/tech/aria/aria-errormessage_attribute",
   "test_url": "https://a11ysupport.io/tech/aria/aria-errormessage_attribute",

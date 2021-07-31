@@ -3,9 +3,7 @@
   "title": "grid role",
   "description": "A composite widget containing a collection of one or more rows with one or more cells where some or all cells in the grid are focusable by using methods of two-dimensional navigation, such as directional arrow keys.",
   "category": "aria",
-  "keywords": [
-    "grid role"
-  ],
+  "keywords": "grid role",
   "last_test_date": "2020-05-07",
   "test_results_url": "https://a11ysupport.io/tech/aria/grid_role",
   "test_url": "https://a11ysupport.io/tech/aria/grid_role",

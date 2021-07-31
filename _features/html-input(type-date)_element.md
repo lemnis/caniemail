@@ -3,9 +3,7 @@
   "title": "input[type=\"date\"] element",
   "description": "",
   "category": "html",
-  "keywords": [
-    "input[type=\"date\"] element"
-  ],
+  "keywords": "input[type=\"date\"] element",
   "last_test_date": "2018-10-31",
   "test_results_url": "https://a11ysupport.io/tech/html/input(type-date)_element",
   "test_url": "https://a11ysupport.io/tech/html/input(type-date)_element",

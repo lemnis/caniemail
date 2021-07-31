@@ -3,9 +3,7 @@
   "title": "aria-label attribute",
   "description": "Defines a string value that labels the current element. See related aria-labelledby.",
   "category": "aria",
-  "keywords": [
-    "aria-label attribute"
-  ],
+  "keywords": "aria-label attribute",
   "last_test_date": "2019-09-16",
   "test_results_url": "https://a11ysupport.io/tech/aria/aria-label_attribute",
   "test_url": "https://a11ysupport.io/tech/aria/aria-label_attribute",

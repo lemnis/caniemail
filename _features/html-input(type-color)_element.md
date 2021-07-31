@@ -3,9 +3,7 @@
   "title": "input[type=\"color\"] element",
   "description": "The input element represents a color well control, for setting the element's value to a string representing a simple color.",
   "category": "html",
-  "keywords": [
-    "input[type=\"color\"] element"
-  ],
+  "keywords": "input[type=\"color\"] element",
   "last_test_date": "2018-10-29",
   "test_results_url": "https://a11ysupport.io/tech/html/input(type-color)_element",
   "test_url": "https://a11ysupport.io/tech/html/input(type-color)_element",

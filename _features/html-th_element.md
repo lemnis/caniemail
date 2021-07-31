@@ -3,10 +3,7 @@
   "title": "th element",
   "description": "",
   "category": "html",
-  "keywords": [
-    "th element",
-    "scope=\"row\""
-  ],
+  "keywords": "th element,scope=\"row\"",
   "last_test_date": "2019-05-03",
   "test_results_url": "https://a11ysupport.io/tech/html/th_element",
   "test_url": "https://a11ysupport.io/tech/html/th_element",

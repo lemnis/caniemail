@@ -3,9 +3,7 @@
   "title": "required attribute",
   "description": "The required attribute is a boolean attribute. When specified, the element is required.",
   "category": "html",
-  "keywords": [
-    "required attribute"
-  ],
+  "keywords": "required attribute",
   "last_test_date": "2019-08-21",
   "test_results_url": "https://a11ysupport.io/tech/html/required_attribute",
   "test_url": "https://a11ysupport.io/tech/html/required_attribute",

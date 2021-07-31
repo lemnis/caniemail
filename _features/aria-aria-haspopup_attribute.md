@@ -3,9 +3,7 @@
   "title": "aria-haspopup attribute",
   "description": "This attribute indicates the availability and type of interactive popup element, such as menu or dialog.\n\n Aria 1.0 values are well supported, such as `true`, `false`, and `menu` (which is the same as `true`). New values such as `dialog`, `grid`, `listbox`, and `tree` are not supported. This lack of support might cause significant issues for screen reader users. For example, `aria-haspopup=\"listbox\"` being announced as `aria-haspopup=\"menu\"` could lead users to think that something the behaves like a native `<select>` (`listbox`) is a `menu`.",
   "category": "aria",
-  "keywords": [
-    "aria-haspopup attribute"
-  ],
+  "keywords": "aria-haspopup attribute",
   "last_test_date": "2019-04-02",
   "test_results_url": "https://a11ysupport.io/tech/aria/aria-haspopup_attribute",
   "test_url": "https://a11ysupport.io/tech/aria/aria-haspopup_attribute",

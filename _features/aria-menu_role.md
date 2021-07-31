@@ -3,9 +3,7 @@
   "title": "menu role",
   "description": "A type of widget that offers a list of choices to the user.",
   "category": "aria",
-  "keywords": [
-    "menu role"
-  ],
+  "keywords": "menu role",
   "last_test_date": "2020-03-25",
   "test_results_url": "https://a11ysupport.io/tech/aria/menu_role",
   "test_url": "https://a11ysupport.io/tech/aria/menu_role",

@@ -3,9 +3,7 @@
   "title": "dl element (description list)",
   "description": "Description list element. See the related [`dt` element](/tech/html/dt_element) and the [`dd` element](/tech/html/dd_element) for more information.",
   "category": "html",
-  "keywords": [
-    "dl element (description list)"
-  ],
+  "keywords": "dl element (description list)",
   "last_test_date": "2018-09-05",
   "test_results_url": "https://a11ysupport.io/tech/html/dl_element",
   "test_url": "https://a11ysupport.io/tech/html/dl_element",

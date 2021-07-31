@@ -3,9 +3,7 @@
   "title": "radiogroup role",
   "description": "A group of radio buttons.",
   "category": "aria",
-  "keywords": [
-    "radiogroup role"
-  ],
+  "keywords": "radiogroup role",
   "last_test_date": "2019-01-06",
   "test_results_url": "https://a11ysupport.io/tech/aria/radiogroup_role",
   "test_url": "https://a11ysupport.io/tech/aria/radiogroup_role",

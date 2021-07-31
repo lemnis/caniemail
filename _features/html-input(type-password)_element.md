@@ -3,9 +3,7 @@
   "title": "input[type=\"password\"] element",
   "description": "",
   "category": "html",
-  "keywords": [
-    "input[type=\"password\"] element"
-  ],
+  "keywords": "input[type=\"password\"] element",
   "last_test_date": "2019-10-15",
   "test_results_url": "https://a11ysupport.io/tech/html/input(type-password)_element",
   "test_url": "https://a11ysupport.io/tech/html/input(type-password)_element",

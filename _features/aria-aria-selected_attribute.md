@@ -3,9 +3,7 @@
   "title": "aria-selected attribute",
   "description": "Indicates the current \"selected\" state of various widgets. See related aria-checked and aria-pressed.",
   "category": "aria",
-  "keywords": [
-    "aria-selected attribute"
-  ],
+  "keywords": "aria-selected attribute",
   "last_test_date": "2019-08-02",
   "test_results_url": "https://a11ysupport.io/tech/aria/aria-selected_attribute",
   "test_url": "https://a11ysupport.io/tech/aria/aria-selected_attribute",

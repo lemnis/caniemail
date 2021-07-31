@@ -3,9 +3,7 @@
   "title": "h1, h2, h3, h4, h5, and h6 elements",
   "description": "",
   "category": "html",
-  "keywords": [
-    "h1, h2, h3, h4, h5, and h6 elements"
-  ],
+  "keywords": "h1, h2, h3, h4, h5, and h6 elements",
   "last_test_date": "2019-07-11",
   "test_results_url": "https://a11ysupport.io/tech/html/h1-6_elements",
   "test_url": "https://a11ysupport.io/tech/html/h1-6_elements",

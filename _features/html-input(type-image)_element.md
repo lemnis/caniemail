@@ -3,9 +3,7 @@
   "title": "input[type=\"image\"] element",
   "description": "The input element represents either an image from which a user can select a coordinate and submit the form, or alternatively a button from which the user can submit the form.",
   "category": "html",
-  "keywords": [
-    "input[type=\"image\"] element"
-  ],
+  "keywords": "input[type=\"image\"] element",
   "last_test_date": "2018-07-21",
   "test_results_url": "https://a11ysupport.io/tech/html/input(type-image)_element",
   "test_url": "https://a11ysupport.io/tech/html/input(type-image)_element",

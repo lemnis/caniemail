@@ -3,9 +3,7 @@
   "title": "combobox role",
   "description": "A composite widget containing a single-line textbox and another element, such as a listbox or grid, that can dynamically pop up to help the user set the value of the textbox.",
   "category": "aria",
-  "keywords": [
-    "combobox role"
-  ],
+  "keywords": "combobox role",
   "last_test_date": "2020-10-01",
   "test_results_url": "https://a11ysupport.io/tech/aria/combobox_role",
   "test_url": "https://a11ysupport.io/tech/aria/combobox_role",

@@ -3,9 +3,7 @@
   "title": "input[type=\"text\"] element",
   "description": "",
   "category": "html",
-  "keywords": [
-    "input[type=\"text\"] element"
-  ],
+  "keywords": "input[type=\"text\"] element",
   "last_test_date": "2019-07-20",
   "test_results_url": "https://a11ysupport.io/tech/html/input(type-text)_element",
   "test_url": "https://a11ysupport.io/tech/html/input(type-text)_element",

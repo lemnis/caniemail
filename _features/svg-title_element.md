@@ -3,9 +3,7 @@
   "title": "title element",
   "description": "The title of an SVG",
   "category": "svg",
-  "keywords": [
-    "title element"
-  ],
+  "keywords": "title element",
   "last_test_date": "2018-12-14",
   "test_results_url": "https://a11ysupport.io/tech/svg/title_element",
   "test_url": "https://a11ysupport.io/tech/svg/title_element",

@@ -3,9 +3,7 @@
   "title": "list attribute",
   "description": "The list attribute is used to identify an element that lists predefined options suggested to the user.",
   "category": "html",
-  "keywords": [
-    "list attribute"
-  ],
+  "keywords": "list attribute",
   "last_test_date": "2019-07-19",
   "test_results_url": "https://a11ysupport.io/tech/html/list_attribute",
   "test_url": "https://a11ysupport.io/tech/html/list_attribute",

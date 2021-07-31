@@ -3,9 +3,7 @@
   "title": "aria-activedescendant attribute",
   "description": "Identifies the currently active element when DOM focus is on a composite widget, textbox, group, or application.",
   "category": "aria",
-  "keywords": [
-    "aria-activedescendant attribute"
-  ],
+  "keywords": "aria-activedescendant attribute",
   "last_test_date": "2020-03-25",
   "test_results_url": "https://a11ysupport.io/tech/aria/aria-activedescendant_attribute",
   "test_url": "https://a11ysupport.io/tech/aria/aria-activedescendant_attribute",

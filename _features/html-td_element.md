@@ -3,10 +3,7 @@
   "title": "td element",
   "description": "",
   "category": "html",
-  "keywords": [
-    "td element",
-    "scope=\"row\""
-  ],
+  "keywords": "td element,scope=\"row\"",
   "last_test_date": "2019-05-03",
   "test_results_url": "https://a11ysupport.io/tech/html/td_element",
   "test_url": "https://a11ysupport.io/tech/html/td_element",

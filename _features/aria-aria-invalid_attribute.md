@@ -3,9 +3,7 @@
   "title": "aria-invalid attribute",
   "description": "Indicates the entered value does not conform to the format expected by the application. See related aria-errormessage.",
   "category": "aria",
-  "keywords": [
-    "aria-invalid attribute"
-  ],
+  "keywords": "aria-invalid attribute",
   "last_test_date": "2020-02-14",
   "test_results_url": "https://a11ysupport.io/tech/aria/aria-invalid_attribute",
   "test_url": "https://a11ysupport.io/tech/aria/aria-invalid_attribute",

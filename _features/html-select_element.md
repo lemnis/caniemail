@@ -3,9 +3,7 @@
   "title": "select element",
   "description": "",
   "category": "html",
-  "keywords": [
-    "select element"
-  ],
+  "keywords": "select element",
   "last_test_date": "2019-07-19",
   "test_results_url": "https://a11ysupport.io/tech/html/select_element",
   "test_url": "https://a11ysupport.io/tech/html/select_element",

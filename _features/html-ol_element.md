@@ -3,9 +3,7 @@
   "title": "ol element",
   "description": "",
   "category": "html",
-  "keywords": [
-    "ol element"
-  ],
+  "keywords": "ol element",
   "last_test_date": "2019-09-15",
   "test_results_url": "https://a11ysupport.io/tech/html/ol_element",
   "test_url": "https://a11ysupport.io/tech/html/ol_element",
