@@ -1,4 +1,4 @@
 ---
 platforms: [chrome]
-display_order: 8
+display_order: 12
 ---

@@ -6,7 +6,7 @@ family:
   talkback: "TalkBack"
   va_and: "Voice Access (Android)"
   vo_ios: "VoiceOver (iOS)"
-  vo_macos: "Voice Control (MacOS)"
+  vo_macos: "VoiceOver (MacOS)"
   orca: "Orca"
   vc_ios: "Voice Control (iOS)"
   vc_macos: "Voice Control (MacOS)"
