@@ -3,12 +3,13 @@
   "title": "complementary role",
   "description": "A supporting section of the document, designed to be complementary to the main content at a similar level in the DOM hierarchy, but remains meaningful when separated from the main content.",
   "category": "aria",
-  "keywords": [
-    "complementary role"
-  ],
+  "keywords": "complementary role",
   "last_test_date": "2022-01-26",
   "test_results_url": "https://a11ysupport.io/tech/aria/complementary_role",
   "test_url": "https://a11ysupport.io/tech/aria/complementary_role",
+  "notes_by_num": {
+    "1": "Didn't convey the boundaries of the element"
+  },
   "stats": {
     "jaws": {
       "chrome": {
@@ -39,7 +40,7 @@
     },
     "talkback": {
       "and_chr": {
-        "97": "a"
+        "97": "a #1"
       }
     },
     "vo_ios": {

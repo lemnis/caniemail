@@ -3,16 +3,14 @@
   "title": "max attribute",
   "description": "The min and max attributes indicate the allowed range of values for the element.",
   "category": "html",
-  "keywords": [
-    "max attribute"
-  ],
+  "keywords": "max attribute",
   "last_test_date": "2019-09-23",
   "test_results_url": "https://a11ysupport.io/tech/html/max_attribute",
   "test_url": "https://a11ysupport.io/tech/html/max_attribute",
   "stats": {
     "dragon_win": {
       "chrome": {
-        "77": "na"
+        "77": "y"
       }
     },
     "jaws": {
@@ -52,7 +50,7 @@
     },
     "va_and": {
       "and_chr": {
-        "77": "na"
+        "77": "y"
       }
     },
     "vo_ios": {
@@ -72,17 +70,17 @@
     },
     "vc_ios": {
       "ios_saf": {
-        "13.1": "na"
+        "13.1": "y"
       }
     },
     "vc_macos": {
       "safari": {
-        "13.0.2": "na"
+        "13.0.2": "y"
       }
     },
     "wsr": {
       "chrome": {
-        "77": "na"
+        "77": "y"
       }
     }
   },

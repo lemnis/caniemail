@@ -3,12 +3,13 @@
   "title": "columnheader role",
   "description": "A cell containing header information for a column.",
   "category": "aria",
-  "keywords": [
-    "columnheader role"
-  ],
+  "keywords": "columnheader role",
   "last_test_date": "2020-05-07",
   "test_results_url": "https://a11ysupport.io/tech/aria/columnheader_role",
   "test_url": "https://a11ysupport.io/tech/aria/columnheader_role",
+  "notes_by_num": {
+    "1": "Didn't convey its role"
+  },
   "stats": {
     "jaws": {
       "chrome": {
@@ -26,7 +27,7 @@
     },
     "narrator": {
       "edge": {
-        "44": "a"
+        "44": "a #1"
       }
     },
     "nvda": {
@@ -47,7 +48,7 @@
     },
     "vo_ios": {
       "ios_saf": {
-        "13.4.1": "a"
+        "13.4.1": "a #1"
       }
     },
     "vo_macos": {

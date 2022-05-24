@@ -3,16 +3,18 @@
   "title": "role attribute",
   "description": "The role attribute is used to convey the purpose of various elements to users of assistive technology. While the role attribute is defined in ARIA, these expectations test the attribute as implemented in HTML.",
   "category": "html",
-  "keywords": [
-    "role attribute"
-  ],
+  "keywords": "role attribute",
   "last_test_date": "2019-12-02",
   "test_results_url": "https://a11ysupport.io/tech/html/role_attribute",
   "test_url": "https://a11ysupport.io/tech/html/role_attribute",
+  "notes_by_num": {
+    "1": "Didn't support fallback roles",
+    "2": "Didn't process changes in role values"
+  },
   "stats": {
     "dragon_win": {
       "chrome": {
-        "78": "a"
+        "78": "a #1"
       }
     },
     "jaws": {
@@ -23,7 +25,7 @@
         "92": "y"
       },
       "ie": {
-        "11": "a"
+        "11": "a #1"
       },
       "firefox": {
         "70": "y"
@@ -52,12 +54,12 @@
     },
     "va_and": {
       "and_chr": {
-        "78": "a"
+        "78": "y"
       }
     },
     "vo_ios": {
       "ios_saf": {
-        "13.2.3": "a"
+        "13.2.3": "a #2"
       }
     },
     "vo_macos": {
@@ -72,17 +74,17 @@
     },
     "vc_ios": {
       "ios_saf": {
-        "13.2.3": "na"
+        "13.2.3": "y"
       }
     },
     "vc_macos": {
       "safari": {
-        "13.0.3": "a"
+        "13.0.3": "y"
       }
     },
     "wsr": {
       "chrome": {
-        "78": "a"
+        "78": "y"
       }
     }
   },

@@ -3,12 +3,13 @@
   "title": "main role",
   "description": "The main content of a document.",
   "category": "aria",
-  "keywords": [
-    "main role"
-  ],
+  "keywords": "main role",
   "last_test_date": "2022-01-23",
   "test_results_url": "https://a11ysupport.io/tech/aria/main_role",
   "test_url": "https://a11ysupport.io/tech/aria/main_role",
+  "notes_by_num": {
+    "1": "Didn't convey the boundaries of the element"
+  },
   "stats": {
     "jaws": {
       "chrome": {
@@ -23,7 +24,7 @@
     },
     "narrator": {
       "edge": {
-        "97": "a"
+        "97": "a #1"
       }
     },
     "nvda": {
@@ -39,7 +40,7 @@
     },
     "talkback": {
       "and_chr": {
-        "96": "a"
+        "96": "a #1"
       }
     },
     "vo_ios": {

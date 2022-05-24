@@ -3,9 +3,7 @@
   "title": "heading role",
   "description": "A heading for a section of the page.",
   "category": "aria",
-  "keywords": [
-    "heading role"
-  ],
+  "keywords": "heading role",
   "last_test_date": "2019-07-12",
   "test_results_url": "https://a11ysupport.io/tech/aria/heading_role",
   "test_url": "https://a11ysupport.io/tech/aria/heading_role",

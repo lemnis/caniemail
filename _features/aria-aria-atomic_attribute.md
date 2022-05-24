@@ -3,19 +3,21 @@
   "title": "aria-atomic attribute",
   "description": "Indicates whether assistive technologies will present all, or only parts of, the changed region based on the change notifications defined by the aria-relevant attribute.",
   "category": "aria",
-  "keywords": [
-    "aria-atomic attribute"
-  ],
+  "keywords": "aria-atomic attribute",
   "last_test_date": "2019-01-06",
   "test_results_url": "https://a11ysupport.io/tech/aria/aria-atomic_attribute",
   "test_url": "https://a11ysupport.io/tech/aria/aria-atomic_attribute",
+  "notes_by_num": {
+    "1": "Didn't convey the false value by only announcing content that has changed",
+    "2": "Didn't convey the true value by announcing all content"
+  },
   "stats": {
     "jaws": {
       "chrome": {
-        "84": "a"
+        "84": "a #1"
       },
       "edge": {
-        "91": "a"
+        "91": "a #1"
       },
       "ie": {
         "11": "y"
@@ -31,10 +33,10 @@
     },
     "nvda": {
       "chrome": {
-        "91": "a"
+        "91": "a #1"
       },
       "edge": {
-        "91": "a"
+        "91": "a #1"
       },
       "firefox": {
         "82": "y"
@@ -42,7 +44,7 @@
     },
     "talkback": {
       "and_chr": {
-        "86": "a"
+        "86": "a #2 #1"
       }
     },
     "vo_ios": {

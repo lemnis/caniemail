@@ -3,10 +3,7 @@
   "title": "table element",
   "description": "",
   "category": "html",
-  "keywords": [
-    "table element",
-    "scope=\"row\""
-  ],
+  "keywords": "table element,scope=\"row\"",
   "last_test_date": "2019-05-03",
   "test_results_url": "https://a11ysupport.io/tech/html/table_element",
   "test_url": "https://a11ysupport.io/tech/html/table_element",

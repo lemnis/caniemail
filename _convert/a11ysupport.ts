@@ -1,4 +1,4 @@
-import { readdir, readFile, writeFileSync } from "fs";
+import { readdir, readFile, writeFileSync, readdirSync } from "fs";
 import { mergeDeep } from "./utils/mergeDeep";
 import { Feature } from "./a11ysupport.feature";
 
@@ -18,7 +18,7 @@ function convertFeature(feature: Feature) {
 			r[atName] = r[atName] || {};
 
 			for (const browserName in test.versions[atName].browsers) {
-				r[atName][browserName] = r[atName][browserName] || {};
+				r[atName][browserName] ||= {};
 				const browser = test.versions[atName].browsers[browserName];
 				const browserVersion = browser.browser_version;
 				r[atName][browserName][browserVersion] = [];
@@ -27,10 +27,9 @@ function convertFeature(feature: Feature) {
 					if (assertion.feature_title === feature.title) {
 						const at = assertion.results[atName];
 						const browser = at.browsers[browserName];
-						r[atName] = r[atName] || {};
-						r[atName][browserName] = r[atName][browserName] || {};
-						r[atName][browserName][browserVersion] =
-							r[atName][browserName][browserVersion] || [];
+						r[atName] ||= {};
+						r[atName][browserName] ||= {};
+						r[atName][browserName][browserVersion] ||= [];
 
 						r[atName][browserName][browserVersion].push({
 							support: browser?.support,
@@ -63,11 +62,11 @@ function convertFeature(feature: Feature) {
 				keys.length === 1
 					? keys[0]
 					: `${ordered[0]}-${ordered[ordered.length - 1]}`;
-			stats[atName] = stats[atName] || {};
-			stats[atName][browserName] = stats[atName][browserName] || {};
+			stats[atName] ||= || {};
+			stats[atName][browserName] ||= {};
 			// stats[atName][browserName][key] = browserSupport.flat();
 			let result = "u";
-			if (browserSupport.every((v) => v === "y" || v === 'na')) {
+			if (browserSupport.every((v) => v === "y" || v === "na")) {
 				result = "y";
 			} else if (browserSupport.some((v) => v === "y")) {
 				result = "a";
@@ -128,12 +127,8 @@ function convertFeature(feature: Feature) {
 	};
 }
 
-const paths = [
-	__dirname + "/../../a11ysupport.io/build/tech/html/",
-	__dirname + "/../../a11ysupport.io/build/tech/css/",
-	__dirname + "/../../a11ysupport.io/build/tech/aria/",
-	__dirname + "/../../a11ysupport.io/build/tech/svg/",
-];
+const folder = "../computed-aria/external-tests/a11ysupport.io/build/tech/";
+const paths = readdirSync(folder).map((f) => folder + f + "/");
 
 paths.forEach((path) => {
 	//passsing directoryPath and callback function
@@ -166,9 +161,7 @@ function generateFile(path: string, fileName: string) {
 
 		if (hasResults) {
 			writeFile(
-				`${__dirname}/../_features/${feature.category}-${
-					fileName.split(".")[0]
-				}.md`,
+				`../_features/${feature.category}-${fileName.split(".")[0]}.md`,
 				feature
 			);
 		}

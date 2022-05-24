@@ -3,25 +3,27 @@
   "title": "h1, h2, h3, h4, h5, and h6 elements",
   "description": "",
   "category": "html",
-  "keywords": [
-    "h1, h2, h3, h4, h5, and h6 elements"
-  ],
+  "keywords": "h1, h2, h3, h4, h5, and h6 elements",
   "last_test_date": "2019-07-11",
   "test_results_url": "https://a11ysupport.io/tech/html/h1-6_elements",
   "test_url": "https://a11ysupport.io/tech/html/h1-6_elements",
+  "notes_by_num": {
+    "1": "Didn't convey its role, level, and name",
+    "2": "Didn't provide shortcuts to jump to headings"
+  },
   "stats": {
     "jaws": {
       "chrome": {
-        "92": "a"
+        "92": "a #1 #2"
       },
       "edge": {
-        "92": "a"
+        "92": "a #1 #2"
       },
       "ie": {
-        "11": "a"
+        "11": "a #2"
       },
       "firefox": {
-        "68-85": "a"
+        "68-85": "a #1 #2"
       }
     },
     "narrator": {
@@ -42,12 +44,12 @@
     },
     "orca": {
       "firefox": {
-        "69-85": "a"
+        "69-85": "a #1"
       }
     },
     "talkback": {
       "and_chr": {
-        "75-88": "a"
+        "75-88": "a #1 #2"
       }
     },
     "vo_ios": {
@@ -57,35 +59,35 @@
     },
     "vo_macos": {
       "safari": {
-        "12.1.1-14.0.3": "a"
+        "12.1.1-14.0.3": "a #1"
       }
     },
     "dragon_win": {
       "chrome": {
-        "88": "na"
+        "88": "y"
       }
     },
     "va_and": {
       "and_chr": {
-        "88": "na"
+        "88": "y"
       }
     },
     "vc_ios": {
       "ios_saf": {
-        "14.4": "na"
+        "14.4": "y"
       }
     },
     "vc_macos": {
       "safari": {
-        "14.0.3": "na"
+        "14.0.3": "y"
       }
     },
     "wsr": {
       "edge": {
-        "88": "na"
+        "88": "y"
       },
       "chrome": {
-        "88": "na"
+        "88": "y"
       }
     }
   },

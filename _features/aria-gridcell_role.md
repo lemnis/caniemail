@@ -3,12 +3,14 @@
   "title": "gridcell role",
   "description": "A cell in a grid or treegrid.",
   "category": "aria",
-  "keywords": [
-    "gridcell role"
-  ],
+  "keywords": "gridcell role",
   "last_test_date": "2019-09-13",
   "test_results_url": "https://a11ysupport.io/tech/aria/gridcell_role",
   "test_url": "https://a11ysupport.io/tech/aria/gridcell_role",
+  "notes_by_num": {
+    "1": "Didn't convey the position of the header (row/column) when row and columns exist",
+    "2": "Didn't convey its role"
+  },
   "stats": {
     "jaws": {
       "chrome": {
@@ -21,7 +23,7 @@
         "11": "a"
       },
       "firefox": {
-        "76": "a"
+        "76": "a #1"
       }
     },
     "narrator": {
@@ -47,7 +49,7 @@
     },
     "vo_ios": {
       "ios_saf": {
-        "13.4.1": "a"
+        "13.4.1": "a #2 #1"
       }
     },
     "vo_macos": {

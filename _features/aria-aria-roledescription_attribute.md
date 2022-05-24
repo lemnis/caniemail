@@ -3,12 +3,13 @@
   "title": "aria-roledescription attribute",
   "description": "Defines a human-readable, author-localized description for the role of an element.",
   "category": "aria",
-  "keywords": [
-    "aria-roledescription attribute"
-  ],
+  "keywords": "aria-roledescription attribute",
   "last_test_date": "2018-11-12",
   "test_results_url": "https://a11ysupport.io/tech/aria/aria-roledescription_attribute",
   "test_url": "https://a11ysupport.io/tech/aria/aria-roledescription_attribute",
+  "notes_by_num": {
+    "1": "Didn't convey the value of the roledescription attribute as the role"
+  },
   "stats": {
     "jaws": {
       "chrome": {
@@ -18,10 +19,10 @@
         "92": "y"
       },
       "firefox": {
-        "69": "a"
+        "69": "a #1"
       },
       "ie": {
-        "11": "a"
+        "11": "a #1"
       }
     },
     "narrator": {
@@ -47,12 +48,12 @@
     },
     "talkback": {
       "and_chr": {
-        "76": "n"
+        "76": "n #1"
       }
     },
     "vo_ios": {
       "ios_saf": {
-        "12.4.1-15.0.1": "n"
+        "12.4.1-15.0.1": "n #1"
       }
     },
     "vo_macos": {

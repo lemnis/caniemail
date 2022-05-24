@@ -19,7 +19,9 @@
     "url": "https://github.com/lemnis/cania11y/issues"
   },
   "homepage": "https://github.com/lemnis/cania11y#readme",
-  "dependencies": {
-    "@types/node": "^16.4.8"
+  "devDependencies": {
+    "@types/node": "^17.0.35",
+    "tsc": "^2.0.4",
+    "typescript": "^4.6.4"
   }
 }

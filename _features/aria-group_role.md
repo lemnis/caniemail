@@ -3,30 +3,34 @@
   "title": "group role",
   "description": "A set of user interface objects which are not intended to be included in a page summary or table of contents by assistive technologies.",
   "category": "aria",
-  "keywords": [
-    "group role"
-  ],
+  "keywords": "group role",
   "last_test_date": "2019-01-06",
   "test_results_url": "https://a11ysupport.io/tech/aria/group_role",
   "test_url": "https://a11ysupport.io/tech/aria/group_role",
+  "notes_by_num": {
+    "1": "APG 1.1 Checkbox Example (Two State): Pressing the TAB or SHIFT+TAB keys to focus the first (or last) checkbox in the group caused the group label to be announced, but not the group role.",
+    "2": "Didn't convey the name if named",
+    "3": "Didn't convey its role",
+    "4": "Didn't convey the boundaries of the group"
+  },
   "stats": {
     "dragon_win": {
       "chrome": {
-        "76-78": "na"
+        "76-78": "y"
       }
     },
     "jaws": {
       "chrome": {
-        "92": "y"
+        "92": "y #1"
       },
       "edge": {
         "92": "y"
       },
       "ie": {
-        "11-11.134": "a"
+        "11-11.134": "a #1"
       },
       "firefox": {
-        "66-70": "a"
+        "66-70": "a #1"
       }
     },
     "narrator": {
@@ -47,17 +51,17 @@
     },
     "va_and": {
       "and_chr": {
-        "77-78": "na"
+        "77-78": "y"
       }
     },
     "vc_macos": {
       "safari": {
-        "13.0.2-13.0.4": "na"
+        "13.0.2-13.0.4": "y"
       }
     },
     "vo_ios": {
       "ios_saf": {
-        "12.3-13.3": "a"
+        "12.3-13.3": "a #2 #3 #4"
       }
     },
     "vo_macos": {
@@ -67,7 +71,7 @@
     },
     "talkback": {
       "and_chr": {
-        "75-78": "a"
+        "75-78": "a #2 #3 #4"
       }
     },
     "orca": {
@@ -77,15 +81,15 @@
     },
     "vc_ios": {
       "ios_saf": {
-        "13.0-13.3": "na"
+        "13.0-13.3": "y"
       }
     },
     "wsr": {
       "edge": {
-        "44": "na"
+        "44": "y"
       },
       "chrome": {
-        "77-78": "na"
+        "77-78": "y"
       }
     }
   },

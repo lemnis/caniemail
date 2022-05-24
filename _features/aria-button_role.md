@@ -3,9 +3,7 @@
   "title": "button role",
   "description": "An input that allows for user-triggered actions when clicked or pressed. See related link.",
   "category": "aria",
-  "keywords": [
-    "button role"
-  ],
+  "keywords": "button role",
   "last_test_date": "2019-09-14",
   "test_results_url": "https://a11ysupport.io/tech/aria/button_role",
   "test_url": "https://a11ysupport.io/tech/aria/button_role",
@@ -75,7 +73,7 @@
     },
     "vc_ios": {
       "ios_saf": {
-        "13.0": "a"
+        "13.0": "y"
       }
     },
     "vc_macos": {

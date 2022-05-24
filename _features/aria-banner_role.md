@@ -3,12 +3,13 @@
   "title": "banner role",
   "description": "A region that contains mostly site-oriented content, rather than page-specific content.",
   "category": "aria",
-  "keywords": [
-    "banner role"
-  ],
+  "keywords": "banner role",
   "last_test_date": "2021-12-21",
   "test_results_url": "https://a11ysupport.io/tech/aria/banner_role",
   "test_url": "https://a11ysupport.io/tech/aria/banner_role",
+  "notes_by_num": {
+    "1": "Didn't convey the boundaries of the element"
+  },
   "stats": {
     "jaws": {
       "chrome": {
@@ -39,7 +40,7 @@
     },
     "talkback": {
       "and_chr": {
-        "96": "a"
+        "96": "a #1"
       }
     },
     "vo_ios": {

@@ -3,16 +3,14 @@
   "title": "aria-checked attribute",
   "description": "Indicates the current \"checked\" state of checkboxes, radio buttons, and other widgets. See related aria-pressed and aria-selected.",
   "category": "aria",
-  "keywords": [
-    "aria-checked attribute"
-  ],
+  "keywords": "aria-checked attribute",
   "last_test_date": "2019-01-06",
   "test_results_url": "https://a11ysupport.io/tech/aria/aria-checked_attribute",
   "test_url": "https://a11ysupport.io/tech/aria/aria-checked_attribute",
   "stats": {
     "dragon_win": {
       "chrome": {
-        "76": "na"
+        "76": "y"
       }
     },
     "jaws": {
@@ -47,12 +45,12 @@
     },
     "va_and": {
       "and_chr": {
-        "77": "na"
+        "77": "y"
       }
     },
     "vc_macos": {
       "safari": {
-        "13.0.2": "na"
+        "13.0.2": "y"
       }
     },
     "vo_ios": {
@@ -77,15 +75,15 @@
     },
     "vc_ios": {
       "ios_saf": {
-        "13.0": "na"
+        "13.0": "y"
       }
     },
     "wsr": {
       "edge": {
-        "44": "na"
+        "44": "y"
       },
       "chrome": {
-        "77": "na"
+        "77": "y"
       }
     }
   },

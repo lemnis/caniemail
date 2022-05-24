@@ -3,16 +3,17 @@
   "title": "input[type=\"checkbox\"] element",
   "description": "The input element represents a two-state control that represents the element's checkedness state.",
   "category": "html",
-  "keywords": [
-    "input[type=\"checkbox\"] element"
-  ],
+  "keywords": "input[type=\"checkbox\"] element",
   "last_test_date": "2018-10-29",
   "test_results_url": "https://a11ysupport.io/tech/html/input(type-checkbox)_element",
   "test_url": "https://a11ysupport.io/tech/html/input(type-checkbox)_element",
+  "notes_by_num": {
+    "1": "Didn't convey its name"
+  },
   "stats": {
     "dragon_win": {
       "chrome": {
-        "78": "a"
+        "78": "y"
       }
     },
     "jaws": {
@@ -52,7 +53,7 @@
     },
     "va_and": {
       "and_chr": {
-        "78": "a"
+        "78": "y"
       }
     },
     "vo_ios": {
@@ -72,17 +73,17 @@
     },
     "vc_ios": {
       "ios_saf": {
-        "13.2.3": "a"
+        "13.2.3": "y"
       }
     },
     "vc_macos": {
       "safari": {
-        "13.0.3": "a"
+        "13.0.3": "a #1"
       }
     },
     "wsr": {
       "chrome": {
-        "78": "a"
+        "78": "y"
       }
     }
   },

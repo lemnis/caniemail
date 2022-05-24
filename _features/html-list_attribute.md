@@ -3,30 +3,34 @@
   "title": "list attribute",
   "description": "The list attribute is used to identify an element that lists predefined options suggested to the user.",
   "category": "html",
-  "keywords": [
-    "list attribute"
-  ],
+  "keywords": "list attribute",
   "last_test_date": "2019-07-19",
   "test_results_url": "https://a11ysupport.io/tech/html/list_attribute",
   "test_url": "https://a11ysupport.io/tech/html/list_attribute",
+  "notes_by_num": {
+    "1": "HTML input with datalist test: The role is not consistently conveyed across browsers, and is often presented with a modifier (\"combo\" or \"has popup\") to convey the presence of the datalist.",
+    "2": "HTML input with datalist test: When paired with IE, JAWS does not alter the role to convey the datalist functionality.",
+    "3": "HTML input with datalist test: The role is not consistently conveyed across browsers, and is often presented with a modifier (\"combo box\" or \"subMenu\") to convey the presence of the datalist.",
+    "4": "Didn't convey the presence of the list attribute"
+  },
   "stats": {
     "dragon_win": {
       "chrome": {
-        "79": "na"
+        "79": "y"
       }
     },
     "jaws": {
       "chrome": {
-        "92": "y"
+        "92": "y #1"
       },
       "edge": {
         "92": "y"
       },
       "ie": {
-        "11": "n"
+        "11": "n #2"
       },
       "firefox": {
-        "73": "y"
+        "73": "y #1"
       }
     },
     "narrator": {
@@ -36,18 +40,18 @@
     },
     "nvda": {
       "chrome": {
-        "92": "y"
+        "92": "y #3"
       },
       "edge": {
         "92": "y"
       },
       "firefox": {
-        "73": "y"
+        "73": "y #3"
       }
     },
     "orca": {
       "firefox": {
-        "73": "n"
+        "73": "n #4"
       }
     },
     "talkback": {
@@ -57,7 +61,7 @@
     },
     "va_and": {
       "and_chr": {
-        "79": "na"
+        "79": "y"
       }
     },
     "vo_ios": {
@@ -72,20 +76,20 @@
     },
     "vc_ios": {
       "ios_saf": {
-        "13.3.1": "na"
+        "13.3.1": "y"
       }
     },
     "vc_macos": {
       "safari": {
-        "13.0.5": "na"
+        "13.0.5": "y"
       }
     },
     "wsr": {
       "edge": {
-        "44": "na"
+        "44": "y"
       },
       "chrome": {
-        "79": "na"
+        "79": "y"
       }
     }
   },

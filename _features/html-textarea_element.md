@@ -3,16 +3,14 @@
   "title": "textarea element",
   "description": "",
   "category": "html",
-  "keywords": [
-    "textarea element"
-  ],
+  "keywords": "textarea element",
   "last_test_date": "2020-01-03",
   "test_results_url": "https://a11ysupport.io/tech/html/textarea_element",
   "test_url": "https://a11ysupport.io/tech/html/textarea_element",
   "stats": {
     "dragon_win": {
       "chrome": {
-        "78": "a"
+        "78": "y"
       }
     },
     "jaws": {
@@ -52,7 +50,7 @@
     },
     "va_and": {
       "and_chr": {
-        "96": "a"
+        "96": "y"
       }
     },
     "vo_ios": {
@@ -72,17 +70,17 @@
     },
     "vc_ios": {
       "ios_saf": {
-        "14.8.1": "a"
+        "14.8.1": "y"
       }
     },
     "vc_macos": {
       "safari": {
-        "13.0.4": "a"
+        "13.0.4": "y"
       }
     },
     "wsr": {
       "chrome": {
-        "78": "a"
+        "78": "y"
       }
     }
   },

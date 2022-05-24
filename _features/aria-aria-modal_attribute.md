@@ -3,12 +3,15 @@
   "title": "aria-modal attribute",
   "description": "Indicates whether an element is modal when displayed. For more robust support, consider making the rest of the document [inert](https://github.com/WICG/inert) when an element has aria-modal=true.",
   "category": "aria",
-  "keywords": [
-    "aria-modal attribute"
-  ],
+  "keywords": "aria-modal attribute",
   "last_test_date": "2019-08-13",
   "test_results_url": "https://a11ysupport.io/tech/aria/aria-modal_attribute",
   "test_url": "https://a11ysupport.io/tech/aria/aria-modal_attribute",
+  "notes_by_num": {
+    "1": "Didn't convey the presence of aria-modal=true",
+    "2": "Didn't limit reading to children of aria-modal=true",
+    "3": "Didn't remove outside content from navigational shortcuts when aria-modal=true"
+  },
   "stats": {
     "jaws": {
       "chrome": {
@@ -26,7 +29,7 @@
     },
     "narrator": {
       "edge": {
-        "88": "n"
+        "88": "n #1 #2 #3"
       }
     },
     "nvda": {
@@ -47,17 +50,17 @@
     },
     "talkback": {
       "and_chr": {
-        "88": "n"
+        "88": "n #1 #2 #3"
       }
     },
     "vo_ios": {
       "ios_saf": {
-        "14.3": "u"
+        "14.3": "u #1 #3"
       }
     },
     "vo_macos": {
       "safari": {
-        "14.0.3": "u"
+        "14.0.3": "u #3"
       }
     }
   },

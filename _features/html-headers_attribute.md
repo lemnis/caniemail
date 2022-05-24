@@ -3,38 +3,39 @@
   "title": "headers attribute",
   "description": "The `headers` attribute gives authors a way to override implicit cell headers (via `<th>` elements) to accurately describe the structure of complex tables to assistive technology. Note: this is a difficult feature to test, as implicit headers often interfere with results. It's not possible to tell where the header originitated from when testing with an assistive technology; is this header sourced implicitly (via `<th>` elements) or explicitly (via the `headers` attribute). Most real world tables that require the `headers` attribute also make use of implicit headers. Several tests are included for this feature because of this, and some of the results may be false negatives.",
   "category": "html",
-  "keywords": [
-    "headers attribute"
-  ],
+  "keywords": "headers attribute",
   "last_test_date": "2020-07-10",
   "test_results_url": "https://a11ysupport.io/tech/html/headers_attribute",
   "test_url": "https://a11ysupport.io/tech/html/headers_attribute",
+  "notes_by_num": {
+    "1": "Didn't convey the defined cell headers"
+  },
   "stats": {
     "jaws": {
       "chrome": {
-        "101": "n"
+        "101": "n #1"
       },
       "edge": {
-        "101": "n"
+        "101": "n #1"
       },
       "ie": {
-        "11": "a"
+        "11": "a #1"
       },
       "firefox": {
-        "99": "a"
+        "99": "a #1"
       }
     },
     "narrator": {
       "edge": {
-        "101": "n"
+        "101": "n #1"
       }
     },
     "nvda": {
       "chrome": {
-        "101": "a"
+        "101": "a #1"
       },
       "edge": {
-        "101": "a"
+        "101": "a #1"
       },
       "firefox": {
         "99": "y"
@@ -42,22 +43,22 @@
     },
     "talkback": {
       "and_chr": {
-        "101": "n"
+        "101": "n #1"
       }
     },
     "vo_ios": {
       "ios_saf": {
-        "15.4.1": "n"
+        "15.4.1": "n #1"
       }
     },
     "vo_macos": {
       "safari": {
-        "15.3": "a"
+        "15.3": "a #1"
       }
     },
     "orca": {
       "firefox": {
-        "77": "n"
+        "77": "n #1"
       }
     }
   },

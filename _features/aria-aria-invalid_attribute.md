@@ -3,12 +3,15 @@
   "title": "aria-invalid attribute",
   "description": "Indicates the entered value does not conform to the format expected by the application. See related aria-errormessage.",
   "category": "aria",
-  "keywords": [
-    "aria-invalid attribute"
-  ],
+  "keywords": "aria-invalid attribute",
   "last_test_date": "2020-02-14",
   "test_results_url": "https://a11ysupport.io/tech/aria/aria-invalid_attribute",
   "test_url": "https://a11ysupport.io/tech/aria/aria-invalid_attribute",
+  "notes_by_num": {
+    "1": "Didn't convey the \"grammar\" value",
+    "2": "Didn't convey the \"spelling\" value",
+    "3": "Didn't convey the \"true\" value"
+  },
   "stats": {
     "jaws": {
       "chrome": {
@@ -18,7 +21,7 @@
         "92": "y"
       },
       "ie": {
-        "11": "a"
+        "11": "a #1 #2"
       },
       "firefox": {
         "80": "a"
@@ -42,12 +45,12 @@
     },
     "talkback": {
       "and_chr": {
-        "95": "a"
+        "95": "a #1 #2 #3"
       }
     },
     "vo_ios": {
       "ios_saf": {
-        "14.0": "a"
+        "14.0": "a #3"
       }
     },
     "vo_macos": {
@@ -57,7 +60,7 @@
     },
     "orca": {
       "firefox": {
-        "80": "a"
+        "80": "a #3"
       }
     }
   },

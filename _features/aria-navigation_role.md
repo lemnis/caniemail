@@ -3,12 +3,13 @@
   "title": "navigation role",
   "description": "A collection of navigational elements (usually links) for navigating the document or related documents.",
   "category": "aria",
-  "keywords": [
-    "navigation role"
-  ],
+  "keywords": "navigation role",
   "last_test_date": "2021-12-11",
   "test_results_url": "https://a11ysupport.io/tech/aria/navigation_role",
   "test_url": "https://a11ysupport.io/tech/aria/navigation_role",
+  "notes_by_num": {
+    "1": "Didn't convey the boundaries of the element"
+  },
   "stats": {
     "jaws": {
       "chrome": {
@@ -23,7 +24,7 @@
     },
     "narrator": {
       "edge": {
-        "96": "a"
+        "96": "a #1"
       }
     },
     "nvda": {
@@ -39,7 +40,7 @@
     },
     "talkback": {
       "and_chr": {
-        "96": "a"
+        "96": "a #1"
       }
     },
     "vo_ios": {

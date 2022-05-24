@@ -3,16 +3,14 @@
   "title": "legend element",
   "description": "The legend element represents a caption for the rest of the contents of the legend element's parent fieldset element, if any.",
   "category": "html",
-  "keywords": [
-    "legend element"
-  ],
+  "keywords": "legend element",
   "last_test_date": "2019-08-21",
   "test_results_url": "https://a11ysupport.io/tech/html/legend_element",
   "test_url": "https://a11ysupport.io/tech/html/legend_element",
   "stats": {
     "dragon_win": {
       "chrome": {
-        "76": "na"
+        "76": "y"
       }
     },
     "jaws": {
@@ -57,7 +55,7 @@
     },
     "va_and": {
       "and_chr": {
-        "77": "na"
+        "77": "y"
       }
     },
     "vo_ios": {
@@ -72,20 +70,20 @@
     },
     "vc_macos": {
       "safari": {
-        "13.0.2": "na"
+        "13.0.2": "y"
       }
     },
     "vc_ios": {
       "ios_saf": {
-        "13.0": "na"
+        "13.0": "y"
       }
     },
     "wsr": {
       "edge": {
-        "44": "na"
+        "44": "y"
       },
       "chrome": {
-        "77": "na"
+        "77": "y"
       }
     }
   },

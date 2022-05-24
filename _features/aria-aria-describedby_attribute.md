@@ -3,12 +3,14 @@
   "title": "aria-describedby attribute",
   "description": "Identifies the element (or elements) that describes the object. See related aria-labelledby.",
   "category": "aria",
-  "keywords": [
-    "aria-describedby attribute"
-  ],
+  "keywords": "aria-describedby attribute",
   "last_test_date": "2019-01-06",
   "test_results_url": "https://a11ysupport.io/tech/aria/aria-describedby_attribute",
   "test_url": "https://a11ysupport.io/tech/aria/aria-describedby_attribute",
+  "notes_by_num": {
+    "1": "Didn't convey description changes when in focus",
+    "2": "Didn't contribute to the description"
+  },
   "stats": {
     "jaws": {
       "chrome": {
@@ -26,7 +28,7 @@
     },
     "narrator": {
       "edge": {
-        "88-94": "a"
+        "88-94": "a #1"
       }
     },
     "nvda": {
@@ -42,22 +44,22 @@
     },
     "orca": {
       "firefox": {
-        "86-93": "a"
+        "86-93": "a #1"
       }
     },
     "vo_ios": {
       "ios_saf": {
-        "14.4-15.0.1": "a"
+        "14.4-15.0.1": "a #2 #1"
       }
     },
     "vo_macos": {
       "safari": {
-        "14.0.3-15.0": "a"
+        "14.0.3-15.0": "a #2"
       }
     },
     "talkback": {
       "and_chr": {
-        "75-94": "a"
+        "75-94": "a #1"
       }
     }
   },
