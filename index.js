@@ -26,31 +26,34 @@ function mergeDeep(target, source) {
 
 function convertFeature(feature) {
 	const tests = feature.tests?.map((test) => {
-		const r = {};
+		const result = {};
 		for (const atName in test.versions) {
-			r[atName] = r[atName] || {};
+			result[atName] ||= {};
 
 			for (const browserName in test.versions[atName].browsers) {
-				r[atName][browserName] = r[atName][browserName] || {};
+				result[atName][browserName] = result[atName][browserName] || {};
 				const browser = test.versions[atName].browsers[browserName];
 				browserVersion = browser.browser_version;
-				r[atName][browserName][browserVersion] = [];
+				result[atName][browserName][browserVersion] = [];
 				test.assertions.forEach((assertion) => {
+					if(assertion.feature_id && assertion.feature_id !== feature.id) return;
 					const at = assertion.results[atName];
 					const browser = at.browsers[browserName];
-					r[atName] = r[atName] || {};
-					r[atName][browserName] = r[atName][browserName] || {};
-					r[atName][browserName][browserVersion] =
-						r[atName][browserName][browserVersion] || [];
-					r[atName][browserName][browserVersion].push(
+					result[atName] ||= {};
+					result[atName][browserName] ||= {};
+					result[atName][browserName][browserVersion] ||= [];
+					result[atName][browserName][browserVersion].push(
 						browser?.support
 					);
 				});
 			}
 		}
 
-		return r;
+		return result;
 	});
+
+	console.log(feature.id);
+
 	const mapped = tests.reduce((curr, next) => mergeDeep(curr, next), {});
 	let stats = {};
 	for (const atName in mapped) {
@@ -100,13 +103,8 @@ function convertFeature(feature) {
 }
 
 const fs = require("fs");
-const paths = [
-	__dirname + "/../a11ysupport.io/build/tech/html/",
-	__dirname + "/../a11ysupport.io/build/tech/css/",
-	__dirname + "/../a11ysupport.io/build/tech/aria/",
-	__dirname + "/../a11ysupport.io/build/tech/svg/",
-];
-
+const folder = '../a11ysupport.io/build/tech/';
+const paths = fs.readdirSync(folder).map(f => folder + f + '/');
 paths.forEach((path) => {
 	//passsing directoryPath and callback function
 	fs.readdir(path, function (err, files) {
