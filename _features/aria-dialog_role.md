@@ -3,54 +3,56 @@
   "title": "dialog role",
   "description": "A dialog is a descendant window of the primary window of a web application. For HTML pages, the primary application window is the entire web document, i.e., the body element.",
   "category": "aria",
-  "keywords": "dialog role",
+  "keywords": [
+    "dialog role"
+  ],
   "last_test_date": "2019-08-13",
   "test_results_url": "https://a11ysupport.io/tech/aria/dialog_role",
   "test_url": "https://a11ysupport.io/tech/aria/dialog_role",
-  "notes_by_num": {
-    "1": "Didn't convey the boundaries of the dialog",
-    "2": "ARIA dialog role must use document mode: An element in the dialog had to receive focus before the contents of the dialog would be read by NVDA.",
-    "3": "Didn't convey the name of the dialog",
-    "4": "Didn't convey its role"
-  },
   "stats": {
     "jaws": {
       "chrome": {
-        "74-88": "y"
+        "92-96": "y"
+      },
+      "edge": {
+        "92-96": "y"
       },
       "ie": {
-        "11-11.253": "y"
+        "11-11.253": "a"
       },
       "firefox": {
-        "66-85": "y"
+        "66-85": "a"
       }
     },
     "narrator": {
       "edge": {
-        "44.17763-88": "a #1"
+        "44.17763-88": "a"
       }
     },
     "nvda": {
       "chrome": {
-        "74-88": "y"
+        "92": "y"
+      },
+      "edge": {
+        "92": "y"
       },
       "firefox": {
-        "64.0.2-85": "y #2"
+        "64.0.2-85": "y"
       }
     },
     "orca": {
       "firefox": {
-        "69-85": "y"
+        "69-85": "a"
       }
     },
     "talkback": {
       "and_chr": {
-        "67-88": "a #3 #4 #1"
+        "67-88": "a"
       }
     },
     "vo_ios": {
       "ios_saf": {
-        "12.1.2-14.3": "a #3 #4"
+        "12.1.2-14.3": "a"
       }
     },
     "vo_macos": {

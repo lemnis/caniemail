@@ -3,85 +3,86 @@
   "title": "aria-selected attribute",
   "description": "Indicates the current \"selected\" state of various widgets. See related aria-checked and aria-pressed.",
   "category": "aria",
-  "keywords": "aria-selected attribute",
+  "keywords": [
+    "aria-selected attribute"
+  ],
   "last_test_date": "2019-08-02",
   "test_results_url": "https://a11ysupport.io/tech/aria/aria-selected_attribute",
   "test_url": "https://a11ysupport.io/tech/aria/aria-selected_attribute",
-  "notes_by_num": {
-    "1": "Didn't convey changes to aria-selected value",
-    "2": "Didn't convey false value by indicating that the element can be selected",
-    "3": "Didn't convey undefined value by indicating that the element is not selectable",
-    "4": "Didn't convey true value by indicating that the element is currently selected",
-    "5": "ARIA gridcell role with aria-selected: Narrator appears to intercept the enter key when aria-selected is set to false"
-  },
   "stats": {
     "jaws": {
       "chrome": {
-        "75-86": "a #1 #2 #3 #4"
+        "92": "a"
+      },
+      "edge": {
+        "92": "a"
       },
       "ie": {
-        "11": "a #1 #2 #4"
+        "11": "a"
       },
       "firefox": {
-        "68-82": "a #1 #2 #4"
+        "68-82": "a"
       }
     },
     "narrator": {
       "edge": {
-        "44-86": "a #5 #2"
+        "44-86": "a"
       }
     },
     "nvda": {
       "chrome": {
-        "75-86": "a #4 #3"
+        "92": "a"
+      },
+      "edge": {
+        "92": "a"
       },
       "firefox": {
-        "68-82": "a #1 #4 #3"
+        "68-82": "a"
       }
     },
     "talkback": {
       "and_chr": {
-        "75-86": "a #2 #4"
+        "75-86": "a"
       }
     },
     "vo_ios": {
       "ios_saf": {
-        "12.3.1-14.2": "a #4 #1 #2"
+        "12.3.1-14.2": "a"
       }
     },
     "vo_macos": {
       "safari": {
-        "12.1.1-14.0": "a #1 #2 #4"
+        "12.1.1-15.1": "a"
       }
     },
     "orca": {
       "firefox": {
-        "69-82": "a #1 #4"
+        "82-93": "a"
       }
     },
     "dragon_win": {
       "chrome": {
-        "87": "y"
+        "87": "a"
       }
     },
     "va_and": {
       "and_chr": {
-        "87": "y"
+        "87": "a"
       }
     },
     "vc_macos": {
       "safari": {
-        "14.0.1": "y"
+        "14.0.1": "a"
       }
     },
     "vc_ios": {
       "ios_saf": {
-        "14.2": "y"
+        "14.2": "a"
       }
     },
     "wsr": {
       "chrome": {
-        "87": "y"
+        "87": "a"
       }
     }
   },

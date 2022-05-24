@@ -3,23 +3,25 @@
   "title": "aria-label attribute",
   "description": "Defines a string value that labels the current element. See related aria-labelledby.",
   "category": "aria",
-  "keywords": "aria-label attribute",
+  "keywords": [
+    "aria-label attribute"
+  ],
   "last_test_date": "2019-09-16",
   "test_results_url": "https://a11ysupport.io/tech/aria/aria-label_attribute",
   "test_url": "https://a11ysupport.io/tech/aria/aria-label_attribute",
-  "notes_by_num": {
-    "1": "Didn't convey name changes when in focus"
-  },
   "stats": {
     "jaws": {
       "chrome": {
-        "77-84": "a #1"
+        "92": "a"
+      },
+      "edge": {
+        "92": "a"
       },
       "ie": {
-        "11": "a #1"
+        "11": "a"
       },
       "firefox": {
-        "69-79": "a #1"
+        "69-79": "a"
       }
     },
     "narrator": {
@@ -29,20 +31,23 @@
     },
     "nvda": {
       "chrome": {
-        "77-84": "y"
+        "92": "a"
+      },
+      "edge": {
+        "92": "a"
       },
       "firefox": {
-        "69-79": "y"
+        "69-79": "a"
       }
     },
     "orca": {
       "firefox": {
-        "69-79": "a #1"
+        "69-79": "a"
       }
     },
     "talkback": {
       "and_chr": {
-        "77-84": "a #1"
+        "77-84": "a"
       }
     },
     "vo_ios": {

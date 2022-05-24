@@ -3,53 +3,61 @@
   "title": "aria-checked attribute",
   "description": "Indicates the current \"checked\" state of checkboxes, radio buttons, and other widgets. See related aria-pressed and aria-selected.",
   "category": "aria",
-  "keywords": "aria-checked attribute",
+  "keywords": [
+    "aria-checked attribute"
+  ],
   "last_test_date": "2019-01-06",
   "test_results_url": "https://a11ysupport.io/tech/aria/aria-checked_attribute",
   "test_url": "https://a11ysupport.io/tech/aria/aria-checked_attribute",
   "stats": {
     "dragon_win": {
       "chrome": {
-        "76": "y"
+        "76": "a"
       }
     },
     "jaws": {
       "chrome": {
-        "74": "y"
+        "92": "y"
+      },
+      "edge": {
+        "92": "y"
       },
       "ie": {
-        "11.134": "y"
+        "11.134": "a"
       },
       "firefox": {
-        "66": "y"
+        "66": "a"
       }
     },
     "narrator": {
       "edge": {
-        "44.17763.1.0": "y"
+        "44.17763.1.0": "a"
       }
     },
     "nvda": {
       "chrome": {
-        "74": "y"
+        "92": "y"
+      },
+      "edge": {
+        "92": "y"
       },
       "firefox": {
-        "67": "y"
+        "67": "a"
       }
     },
     "va_and": {
       "and_chr": {
-        "77": "y"
+        "77": "a"
       }
     },
     "vc_macos": {
       "safari": {
-        "13.0.2": "y"
+        "13.0.2": "a"
       }
     },
     "vo_ios": {
       "ios_saf": {
-        "12.3": "y"
+        "12.3": "a"
       }
     },
     "vo_macos": {
@@ -59,7 +67,7 @@
     },
     "talkback": {
       "and_chr": {
-        "75": "y"
+        "75": "a"
       }
     },
     "orca": {
@@ -69,15 +77,15 @@
     },
     "vc_ios": {
       "ios_saf": {
-        "13.0": "y"
+        "13.0": "a"
       }
     },
     "wsr": {
       "edge": {
-        "44": "y"
+        "44": "a"
       },
       "chrome": {
-        "77": "y"
+        "77": "a"
       }
     }
   },

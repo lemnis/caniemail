@@ -3,57 +3,61 @@
   "title": "dd element",
   "description": "Description list - description element. See [the `dl` element](/tech/html/dl_element) for more information.",
   "category": "html",
-  "keywords": "dd element",
+  "keywords": [
+    "dd element"
+  ],
   "last_test_date": "2018-07-21",
   "test_results_url": "https://a11ysupport.io/tech/html/dd_element",
   "test_url": "https://a11ysupport.io/tech/html/dd_element",
-  "notes_by_num": {
-    "1": "Didn't convey its role",
-    "2": "Didn't convey the position in set information"
-  },
   "stats": {
     "jaws": {
       "chrome": {
-        "85": "n #1 #2"
+        "92": "a"
+      },
+      "edge": {
+        "92": "a"
       },
       "ie": {
-        "11.134": "n #1 #2"
+        "11.134": "a"
       },
       "firefox": {
-        "80": "n #1 #2"
+        "80": "a"
       }
     },
     "narrator": {
       "edge": {
-        "85": "n #1 #2"
+        "85": "n"
       }
     },
     "nvda": {
       "chrome": {
-        "85": "n #1 #2"
+        "92": "a"
+      },
+      "edge": {
+        "92": "a"
       },
       "firefox": {
-        "80": "n #1 #2"
+        "80": "a"
       }
     },
     "orca": {
       "firefox": {
-        "80": "n #1 #2"
+        "80": "n"
       }
     },
     "talkback": {
       "and_chr": {
-        "85": "u #2"
+        "85": "u"
       }
     },
     "vo_ios": {
       "ios_saf": {
-        "14": "a #2"
+        "14": "a"
       }
     },
     "vo_macos": {
       "safari": {
-        "14.0": "a #1"
+        "14.0": "a"
       }
     }
   },

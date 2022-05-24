@@ -3,41 +3,43 @@
   "title": "input[type=\"number\"] element",
   "description": "",
   "category": "html",
-  "keywords": "input[type=\"number\"] element",
+  "keywords": [
+    "input[type=\"number\"] element"
+  ],
   "last_test_date": "2020-03-16",
   "test_results_url": "https://a11ysupport.io/tech/html/input(type-number)_element",
   "test_url": "https://a11ysupport.io/tech/html/input(type-number)_element",
-  "notes_by_num": {
-    "1": "Didn't allow incrementing and decrementing the value",
-    "2": "Didn't convey the current value",
-    "3": "Didn't convey its name",
-    "4": "Didn't allow data entry"
-  },
   "stats": {
     "dragon_win": {
       "chrome": {
-        "77": "y"
+        "77": "a"
       }
     },
     "jaws": {
       "chrome": {
-        "89": "y"
+        "92": "a"
+      },
+      "edge": {
+        "92": "a"
       },
       "ie": {
         "11": "a"
       },
       "firefox": {
-        "86": "y"
+        "86": "a"
       }
     },
     "narrator": {
       "edge": {
-        "89": "a #1"
+        "89": "a"
       }
     },
     "nvda": {
       "chrome": {
-        "89": "a"
+        "92": "a"
+      },
+      "edge": {
+        "92": "a"
       },
       "firefox": {
         "86": "a"
@@ -45,37 +47,37 @@
     },
     "talkback": {
       "and_chr": {
-        "89": "a #2"
+        "89": "a"
       }
     },
     "va_and": {
       "and_chr": {
-        "77": "a #3"
+        "77": "a"
       }
     },
     "vo_ios": {
       "ios_saf": {
-        "4.4.1": "y"
+        "4.4.1": "a"
       }
     },
     "vo_macos": {
       "safari": {
-        "14.0.3": "y"
+        "14.0.3": "a"
       }
     },
     "orca": {
       "firefox": {
-        "86": "y"
+        "86": "a"
       }
     },
     "vc_ios": {
       "ios_saf": {
-        "13.1": "y"
+        "13.1": "a"
       }
     },
     "vc_macos": {
       "safari": {
-        "13.0.2": "y"
+        "13.0.2": "a"
       }
     },
     "wsr": {
@@ -83,7 +85,7 @@
         "44": "a"
       },
       "chrome": {
-        "77": "a #4"
+        "77": "a"
       }
     }
   },

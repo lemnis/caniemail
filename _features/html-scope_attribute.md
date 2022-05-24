@@ -3,14 +3,20 @@
   "title": "scope attribute",
   "description": "The HTML `scope` attributes lets authors define the scope of a table header (row or column).",
   "category": "html",
-  "keywords": "scope attribute,scope=\"row\"",
+  "keywords": [
+    "scope attribute",
+    "scope=\"row\""
+  ],
   "last_test_date": "2019-05-03",
   "test_results_url": "https://a11ysupport.io/tech/html/scope_attribute",
   "test_url": "https://a11ysupport.io/tech/html/scope_attribute",
   "stats": {
     "jaws": {
       "chrome": {
-        "74": "y"
+        "92": "y"
+      },
+      "edge": {
+        "92": "y"
       },
       "ie": {
         "11.134": "y"
@@ -26,7 +32,10 @@
     },
     "nvda": {
       "chrome": {
-        "74": "y"
+        "92": "y"
+      },
+      "edge": {
+        "92": "y"
       },
       "firefox": {
         "61.0.1": "y"

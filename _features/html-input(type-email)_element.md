@@ -3,61 +3,66 @@
   "title": "input[type=\"email\"] element",
   "description": "",
   "category": "html",
-  "keywords": "input[type=\"email\"] element",
+  "keywords": [
+    "input[type=\"email\"] element"
+  ],
   "last_test_date": "2018-07-21",
   "test_results_url": "https://a11ysupport.io/tech/html/input(type-email)_element",
   "test_url": "https://a11ysupport.io/tech/html/input(type-email)_element",
-  "notes_by_num": {
-    "1": "Didn't convey its name"
-  },
   "stats": {
     "dragon_win": {
       "chrome": {
-        "76": "y"
+        "76": "a"
       }
     },
     "jaws": {
       "chrome": {
-        "79": "y"
+        "92": "a"
+      },
+      "edge": {
+        "92": "a"
       },
       "ie": {
-        "11": "y"
+        "11": "a"
       },
       "firefox": {
-        "72": "y"
+        "72": "a"
       }
     },
     "narrator": {
       "edge": {
-        "44": "y"
+        "44": "a"
       }
     },
     "nvda": {
       "chrome": {
-        "76": "y"
+        "92": "a"
+      },
+      "edge": {
+        "92": "a"
       },
       "firefox": {
-        "68": "y"
+        "68": "a"
       }
     },
     "orca": {
       "firefox": {
-        "69": "y"
+        "69": "a"
       }
     },
     "talkback": {
       "and_chr": {
-        "76": "y"
+        "76": "a"
       }
     },
     "va_and": {
       "and_chr": {
-        "77": "a #1"
+        "77": "a"
       }
     },
     "vo_ios": {
       "ios_saf": {
-        "12.3.1": "y"
+        "12.3.1": "a"
       }
     },
     "vo_macos": {
@@ -67,20 +72,20 @@
     },
     "vc_ios": {
       "ios_saf": {
-        "13.0": "y"
+        "13.0": "a"
       }
     },
     "vc_macos": {
       "safari": {
-        "13.0.2": "y"
+        "13.0.2": "a"
       }
     },
     "wsr": {
       "edge": {
-        "44": "a #1"
+        "44": "a"
       },
       "chrome": {
-        "77": "y"
+        "77": "a"
       }
     }
   },

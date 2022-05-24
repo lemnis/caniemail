@@ -3,14 +3,20 @@
   "title": "th element",
   "description": "",
   "category": "html",
-  "keywords": "th element,scope=\"row\"",
+  "keywords": [
+    "th element",
+    "scope=\"row\""
+  ],
   "last_test_date": "2019-05-03",
   "test_results_url": "https://a11ysupport.io/tech/html/th_element",
   "test_url": "https://a11ysupport.io/tech/html/th_element",
   "stats": {
     "jaws": {
       "chrome": {
-        "74": "y"
+        "92": "y"
+      },
+      "edge": {
+        "92": "y"
       },
       "ie": {
         "11.134": "y"
@@ -26,7 +32,10 @@
     },
     "nvda": {
       "chrome": {
-        "74": "y"
+        "92": "y"
+      },
+      "edge": {
+        "92": "y"
       },
       "firefox": {
         "61.0.1": "y"

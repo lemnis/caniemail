@@ -3,14 +3,20 @@
   "title": "td element",
   "description": "",
   "category": "html",
-  "keywords": "td element,scope=\"row\"",
+  "keywords": [
+    "td element",
+    "scope=\"row\""
+  ],
   "last_test_date": "2019-05-03",
   "test_results_url": "https://a11ysupport.io/tech/html/td_element",
   "test_url": "https://a11ysupport.io/tech/html/td_element",
   "stats": {
     "jaws": {
       "chrome": {
-        "74": "y"
+        "92": "y"
+      },
+      "edge": {
+        "92": "y"
       },
       "ie": {
         "11.134": "y"
@@ -26,7 +32,10 @@
     },
     "nvda": {
       "chrome": {
-        "74": "y"
+        "92": "y"
+      },
+      "edge": {
+        "92": "y"
       },
       "firefox": {
         "61.0.1": "y"
@@ -44,7 +53,7 @@
     },
     "vo_ios": {
       "ios_saf": {
-        "13.3": "y"
+        "13.3": "a"
       }
     },
     "vo_macos": {

@@ -3,17 +3,19 @@
   "title": "title element",
   "description": "The title of an SVG",
   "category": "svg",
-  "keywords": "title element",
+  "keywords": [
+    "title element"
+  ],
   "last_test_date": "2018-12-14",
   "test_results_url": "https://a11ysupport.io/tech/svg/title_element",
   "test_url": "https://a11ysupport.io/tech/svg/title_element",
-  "notes_by_num": {
-    "1": "Didn't convey its name"
-  },
   "stats": {
     "jaws": {
       "chrome": {
-        "91": "y"
+        "92": "y"
+      },
+      "edge": {
+        "92": "y"
       },
       "ie": {
         "11": "u"
@@ -29,10 +31,13 @@
     },
     "nvda": {
       "chrome": {
-        "91": "n #1"
+        "92": "y"
+      },
+      "edge": {
+        "92": "y"
       },
       "firefox": {
-        "88": "n #1"
+        "88": "n"
       }
     },
     "talkback": {
@@ -42,7 +47,7 @@
     },
     "vo_ios": {
       "ios_saf": {
-        "14.5.1": "n #1"
+        "14.5.1": "n"
       }
     },
     "vo_macos": {

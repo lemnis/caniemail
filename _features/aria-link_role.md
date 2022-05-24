@@ -3,13 +3,12 @@
   "title": "link role",
   "description": "An interactive reference to an internal or external resource that, when activated, causes the user agent to navigate to that resource. See related button.",
   "category": "aria",
-  "keywords": "link role",
+  "keywords": [
+    "link role"
+  ],
   "last_test_date": "2019-09-14",
   "test_results_url": "https://a11ysupport.io/tech/aria/link_role",
   "test_url": "https://a11ysupport.io/tech/aria/link_role",
-  "notes_by_num": {
-    "1": "Didn't convey its name"
-  },
   "stats": {
     "dragon_win": {
       "ie": {
@@ -21,7 +20,10 @@
     },
     "jaws": {
       "chrome": {
-        "76": "y"
+        "92": "y"
+      },
+      "edge": {
+        "92": "y"
       },
       "ie": {
         "11": "y"
@@ -37,7 +39,10 @@
     },
     "nvda": {
       "chrome": {
-        "76": "y"
+        "92": "y"
+      },
+      "edge": {
+        "92": "y"
       },
       "firefox": {
         "69": "y"
@@ -70,7 +75,7 @@
     },
     "vc_ios": {
       "ios_saf": {
-        "13.0": "y"
+        "13.0": "a"
       }
     },
     "vc_macos": {
@@ -83,7 +88,7 @@
         "44": "y"
       },
       "chrome": {
-        "77": "a #1"
+        "77": "a"
       }
     }
   },

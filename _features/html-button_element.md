@@ -3,57 +3,61 @@
   "title": "button element",
   "description": "The button element represents a button labeled by its contents.",
   "category": "html",
-  "keywords": "button element",
+  "keywords": [
+    "button element"
+  ],
   "last_test_date": "2020-08-15",
   "test_results_url": "https://a11ysupport.io/tech/html/button_element",
   "test_url": "https://a11ysupport.io/tech/html/button_element",
-  "notes_by_num": {
-    "1": "Didn't convey inner-text name changes when in focus",
-    "2": "Didn't convey its name"
-  },
   "stats": {
     "jaws": {
       "chrome": {
-        "76-86": "a #1"
+        "92": "a"
+      },
+      "edge": {
+        "92": "a"
       },
       "ie": {
-        "11": "y"
+        "11": "a"
       },
       "firefox": {
-        "68-82": "a #1"
+        "68-82": "a"
       }
     },
     "narrator": {
       "edge": {
-        "44-86": "y"
+        "44-86": "a"
       }
     },
     "nvda": {
       "chrome": {
-        "76-86": "a #1"
+        "92": "a"
+      },
+      "edge": {
+        "92": "a"
       },
       "firefox": {
-        "68-82": "a #1"
+        "68-82": "a"
       }
     },
     "talkback": {
       "and_chr": {
-        "76-86": "a #1"
+        "76-86": "a"
       }
     },
     "vo_ios": {
       "ios_saf": {
-        "12.3.1-14.2": "y"
+        "12.3.1-15.0.2": "a"
       }
     },
     "vo_macos": {
       "safari": {
-        "12.1.1-14.0": "a"
+        "12.1.1-15.1": "a"
       }
     },
     "orca": {
       "firefox": {
-        "69-82": "a #1"
+        "69-82": "a"
       }
     },
     "dragon_win": {
@@ -68,7 +72,7 @@
     },
     "vc_macos": {
       "safari": {
-        "13.0.5-14.0.1": "a #2"
+        "13.0.5-14.0.1": "a"
       }
     },
     "vc_ios": {
@@ -81,7 +85,7 @@
         "77-87": "a"
       },
       "edge": {
-        "44": "y"
+        "44": "a"
       }
     }
   },

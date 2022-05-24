@@ -3,22 +3,24 @@
   "title": "textarea element",
   "description": "",
   "category": "html",
-  "keywords": "textarea element",
+  "keywords": [
+    "textarea element"
+  ],
   "last_test_date": "2020-01-03",
   "test_results_url": "https://a11ysupport.io/tech/html/textarea_element",
   "test_url": "https://a11ysupport.io/tech/html/textarea_element",
-  "notes_by_num": {
-    "1": "Didn't convey its name"
-  },
   "stats": {
     "dragon_win": {
       "chrome": {
-        "78": "y"
+        "78": "a"
       }
     },
     "jaws": {
       "chrome": {
-        "78": "y"
+        "92": "a"
+      },
+      "edge": {
+        "92": "a"
       },
       "ie": {
         "11": "a"
@@ -34,7 +36,10 @@
     },
     "nvda": {
       "chrome": {
-        "78": "y"
+        "92": "y"
+      },
+      "edge": {
+        "92": "y"
       },
       "firefox": {
         "70": "y"
@@ -47,7 +52,7 @@
     },
     "va_and": {
       "and_chr": {
-        "78": "a #1"
+        "96": "a"
       }
     },
     "vo_ios": {
@@ -67,17 +72,17 @@
     },
     "vc_ios": {
       "ios_saf": {
-        "13.3": "y"
+        "14.8.1": "a"
       }
     },
     "vc_macos": {
       "safari": {
-        "13.0.4": "y"
+        "13.0.4": "a"
       }
     },
     "wsr": {
       "chrome": {
-        "78": "y"
+        "78": "a"
       }
     }
   },

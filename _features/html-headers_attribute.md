@@ -3,56 +3,61 @@
   "title": "headers attribute",
   "description": "The `headers` attribute gives authors a way to override implicit cell headers (via `<th>` elements) to accurately describe the structure of complex tables to assistive technology. Note: this is a difficult feature to test, as implicit headers often interfere with results. It's not possible to tell where the header originitated from when testing with an assistive technology; is this header sourced implicitly (via `<th>` elements) or explicitly (via the `headers` attribute). Most real world tables that require the `headers` attribute also make use of implicit headers. Several tests are included for this feature because of this, and some of the results may be false negatives.",
   "category": "html",
-  "keywords": "headers attribute",
+  "keywords": [
+    "headers attribute"
+  ],
   "last_test_date": "2020-07-10",
   "test_results_url": "https://a11ysupport.io/tech/html/headers_attribute",
   "test_url": "https://a11ysupport.io/tech/html/headers_attribute",
-  "notes_by_num": {
-    "1": "Didn't convey the defined cell headers"
-  },
   "stats": {
     "jaws": {
       "chrome": {
-        "84": "n #1"
+        "101": "n"
+      },
+      "edge": {
+        "101": "n"
       },
       "ie": {
-        "11": "a #1"
+        "11": "a"
       },
       "firefox": {
-        "77": "a #1"
+        "99": "a"
       }
     },
     "narrator": {
       "edge": {
-        "83": "n #1"
+        "101": "n"
       }
     },
     "nvda": {
       "chrome": {
-        "84": "a #1"
+        "101": "a"
+      },
+      "edge": {
+        "101": "a"
       },
       "firefox": {
-        "77": "y"
+        "99": "y"
       }
     },
     "talkback": {
       "and_chr": {
-        "84": "n #1"
+        "101": "n"
       }
     },
     "vo_ios": {
       "ios_saf": {
-        "13.4.1": "n #1"
+        "15.4.1": "n"
       }
     },
     "vo_macos": {
       "safari": {
-        "13.1.1": "a #1"
+        "15.3": "a"
       }
     },
     "orca": {
       "firefox": {
-        "77": "n #1"
+        "77": "n"
       }
     }
   },

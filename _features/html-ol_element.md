@@ -3,23 +3,24 @@
   "title": "ol element",
   "description": "",
   "category": "html",
-  "keywords": "ol element",
+  "keywords": [
+    "ol element"
+  ],
   "last_test_date": "2019-09-15",
   "test_results_url": "https://a11ysupport.io/tech/html/ol_element",
   "test_url": "https://a11ysupport.io/tech/html/ol_element",
-  "notes_by_num": {
-    "1": "Didn't convey the nesting level",
-    "2": "Didn't convey the number of items in the list"
-  },
   "stats": {
     "dragon_win": {
       "chrome": {
-        "76": "y"
+        "76": "na"
       }
     },
     "jaws": {
       "chrome": {
-        "76": "y"
+        "92": "y"
+      },
+      "edge": {
+        "92": "y"
       },
       "ie": {
         "11": "y"
@@ -35,10 +36,13 @@
     },
     "nvda": {
       "chrome": {
-        "76": "a #1"
+        "92": "a"
+      },
+      "edge": {
+        "92": "a"
       },
       "firefox": {
-        "69": "a #1"
+        "69": "a"
       }
     },
     "orca": {
@@ -53,12 +57,12 @@
     },
     "vo_ios": {
       "ios_saf": {
-        "12.4.1": "a #1 #2"
+        "12.4.1": "a"
       }
     },
     "vo_macos": {
       "safari": {
-        "12.1.2": "y"
+        "12.1.2": "a"
       }
     }
   },

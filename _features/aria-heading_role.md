@@ -3,20 +3,25 @@
   "title": "heading role",
   "description": "A heading for a section of the page.",
   "category": "aria",
-  "keywords": "heading role",
+  "keywords": [
+    "heading role"
+  ],
   "last_test_date": "2019-07-12",
   "test_results_url": "https://a11ysupport.io/tech/aria/heading_role",
   "test_url": "https://a11ysupport.io/tech/aria/heading_role",
   "stats": {
     "jaws": {
+      "chrome": {
+        "92": "y"
+      },
+      "edge": {
+        "92": "y"
+      },
       "ie": {
         "11": "y"
       },
       "firefox": {
         "68-77": "y"
-      },
-      "chrome": {
-        "75-84": "y"
       }
     },
     "narrator": {
@@ -25,11 +30,14 @@
       }
     },
     "nvda": {
+      "chrome": {
+        "92": "y"
+      },
+      "edge": {
+        "92": "y"
+      },
       "firefox": {
         "68-77": "y"
-      },
-      "chrome": {
-        "75-84": "y"
       }
     },
     "orca": {

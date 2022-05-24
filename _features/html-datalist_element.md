@@ -3,93 +3,89 @@
   "title": "datalist element",
   "description": "The datalist element represents a set of option elements that represent predefined options for other controls. It is attached to an input via the list attribute.",
   "category": "html",
-  "keywords": "datalist element",
+  "keywords": [
+    "datalist element"
+  ],
   "last_test_date": "2019-07-19",
   "test_results_url": "https://a11ysupport.io/tech/html/datalist_element",
   "test_url": "https://a11ysupport.io/tech/html/datalist_element",
-  "notes_by_num": {
-    "1": "HTML input with datalist test: The datalist is conveyed as a menu as opposed to a listbox.",
-    "2": "Didn't convey that changes in suggestions were made",
-    "3": "Didn't convey its role",
-    "4": "Didn't convey the boundaries of the element",
-    "5": "HTML input with datalist test: The datalist role is implied by the \"combo\" role and \"suggestions\" announcement.",
-    "6": "HTML input with datalist test: The datalist role is implied by the \"has auto complete\" announcement for the text input, combined with down arrow navigating suggestions. However, table semantics were also announced when none exist.",
-    "7": "HTML input with datalist test: The datalist role is implied by the \"has auto complete\" announcement for the text input, combined with down arrow navigating suggestions. However, all options are announced as \"blank\".",
-    "8": "HTML input with datalist test: boundaries are implied by the menu and focus being sent back to the input",
-    "9": "HTML input with datalist test: Suggestions are listed in the normal virtual keyboard predictions. However, there is no indication that these predictions are suggestions from the website, and may be confused with the normal virtual keyboard predictions.",
-    "10": "HTML input with datalist test: Boundaries can be implied by the role of \"prediction\" being announced for each available prediction. In other words, when the user hears a different role announced, they can assume they left the predictions."
-  },
   "stats": {
     "dragon_win": {
       "chrome": {
-        "79": "y"
+        "79": "a"
       }
     },
     "jaws": {
       "chrome": {
-        "80": "a #1 #2"
+        "92": "a"
+      },
+      "edge": {
+        "92": "a"
       },
       "ie": {
-        "11": "n #3 #4 #2"
+        "11": "a"
       },
       "firefox": {
-        "73": "a #2"
+        "73": "a"
       }
     },
     "narrator": {
       "edge": {
-        "44": "y #5"
+        "44": "a"
       }
     },
     "nvda": {
       "chrome": {
-        "80": "a #6 #2"
+        "92": "a"
+      },
+      "edge": {
+        "92": "a"
       },
       "firefox": {
-        "73": "a #7 #2"
+        "73": "a"
       }
     },
     "orca": {
       "firefox": {
-        "73": "a #8 #2"
+        "73": "a"
       }
     },
     "talkback": {
       "and_chr": {
-        "80": "y"
+        "80": "a"
       }
     },
     "va_and": {
       "and_chr": {
-        "79": "y"
+        "79": "a"
       }
     },
     "vo_ios": {
       "ios_saf": {
-        "13.3.1": "a #9 #10 #2"
+        "13.3.1": "a"
       }
     },
     "vo_macos": {
       "safari": {
-        "13.0.5": "n #3 #4 #2"
+        "13.0.5": "a"
       }
     },
     "vc_ios": {
       "ios_saf": {
-        "13.3.1": "y"
+        "13.3.1": "a"
       }
     },
     "vc_macos": {
       "safari": {
-        "13.0.5": "y"
+        "13.0.5": "a"
       }
     },
     "wsr": {
       "edge": {
-        "44": "y"
+        "44": "a"
       },
       "chrome": {
-        "79": "y"
+        "79": "a"
       }
     }
   },

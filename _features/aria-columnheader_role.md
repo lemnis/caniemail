@@ -3,46 +3,51 @@
   "title": "columnheader role",
   "description": "A cell containing header information for a column.",
   "category": "aria",
-  "keywords": "columnheader role",
+  "keywords": [
+    "columnheader role"
+  ],
   "last_test_date": "2020-05-07",
   "test_results_url": "https://a11ysupport.io/tech/aria/columnheader_role",
   "test_url": "https://a11ysupport.io/tech/aria/columnheader_role",
-  "notes_by_num": {
-    "1": "Didn't convey its role"
-  },
   "stats": {
     "jaws": {
       "chrome": {
-        "81": "y"
+        "92": "a"
+      },
+      "edge": {
+        "92": "a"
       },
       "ie": {
-        "11": "y"
+        "11": "a"
       },
       "firefox": {
-        "76": "y"
+        "76": "a"
       }
     },
     "narrator": {
       "edge": {
-        "44": "a #1"
+        "44": "a"
       }
     },
     "nvda": {
       "chrome": {
-        "81": "y"
+        "92": "a"
+      },
+      "edge": {
+        "92": "a"
       },
       "firefox": {
-        "76": "y"
+        "76": "a"
       }
     },
     "talkback": {
       "and_chr": {
-        "80": "y"
+        "80": "a"
       }
     },
     "vo_ios": {
       "ios_saf": {
-        "13.4.1": "a #1"
+        "13.4.1": "a"
       }
     },
     "vo_macos": {
@@ -52,7 +57,7 @@
     },
     "orca": {
       "firefox": {
-        "76": "y"
+        "76": "a"
       }
     }
   },

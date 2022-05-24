@@ -3,22 +3,24 @@
   "title": "input[type=\"checkbox\"] element",
   "description": "The input element represents a two-state control that represents the element's checkedness state.",
   "category": "html",
-  "keywords": "input[type=\"checkbox\"] element",
+  "keywords": [
+    "input[type=\"checkbox\"] element"
+  ],
   "last_test_date": "2018-10-29",
   "test_results_url": "https://a11ysupport.io/tech/html/input(type-checkbox)_element",
   "test_url": "https://a11ysupport.io/tech/html/input(type-checkbox)_element",
-  "notes_by_num": {
-    "1": "Didn't convey its name"
-  },
   "stats": {
     "dragon_win": {
       "chrome": {
-        "78": "y"
+        "78": "a"
       }
     },
     "jaws": {
       "chrome": {
-        "78": "y"
+        "92": "y"
+      },
+      "edge": {
+        "92": "y"
       },
       "ie": {
         "11": "a"
@@ -34,7 +36,10 @@
     },
     "nvda": {
       "chrome": {
-        "78": "y"
+        "92": "y"
+      },
+      "edge": {
+        "92": "y"
       },
       "firefox": {
         "70": "y"
@@ -47,7 +52,7 @@
     },
     "va_and": {
       "and_chr": {
-        "78": "y"
+        "78": "a"
       }
     },
     "vo_ios": {
@@ -67,17 +72,17 @@
     },
     "vc_ios": {
       "ios_saf": {
-        "13.2.3": "y"
+        "13.2.3": "a"
       }
     },
     "vc_macos": {
       "safari": {
-        "13.0.3": "a #1"
+        "13.0.3": "a"
       }
     },
     "wsr": {
       "chrome": {
-        "78": "y"
+        "78": "a"
       }
     }
   },

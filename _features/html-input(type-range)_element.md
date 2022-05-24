@@ -3,26 +3,24 @@
   "title": "input[type=\"range\"] element",
   "description": "",
   "category": "html",
-  "keywords": "input[type=\"range\"] element",
+  "keywords": [
+    "input[type=\"range\"] element"
+  ],
   "last_test_date": "2018-07-21",
   "test_results_url": "https://a11ysupport.io/tech/html/input(type-range)_element",
   "test_url": "https://a11ysupport.io/tech/html/input(type-range)_element",
-  "notes_by_num": {
-    "1": "Didn't convey its name",
-    "2": "Didn't convey its role",
-    "3": "Didn't convey the current value",
-    "4": "Didn't convey changes in value",
-    "5": "Didn't provide shortcuts to jump to this role"
-  },
   "stats": {
     "dragon_win": {
       "chrome": {
-        "77": "a #1 #2"
+        "77": "a"
       }
     },
     "jaws": {
       "chrome": {
-        "79": "a"
+        "92": "a"
+      },
+      "edge": {
+        "92": "a"
       },
       "ie": {
         "11": "y"
@@ -33,25 +31,28 @@
     },
     "narrator": {
       "edge": {
-        "44": "a #3 #4"
+        "44": "a"
       }
     },
     "nvda": {
       "chrome": {
-        "77": "a #5"
+        "92": "a"
+      },
+      "edge": {
+        "92": "a"
       },
       "firefox": {
-        "69": "a #5"
+        "69": "a"
       }
     },
     "talkback": {
       "and_chr": {
-        "77": "a #4"
+        "77": "a"
       }
     },
     "va_and": {
       "and_chr": {
-        "77": "y"
+        "77": "a"
       }
     },
     "vo_ios": {
@@ -66,7 +67,7 @@
     },
     "orca": {
       "firefox": {
-        "69": "a #5"
+        "69": "a"
       }
     },
     "vc_ios": {
@@ -76,12 +77,12 @@
     },
     "vc_macos": {
       "safari": {
-        "13.0.2": "u #1 #2"
+        "13.0.2": "u"
       }
     },
     "wsr": {
       "chrome": {
-        "77": "y"
+        "77": "a"
       }
     }
   },

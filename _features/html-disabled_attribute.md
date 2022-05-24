@@ -3,29 +3,30 @@
   "title": "disabled attribute",
   "description": "The HTML `disabled` attribute lets authors disable form controls. Note, adding the disabled attribute to form controls will generally cause them to not be focusable.",
   "category": "html",
-  "keywords": "disabled attribute",
+  "keywords": [
+    "disabled attribute"
+  ],
   "last_test_date": "2018-11-08",
   "test_results_url": "https://a11ysupport.io/tech/html/disabled_attribute",
   "test_url": "https://a11ysupport.io/tech/html/disabled_attribute",
-  "notes_by_num": {
-    "1": "HTML button[type=\"button\" disabled]: Target is in tab order even with the disabled attribute.",
-    "2": "Didn't convey the disabled state"
-  },
   "stats": {
     "jaws": {
       "ie": {
-        "11-11.134": "y"
+        "11-11.134": "a"
       },
       "firefox": {
-        "63-73": "y"
+        "63-73": "a"
       },
       "chrome": {
-        "77-80": "y"
+        "92": "a"
+      },
+      "edge": {
+        "92": "a"
       }
     },
     "narrator": {
       "edge": {
-        "44-44.17763": "y"
+        "44-44.17763": "a"
       }
     },
     "nvda": {
@@ -33,55 +34,58 @@
         "63.0.1-73": "y"
       },
       "chrome": {
-        "77-80": "y"
+        "92": "a"
+      },
+      "edge": {
+        "92": "a"
       }
     },
     "orca": {
       "firefox": {
-        "69-73": "y"
+        "69-73": "a"
       }
     },
     "vo_ios": {
       "ios_saf": {
-        "12.1-13.3.1": "y #1"
+        "12.1-13.3.1": "a"
       }
     },
     "vo_macos": {
       "safari": {
-        "12.0.1-13.0.5": "y"
+        "12.0.1-13.0.5": "a"
       }
     },
     "talkback": {
       "and_chr": {
-        "78-80": "a #2"
+        "78-80": "a"
       }
     },
     "dragon_win": {
       "chrome": {
-        "75": "n #2"
+        "75": "a"
       }
     },
     "va_and": {
       "and_chr": {
-        "77": "y"
+        "77": "a"
       }
     },
     "vc_ios": {
       "ios_saf": {
-        "13.0": "u"
+        "13.0": "a"
       }
     },
     "vc_macos": {
       "safari": {
-        "13.0.2": "y"
+        "13.0.2": "a"
       }
     },
     "wsr": {
       "edge": {
-        "44": "u"
+        "44": "a"
       },
       "chrome": {
-        "77": "u"
+        "77": "a"
       }
     }
   },

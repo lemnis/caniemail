@@ -3,23 +3,25 @@
   "title": "aria-live attribute",
   "description": "Indicates that an element will be updated, and describes the types of updates the user agents, assistive technologies, and user can expect from the live region.",
   "category": "aria",
-  "keywords": "aria-live attribute",
+  "keywords": [
+    "aria-live attribute"
+  ],
   "last_test_date": "2020-06-24",
   "test_results_url": "https://a11ysupport.io/tech/aria/aria-live_attribute",
   "test_url": "https://a11ysupport.io/tech/aria/aria-live_attribute",
-  "notes_by_num": {
-    "1": "Didn't convey the assertive value by interrupting the current announcement"
-  },
   "stats": {
     "jaws": {
       "chrome": {
-        "84": "a #1"
+        "92": "a"
+      },
+      "edge": {
+        "92": "a"
       },
       "ie": {
-        "11": "a #1"
+        "11": "a"
       },
       "firefox": {
-        "77": "a #1"
+        "77": "a"
       }
     },
     "narrator": {
@@ -29,10 +31,13 @@
     },
     "nvda": {
       "chrome": {
-        "84": "a #1"
+        "92": "y"
+      },
+      "edge": {
+        "92": "y"
       },
       "firefox": {
-        "77": "a #1"
+        "77": "a"
       }
     },
     "talkback": {
@@ -52,7 +57,7 @@
     },
     "orca": {
       "firefox": {
-        "77": "a #1"
+        "77": "a"
       }
     }
   },

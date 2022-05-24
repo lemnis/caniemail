@@ -3,20 +3,25 @@
   "title": "aria-level attribute",
   "description": "Defines the hierarchical level of an element within a structure.",
   "category": "aria",
-  "keywords": "aria-level attribute",
+  "keywords": [
+    "aria-level attribute"
+  ],
   "last_test_date": "2019-07-11",
   "test_results_url": "https://a11ysupport.io/tech/aria/aria-level_attribute",
   "test_url": "https://a11ysupport.io/tech/aria/aria-level_attribute",
   "stats": {
     "jaws": {
+      "chrome": {
+        "92": "y"
+      },
+      "edge": {
+        "92": "y"
+      },
       "ie": {
         "11": "y"
       },
       "firefox": {
         "68": "y"
-      },
-      "chrome": {
-        "75": "y"
       }
     },
     "narrator": {
@@ -25,11 +30,14 @@
       }
     },
     "nvda": {
+      "chrome": {
+        "92": "y"
+      },
+      "edge": {
+        "92": "y"
+      },
       "firefox": {
         "68": "y"
-      },
-      "chrome": {
-        "75": "y"
       }
     },
     "orca": {

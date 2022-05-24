@@ -3,22 +3,24 @@
   "title": "ul element",
   "description": "",
   "category": "html",
-  "keywords": "ul element",
+  "keywords": [
+    "ul element"
+  ],
   "last_test_date": "2019-09-15",
   "test_results_url": "https://a11ysupport.io/tech/html/ul_element",
   "test_url": "https://a11ysupport.io/tech/html/ul_element",
-  "notes_by_num": {
-    "1": "Didn't convey the number of items in the list"
-  },
   "stats": {
     "dragon_win": {
       "chrome": {
-        "76": "y"
+        "76": "na"
       }
     },
     "jaws": {
       "chrome": {
-        "76": "y"
+        "92": "y"
+      },
+      "edge": {
+        "92": "y"
       },
       "ie": {
         "11": "y"
@@ -29,12 +31,15 @@
     },
     "narrator": {
       "edge": {
-        "44": "y"
+        "44": "a"
       }
     },
     "nvda": {
       "chrome": {
-        "76": "y"
+        "92": "y"
+      },
+      "edge": {
+        "92": "y"
       },
       "firefox": {
         "69": "y"
@@ -52,12 +57,12 @@
     },
     "vo_ios": {
       "ios_saf": {
-        "12.4.1": "a #1"
+        "12.4.1": "a"
       }
     },
     "vo_macos": {
       "safari": {
-        "12.1.2": "y"
+        "12.1.2": "a"
       }
     }
   },

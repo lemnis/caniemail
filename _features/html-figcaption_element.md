@@ -3,57 +3,61 @@
   "title": "figcaption element",
   "description": "",
   "category": "html",
-  "keywords": "figcaption element",
+  "keywords": [
+    "figcaption element"
+  ],
   "last_test_date": "2019-01-21",
   "test_results_url": "https://a11ysupport.io/tech/html/figcaption_element",
   "test_url": "https://a11ysupport.io/tech/html/figcaption_element",
-  "notes_by_num": {
-    "1": "Didn't convey its role",
-    "2": "Didn't convey the boundaries of the element"
-  },
   "stats": {
     "jaws": {
       "chrome": {
-        "76": "a #1 #2"
+        "92": "a"
+      },
+      "edge": {
+        "92": "a"
       },
       "ie": {
-        "11": "a #1 #2"
+        "11": "a"
       },
       "firefox": {
-        "69": "a #1 #2"
+        "69": "a"
       }
     },
     "narrator": {
       "edge": {
-        "44": "a #1 #2"
+        "44": "a"
       }
     },
     "nvda": {
       "chrome": {
-        "76": "a #1 #2"
+        "92": "a"
+      },
+      "edge": {
+        "92": "u"
       },
       "firefox": {
-        "69": "a #1 #2"
+        "69": "a"
       }
     },
     "orca": {
       "firefox": {
-        "69": "a #1 #2"
+        "69": "a"
       }
     },
     "talkback": {
       "and_chr": {
-        "76": "a #1 #2"
+        "76": "a"
       }
     },
     "vo_ios": {
       "ios_saf": {
-        "12.4.1": "a #1 #2"
+        "12.4.1": "a"
       }
     },
     "vo_macos": {
       "safari": {
-        "12.1.2": "a #1 #2"
+        "12.1.2": "a"
       }
     }
   },

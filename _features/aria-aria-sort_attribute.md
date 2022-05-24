@@ -3,40 +3,41 @@
   "title": "aria-sort attribute",
   "description": "Indicates if items in a table or grid are sorted in ascending or descending order.",
   "category": "aria",
-  "keywords": "aria-sort attribute",
+  "keywords": [
+    "aria-sort attribute"
+  ],
   "last_test_date": "2020-09-08",
   "test_results_url": "https://a11ysupport.io/tech/aria/aria-sort_attribute",
   "test_url": "https://a11ysupport.io/tech/aria/aria-sort_attribute",
-  "notes_by_num": {
-    "1": "Didn't convey the 'none' value by indicating that the header is unsorted but sortable",
-    "2": "Didn't convey changes to the sort value",
-    "3": "Didn't convey the 'ascending' value",
-    "4": "Didn't convey the 'descending' value",
-    "5": "Didn't convey the 'other' value"
-  },
   "stats": {
     "jaws": {
       "chrome": {
-        "85": "a #1"
+        "92": "a"
+      },
+      "edge": {
+        "92": "u"
       },
       "ie": {
-        "11": "a #2 #1"
+        "11": "a"
       },
       "firefox": {
-        "80": "a #1"
+        "80": "a"
       }
     },
     "narrator": {
       "edge": {
-        "85": "a #2 #1"
+        "85": "a"
       }
     },
     "nvda": {
       "chrome": {
-        "85": "a #2 #1"
+        "92": "a"
+      },
+      "edge": {
+        "92": "a"
       },
       "firefox": {
-        "80": "a #2 #1"
+        "80": "a"
       },
       "ie": {
         "11": "u"
@@ -44,22 +45,22 @@
     },
     "orca": {
       "firefox": {
-        "85": "a #2 #3 #4 #1 #5"
+        "85": "a"
       }
     },
     "vo_ios": {
       "ios_saf": {
-        "13.6.1": "a #2 #1 #5"
+        "13.6.1": "a"
       }
     },
     "vo_macos": {
       "safari": {
-        "13.1.2": "a #2 #1 #5"
+        "13.1.2": "a"
       }
     },
     "talkback": {
       "and_chr": {
-        "85": "a #2 #3 #4 #1 #5"
+        "85": "a"
       },
       "and_ff": {
         "80": "u"

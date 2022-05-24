@@ -3,59 +3,61 @@
   "title": "aria-describedby attribute",
   "description": "Identifies the element (or elements) that describes the object. See related aria-labelledby.",
   "category": "aria",
-  "keywords": "aria-describedby attribute",
+  "keywords": [
+    "aria-describedby attribute"
+  ],
   "last_test_date": "2019-01-06",
   "test_results_url": "https://a11ysupport.io/tech/aria/aria-describedby_attribute",
   "test_url": "https://a11ysupport.io/tech/aria/aria-describedby_attribute",
-  "notes_by_num": {
-    "1": "Didn't convey the value if valid"
-  },
   "stats": {
     "jaws": {
       "chrome": {
-        "72": "y"
+        "92-94": "y"
+      },
+      "edge": {
+        "92-94": "y"
       },
       "ie": {
         "11": "y"
       },
       "firefox": {
-        "60": "y"
-      },
-      "edge": {
-        "44": "n #1"
+        "60-93": "y"
       }
     },
     "narrator": {
       "edge": {
-        "88": "y"
+        "88-94": "a"
       }
     },
     "nvda": {
       "chrome": {
-        "80": "y"
+        "92-94": "y"
+      },
+      "edge": {
+        "92-94": "y"
       },
       "firefox": {
-        "72-86": "y"
+        "86-93": "y"
       }
     },
     "orca": {
       "firefox": {
-        "86": "u"
+        "86-93": "a"
       }
     },
     "vo_ios": {
       "ios_saf": {
-        "12.1.4-14.4": "a #1"
+        "14.4-15.0.1": "a"
       }
     },
     "vo_macos": {
       "safari": {
-        "12.0.3-14.0.3": "a #1"
+        "14.0.3-15.0": "a"
       }
     },
     "talkback": {
       "and_chr": {
-        "75": "y"
+        "75-94": "a"
       }
     }
   },

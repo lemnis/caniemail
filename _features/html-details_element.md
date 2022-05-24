@@ -3,81 +3,89 @@
   "title": "details element",
   "description": "The details element represents a disclosure widget from which the user can obtain additional information or controls.",
   "category": "html",
-  "keywords": "details element",
+  "keywords": [
+    "details element"
+  ],
   "last_test_date": "2019-08-05",
   "test_results_url": "https://a11ysupport.io/tech/html/details_element",
   "test_url": "https://a11ysupport.io/tech/html/details_element",
   "stats": {
     "dragon_win": {
       "chrome": {
-        "88": "y"
+        "88": "u"
       }
     },
     "jaws": {
       "chrome": {
-        "88": "y"
+        "92": "a"
+      },
+      "edge": {
+        "92": "a"
       },
       "ie": {
-        "11": "y"
+        "11": "a"
       },
       "firefox": {
-        "85": "y"
+        "85": "a"
       }
     },
     "narrator": {
       "edge": {
-        "88": "y"
+        "88": "a"
       }
     },
     "nvda": {
       "chrome": {
-        "88": "y"
+        "92": "a"
+      },
+      "edge": {
+        "92": "a"
       },
       "firefox": {
-        "85": "y"
+        "85": "a"
       }
     },
     "orca": {
       "firefox": {
-        "85": "y"
+        "85": "a"
       }
     },
     "talkback": {
       "and_chr": {
-        "88": "y"
+        "88": "a"
       }
     },
     "va_and": {
       "and_chr": {
-        "88": "y"
+        "88": "a"
       }
     },
     "vo_ios": {
       "ios_saf": {
-        "14.4": "y"
+        "14.4": "a"
       }
     },
     "vo_macos": {
       "safari": {
-        "14.0.3": "y"
+        "14.0.3": "a"
       }
     },
     "vc_ios": {
       "ios_saf": {
-        "14.4": "y"
+        "14.4": "a"
       }
     },
     "vc_macos": {
       "safari": {
-        "14.0.3": "y"
+        "14.0.3": "u"
       }
     },
     "wsr": {
       "edge": {
-        "88": "y"
+        "88": "na"
       },
       "chrome": {
-        "88": "y"
+        "88": "a"
       }
     }
   },

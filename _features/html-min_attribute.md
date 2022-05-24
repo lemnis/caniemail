@@ -3,48 +3,56 @@
   "title": "min attribute",
   "description": "The min and max attributes indicate the allowed range of values for the element.",
   "category": "html",
-  "keywords": "min attribute",
+  "keywords": [
+    "min attribute"
+  ],
   "last_test_date": "2019-09-23",
   "test_results_url": "https://a11ysupport.io/tech/html/min_attribute",
   "test_url": "https://a11ysupport.io/tech/html/min_attribute",
   "stats": {
     "dragon_win": {
       "chrome": {
-        "77": "y"
+        "77": "a"
       }
     },
     "jaws": {
       "chrome": {
-        "79": "y"
+        "92": "a"
+      },
+      "edge": {
+        "92": "a"
       },
       "ie": {
         "11": "y"
       },
       "firefox": {
-        "72": "y"
+        "72": "a"
       }
     },
     "narrator": {
       "edge": {
-        "44": "y"
+        "44": "a"
       }
     },
     "nvda": {
       "chrome": {
-        "77": "y"
+        "92": "a"
+      },
+      "edge": {
+        "92": "a"
       },
       "firefox": {
-        "69": "y"
+        "69": "a"
       }
     },
     "talkback": {
       "and_chr": {
-        "77": "y"
+        "77": "a"
       }
     },
     "va_and": {
       "and_chr": {
-        "77": "y"
+        "77": "a"
       }
     },
     "vo_ios": {
@@ -59,22 +67,22 @@
     },
     "orca": {
       "firefox": {
-        "69": "y"
+        "69": "a"
       }
     },
     "vc_ios": {
       "ios_saf": {
-        "13.1": "y"
+        "13.1": "a"
       }
     },
     "vc_macos": {
       "safari": {
-        "13.0.2": "y"
+        "13.0.2": "u"
       }
     },
     "wsr": {
       "chrome": {
-        "77": "y"
+        "77": "a"
       }
     }
   },

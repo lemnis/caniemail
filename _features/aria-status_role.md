@@ -3,48 +3,51 @@
   "title": "status role",
   "description": "A type of live region whose content is advisory information for the user but is not important enough to justify an alert, often but not necessarily presented as a status bar.",
   "category": "aria",
-  "keywords": "status role",
+  "keywords": [
+    "status role"
+  ],
   "last_test_date": "2020-07-08",
   "test_results_url": "https://a11ysupport.io/tech/aria/status_role",
   "test_url": "https://a11ysupport.io/tech/aria/status_role",
-  "notes_by_num": {
-    "1": "Didn't convey its name and role while navigating the page if it has a name",
-    "2": "Didn't convey the implicit aria-atomic value of true by announcing the entire region",
-    "3": "Didn't convey its name and role as part of the live announcement if it has a name"
-  },
   "stats": {
     "jaws": {
       "chrome": {
-        "84": "a #1"
+        "92": "a"
+      },
+      "edge": {
+        "92": "a"
       },
       "ie": {
-        "11": "a #2 #1 #3"
+        "11": "a"
       },
       "firefox": {
-        "77": "a #2 #1 #3"
+        "77": "a"
       }
     },
     "narrator": {
       "edge": {
-        "83": "a #1"
+        "83": "a"
       }
     },
     "nvda": {
       "chrome": {
-        "84": "a #1"
+        "92": "a"
+      },
+      "edge": {
+        "92": "a"
       },
       "firefox": {
-        "77": "a #2 #1 #3"
+        "77": "a"
       }
     },
     "talkback": {
       "and_chr": {
-        "84": "a #2"
+        "84": "a"
       }
     },
     "vo_ios": {
       "ios_saf": {
-        "13.4.1": "a #1 #3"
+        "13.4.1": "a"
       }
     },
     "vo_macos": {
@@ -54,7 +57,7 @@
     },
     "orca": {
       "firefox": {
-        "77": "a #2 #1"
+        "77": "a"
       }
     }
   },

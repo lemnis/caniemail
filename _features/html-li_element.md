@@ -3,23 +3,24 @@
   "title": "li element",
   "description": "",
   "category": "html",
-  "keywords": "li element",
+  "keywords": [
+    "li element"
+  ],
   "last_test_date": "2020-09-21",
   "test_results_url": "https://a11ysupport.io/tech/html/li_element",
   "test_url": "https://a11ysupport.io/tech/html/li_element",
-  "notes_by_num": {
-    "1": "Didn't convey its position within an unordered list",
-    "2": "Didn't convey its position within an ordered list"
-  },
   "stats": {
     "dragon_win": {
       "chrome": {
-        "76": "y"
+        "76": "na"
       }
     },
     "jaws": {
       "chrome": {
-        "76": "y"
+        "92": "y"
+      },
+      "edge": {
+        "92": "y"
       },
       "ie": {
         "11": "y"
@@ -30,15 +31,18 @@
     },
     "narrator": {
       "edge": {
-        "44": "a #1"
+        "44": "a"
       }
     },
     "nvda": {
       "chrome": {
-        "76": "y"
+        "92": "a"
+      },
+      "edge": {
+        "92": "a"
       },
       "firefox": {
-        "69": "y"
+        "69": "a"
       }
     },
     "orca": {
@@ -53,12 +57,12 @@
     },
     "vo_ios": {
       "ios_saf": {
-        "12.4.1": "a #2"
+        "12.4.1": "a"
       }
     },
     "vo_macos": {
       "safari": {
-        "12.1.2": "a #1"
+        "12.1.2": "a"
       }
     }
   },

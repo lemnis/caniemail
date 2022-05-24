@@ -3,24 +3,23 @@
   "title": "label element",
   "description": "The HTML `<label>` element provides instructions for an associated form control.",
   "category": "html",
-  "keywords": "label element",
+  "keywords": [
+    "label element"
+  ],
   "last_test_date": "2018-06-19",
   "test_results_url": "https://a11ysupport.io/tech/html/label_element",
   "test_url": "https://a11ysupport.io/tech/html/label_element",
   "notes": "Use the explicit label technique wherever possible and avoid depending on implicit labels.",
-  "notes_by_num": {
-    "1": "Didn't correctly compute the accessible name"
-  },
   "stats": {
     "dragon_win": {
       "ie": {
-        "11.134": "a #1"
+        "11.134": "a"
       },
       "firefox": {
-        "63.0.1": "a #1"
+        "63.0.1": "a"
       },
       "chrome": {
-        "70.0-84": "a #1"
+        "70.0-84": "a"
       }
     },
     "jaws": {
@@ -30,11 +29,11 @@
       "firefox": {
         "67": "y"
       },
-      "edge": {
-        "44": "y"
-      },
       "chrome": {
-        "75": "y"
+        "92": "y"
+      },
+      "edge": {
+        "92": "y"
       }
     },
     "narrator": {
@@ -47,7 +46,10 @@
         "60": "y"
       },
       "chrome": {
-        "75": "y"
+        "92": "y"
+      },
+      "edge": {
+        "92": "y"
       }
     },
     "orca": {
@@ -80,12 +82,12 @@
     },
     "va_and": {
       "and_chr": {
-        "77-84": "n #1"
+        "77-84": "n"
       }
     },
     "vc_macos": {
       "safari": {
-        "13.0.2-13.1.2": "a #1"
+        "13.0.2-13.1.2": "a"
       }
     },
     "wsr": {

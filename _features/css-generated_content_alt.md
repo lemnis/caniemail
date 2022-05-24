@@ -3,7 +3,9 @@
   "title": "CSS generated content - alternative text",
   "description": "The content property accepts alternative text to be specified after a slash (/) after the last <content-list>.",
   "category": "css",
-  "keywords": "CSS generated content - alternative text",
+  "keywords": [
+    "CSS generated content - alternative text"
+  ],
   "last_test_date": "2020-04-16",
   "test_results_url": "https://a11ysupport.io/tech/css/generated_content_alt",
   "test_url": "https://a11ysupport.io/tech/css/generated_content_alt",
@@ -16,13 +18,16 @@
     },
     "jaws": {
       "chrome": {
-        "81": "y"
+        "92": "y"
+      },
+      "edge": {
+        "92": "y"
       },
       "ie": {
-        "11": "y"
+        "11": "na"
       },
       "firefox": {
-        "74": "y"
+        "74": "na"
       }
     },
     "narrator": {
@@ -32,10 +37,13 @@
     },
     "nvda": {
       "chrome": {
-        "81": "y"
+        "92": "y"
+      },
+      "edge": {
+        "92": "y"
       },
       "firefox": {
-        "74": "y"
+        "74": "na"
       }
     },
     "talkback": {
@@ -50,27 +58,27 @@
     },
     "vo_ios": {
       "ios_saf": {
-        "13.4.1": "y"
+        "13.4.1": "na"
       }
     },
     "vo_macos": {
       "safari": {
-        "13.1": "y"
+        "13.1": "na"
       }
     },
     "orca": {
       "firefox": {
-        "74": "y"
+        "74": "na"
       }
     },
     "vc_ios": {
       "ios_saf": {
-        "13.4.1": "y"
+        "13.4.1": "na"
       }
     },
     "vc_macos": {
       "safari": {
-        "13.1": "y"
+        "13.1": "na"
       }
     },
     "wsr": {

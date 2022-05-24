@@ -3,81 +3,86 @@
   "title": "aria-activedescendant attribute",
   "description": "Identifies the currently active element when DOM focus is on a composite widget, textbox, group, or application.",
   "category": "aria",
-  "keywords": "aria-activedescendant attribute",
+  "keywords": [
+    "aria-activedescendant attribute"
+  ],
   "last_test_date": "2020-03-25",
   "test_results_url": "https://a11ysupport.io/tech/aria/aria-activedescendant_attribute",
   "test_url": "https://a11ysupport.io/tech/aria/aria-activedescendant_attribute",
-  "notes_by_num": {
-    "1": "Didn't convey the referenced element as active"
-  },
   "stats": {
     "jaws": {
       "chrome": {
-        "80-86": "y"
+        "92": "a"
+      },
+      "edge": {
+        "92": "a"
       },
       "ie": {
-        "11": "y"
+        "11": "a"
       },
       "firefox": {
-        "74-82": "y"
+        "74-82": "a"
       }
     },
     "narrator": {
       "edge": {
-        "44-86": "a #1"
+        "44-86": "a"
       }
     },
     "nvda": {
       "chrome": {
-        "80-86": "y"
+        "92": "a"
+      },
+      "edge": {
+        "92": "a"
       },
       "firefox": {
-        "74-82": "y"
+        "74-82": "a"
       }
     },
     "talkback": {
       "and_chr": {
-        "80-86": "y"
+        "80-86": "a"
       }
     },
     "vo_ios": {
       "ios_saf": {
-        "13.4-14.2": "y"
+        "14.2-15.0.2": "a"
       }
     },
     "vo_macos": {
       "safari": {
-        "13.1-14.0": "y"
+        "15.1": "a"
       }
     },
     "orca": {
       "firefox": {
-        "74-82": "y"
+        "74-82": "a"
       }
     },
     "dragon_win": {
       "chrome": {
-        "80-87": "y"
+        "80-87": "a"
       }
     },
     "va_and": {
       "and_chr": {
-        "80-87": "y"
+        "80-87": "a"
       }
     },
     "vc_macos": {
       "safari": {
-        "13.0.5-14.0.1": "y"
+        "13.0.5-14.0.1": "a"
       }
     },
     "vc_ios": {
       "ios_saf": {
-        "13.3.1-14.2": "y"
+        "13.3.1-14.2": "a"
       }
     },
     "wsr": {
       "chrome": {
-        "80-87": "y"
+        "80-87": "a"
       }
     }
   },
